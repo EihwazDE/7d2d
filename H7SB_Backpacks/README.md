@@ -18,8 +18,6 @@ Manuell Installation:
 
 3. Have fun!
 
-**When downloading, make sure to pull the folder that contains a modinfo.xml into your mods folder and not the master!**
-
 --- --- --- --- --- --- --- --- ---
 
 **H7SB Backpacks Features**
