@@ -1,0 +1,14 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
+	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.93</set>
+</eihwaz.de>
