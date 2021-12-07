@@ -1,0 +1,16 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/items/item[@name='h7sb_rucksack1']/effect_group/display_value[@name='dCarryCapacity']/@value">30</set>
+<set xpath="/items/item[@name='h7sb_rucksack2']/effect_group/display_value[@name='dCarryCapacity']/@value">60</set>
+<set xpath="/items/item[@name='h7sb_rucksack3']/effect_group/display_value[@name='dCarryCapacity']/@value">60</set>
+<set xpath="/items/item[@name='h7sb_rucksack4']/effect_group/display_value[@name='dCarryCapacity']/@value">90</set>
+</eihwaz.de>

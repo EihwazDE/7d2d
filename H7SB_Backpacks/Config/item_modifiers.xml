@@ -1,0 +1,77 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Taschen Mod Entfernt -->
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group"/>
+<append xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']"><property name="CreativeMode" value="Dev"/><property name="DescriptionKey" value="h7sb_backpackRemove"/><effect_group tiered="false"></effect_group></append>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group"/>
+<append xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']"><property name="CreativeMode" value="Dev"/><property name="DescriptionKey" value="h7sb_backpackRemove"/><effect_group tiered="false"></effect_group></append>
+<remove xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group"/>
+<append xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']"><property name="CreativeMode" value="Dev"/><property name="DescriptionKey" value="h7sb_backpackRemove"/><effect_group tiered="false"></effect_group></append>
+
+<!-- Taschen Mod (klein) -->
+<remove xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']"/>
+<append xpath="/item_modifiers">
+<item_modifier name="modClothingStoragePocket" installable_tags="pocketMod" modifier_tags="carryweight" blocked_tags="noMods" type="attachment">
+	<property name="CustomIcon" value="modArmorStoragePocket"/>
+	<property name="DescriptionKey" value="pocketDesc"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="Tags" value="pocketItem"/>
+	<property name="Material" value="Mleather"/>
+	<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<effect_group tiered="false">
+		<display_value name="dCarryCapacity" value="2"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="pocketItem"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="2"/>
+	</effect_group>
+</item_modifier>
+</append>
+
+<!-- Taschen Mod (mittel) -->
+<remove xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']"/>
+<append xpath="/item_modifiers">
+<item_modifier name="modClothingCargoStoragePocket" installable_tags="pocketMod" modifier_tags="carryweight" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modClothingStoragePocket"/>
+	<property name="CustomIcon" value="modArmorDoubleStoragePocket"/>
+	<property name="DescriptionKey" value="pocketDesc"/>
+	<property name="UnlockedBy" value="bookNeedleAndThreadPockets"/>
+	<property name="Tags" value="pocketItem"/>
+	<effect_group tiered="false">
+		<display_value name="dCarryCapacity" value="4"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="pocketItem"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="4"/>
+	</effect_group>
+</item_modifier>
+</append>
+
+<!-- Taschen Mod (groß) -->
+<append xpath="/item_modifiers">
+<item_modifier name="modClothingCargo2StoragePocket" installable_tags="pocketMod2" modifier_tags="carryweight" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modClothingStoragePocket"/>
+	<property name="CustomIcon" value="modArmorTripleStoragePocket"/>
+	<property name="DescriptionKey" value="pocket2Desc"/>
+	<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+	<property name="Tags" value="pocketItem"/>
+	<effect_group tiered="false">
+		<display_value name="dCarryCapacity" value="6"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="pocketItem"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="6"/>
+	</effect_group>
+</item_modifier>
+</append>
+</eihwaz.de>
