@@ -24,7 +24,7 @@ Manuell Installation:
 
 **H7SB Backpacks Features**
 
-This serverside mod changes the existing inventory system and adds **vanillafriendly** backpacks of different sizes. These can be produced in different ways and unlock up to 60/96/120 inventory slots. **All backpacks can be placed as a block with inventory.** 10/12/15 additional slots can be gained through different pocket mods. Steroids/Packmule have been changed and unlock another 10/12/15 slots (to rach the maximum). Additional a handy lock function for inventory slots.
+This serverside mod changes the existing inventory system and adds **vanillafriendly** backpacks of different sizes. These can be produced in different ways and unlock up to 60/96/120 inventory slots. **All backpacks can be placed as a block with inventory.** 10/12/15 extra slots can be gained through different pocket mods. Steroids/Packmule have been changed and unlock another 10/12/15 slots (to reach the maximum). Additional a handy lock function for inventory slots.
 
 * **4 Different Backpacks**
 
