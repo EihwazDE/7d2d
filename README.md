@@ -6,6 +6,14 @@ Modlet Collection made by Eihwaz´n´Friendz.
 
 **Table of Contents**
 
+**How 7Days Should Be** (H7SB)
+
+- [ ] **H7SB Armory** - Contains a functional visual shield, new mods and serveral tweaks. [**Preview**](https://www.youtube.com/watch?v=6fr4fM59Bx4)
+- [x] **H7SB Backpacks** - Contains a visual backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
+- [x] **H7SB Seats** - Contains sittable chairs and sofas. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
+ 
+--- --- --- --- --- --- --- --- ---
+
 **Teutonism Modlets**
 
 - [ ] **Ásatrú** - Contains wisdoms about germanism/nordic mythology (LoadingScreen/POI/GodMode).
@@ -21,14 +29,5 @@ Modlet Collection made by Eihwaz´n´Friendz.
 - [ ] **DB GSS Bifroest** - `Addon` that contain 2 spaceships **(POI)** and a food replicator. [**Preview**](https://www.youtube.com/watch?v=cfCF_4b4Q74)
 
 --- --- --- --- --- --- --- --- ---
-
-**How 7Days Should Be** (H7SB)
-
-- [ ] **H7SB Armory** - Contains a functional visual shield, new mods and serveral tweaks. [**Preview**](https://www.youtube.com/watch?v=6fr4fM59Bx4)
-- [x] **H7SB Backpacks** - Contains a visual backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
-- [ ] **H7SB Seats** - Contains sittable chairs and sofas. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
-- [ ] **H7SB Sleeping** - Contains functional beds and a fatigue system. [**Preview**](https://www.youtube.com/watch?v=UgITx75Z7Fg)
-- [ ] **H7SB Storage** - Contains pushable carts and new storage containers. [**Preview**](https://www.youtube.com/watch?v=We6E7j1P3qg)
- 
 
 *All check marked mods/pois are updated and functional for A20.*
