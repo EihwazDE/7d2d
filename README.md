@@ -9,8 +9,8 @@ Modlet Collection made by Eihwaz´n´Friendz.
 **How 7Days Should Be** (H7SB)
 
 - [ ] **H7SB Armory** - Contains a functional visual shield, new mods and serveral tweaks. [**Preview**](https://www.youtube.com/watch?v=6fr4fM59Bx4)
-- [x] **H7SB Backpacks** - Contains a visual backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
-- [x] **H7SB Seats** - Contains sittable chairs and sofas. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
+- [x] **H7SB Backpacks** - Contains a serverside functional backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
+- [x] **H7SB Seats** - Contains serverside functional chairs,sofas and toilets. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
  
 --- --- --- --- --- --- --- --- ---
 
