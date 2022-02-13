@@ -1,0 +1,18 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">4</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">4</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">6</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">6</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargo2StoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">9</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargo2StoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">9</set>
+</eihwaz.de>
