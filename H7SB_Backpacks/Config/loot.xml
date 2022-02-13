@@ -1,0 +1,27 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Pocket Mod Fix -->
+<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']/item[@name='modArmorStoragePocketSchematic']" />
+<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']/item[@name='modArmorDoubleStoragePocketSchematic']" />
+<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']/item[@name='modArmorTripleStoragePocketSchematic']" />
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT1']/item[@name='modArmorStoragePocket']" />
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT2']/item[@name='modArmorDoubleStoragePocket']" />
+<remove xpath="/lootcontainers/lootgroup[@name='modArmorT3']/item[@name='modArmorTripleStoragePocket']" />
+
+<!-- Backpack -->
+<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">8,10</set>
+<append xpath="/lootcontainers">
+<lootcontainer name="h7sb_smallBackpack" count="0" size="10,1" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate"><item name="cobweb" count="1,2"/></lootcontainer>
+<lootcontainer name="h7sb_mediumBackpack" count="0" size="10,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate"><item name="cobweb" count="1,2"/></lootcontainer>
+<lootcontainer name="h7sb_largeBackpack" count="0" size="10,4" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate"><item name="cobweb" count="1,2"/></lootcontainer>
+</append>
+</eihwaz.de>
