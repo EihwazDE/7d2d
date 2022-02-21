@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Toolbelt #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">meleeToolTorch,medicalFirstAidBandage,drinkJarBoiledWater,foodCanChili,td_slotblock,td_slotblock,td_slotblock,td_slotblock,td_slotblock</set> <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">meleeToolTorch,medicalFirstAidBandage,drinkJarBoiledWater,foodCanChili,td_slotblock,td_slotblock,td_slotblock,td_slotblock,td_slotblock</set> <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">meleeToolTorch,medicalFirstAidBandage,drinkJarBoiledWater,foodCanChili,td_slotblock,td_slotblock,td_slotblock,td_slotblock,td_slotblock</set> </eihwaz.de>
