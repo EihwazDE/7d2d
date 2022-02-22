@@ -1,0 +1,34 @@
+#########################
+## How 7Days Should Be ##
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+
+Default Install
+
+1) 	Create a folder in your 7 Days to Die folder named "Mods"
+	D:\Steam\steamapps\common\7 Days To Die
+	
+2)	Drag and drop the mod folder into "Mods"
+
+3) 	Finish
+
+
+Module Install
+
+1)	Go inside the mod folder.
+	D:\Steam\steamapps\common\7 Days To Die\Mods\H7SB_(NAME)
+	
+2)	Copy & paste (NOT drag & drop) the module you like into the main "Mods" folder.
+	D:\Steam\steamapps\common\7 Days To Die\Mods
+	
+3) 	Finish
+
+##########################
+## If you like the mod  ##
+# Leave a sub on Youtube #
+##### www.eihwaz.de ######
+##########################
