@@ -16,6 +16,9 @@ Default Install
 
 3) 	Finish
 
+Important! This mod needs a new savegame!
+Important! Players must keep their backpack upon death !
+
 
 Module Install
 
