@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="H7SB Backpacks" />
+		<Description value="Contains a visual backpack system in different sizes." />
+		<Author value="Eihwaz" />
+		<Version value="2.2" compat="A20"/>
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>

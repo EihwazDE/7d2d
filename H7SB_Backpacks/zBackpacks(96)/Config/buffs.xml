@@ -1,0 +1,20 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@operation='multiply']/@value">0.083</set>
+<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">24</set>
+<set xpath="/buffs/buff[@name='bumbagCheck']/effect_group/passive_effect[@name='CarryCapacity']/@value">12</set>
+<set xpath="/buffs/buff[@name='smallBackpackCheck']/effect_group/passive_effect[@name='CarryCapacity']/@value">24</set>
+<set xpath="/buffs/buff[@name='blueBackpackCheck']/effect_group/passive_effect[@name='CarryCapacity']/@value">48</set>
+<set xpath="/buffs/buff[@name='orangeBackpackCheck']/effect_group/passive_effect[@name='CarryCapacity']/@value">48</set>
+<set xpath="/buffs/buff[@name='largeBackpackCheck']/effect_group/passive_effect[@name='CarryCapacity']/@value">72</set>
+<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">96</set>
+</eihwaz.de>
