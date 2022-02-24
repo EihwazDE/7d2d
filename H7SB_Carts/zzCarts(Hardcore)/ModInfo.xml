@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="zzCarts(Hardcore)" />
+		<Description value="Reduced inventory size of vanilla vehicles and h7sb carts. " />
+		<Author value="Eihwaz" />
+		<Version value="1.0" />
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>

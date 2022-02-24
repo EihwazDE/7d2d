@@ -1,0 +1,24 @@
+Key,Source,Context,English,German
+
+h7sb_cart1Desc,desc,items,"Place the cart (RMB) and then press the E button to push it. By holding down the E button, you can open the inventory or pick it up again. Has a passenger seat. \n\nCarts work best on flat surfaces - avoid crossing slopes horizontal. Try to shake it (C) if you get stuck.","Platziere die Karre (RMB) und drücke anschließend die E-Taste um sie zu schieben. Durch langes drücken der E-Taste kann man das Inventar öffnen oder sie wieder aufheben. Verfügt über einen Beifahrersitz. \n\nKarren funktionieren am besten auf ebenen Flächen – vermeide es Steigungen horizontal zu überqueren. Versuche daran zu rütteln (C) falls du feststeckst."
+h7sb_cart2Desc,desc,items,"Place the trashcan (RMB) and then press the E button to caryy it. By holding down the E button, you can open the inventory or pick it up again. \n\nThe trashcan is too heavy to carry up steps or ramps. Try to shake it (C) if you get stuck.","Platziere die Aschentonne (RMB) und drücke anschließend die E-Taste um sie aufzuheben. Durch langes drücken der E-Taste kann man das Inventar öffnen oder sie wieder aufheben. \n\nDie Tonne ist zu schwer um sie Stufen oder Rampen hinauf zu tragen. Versuche daran zu rütteln (C) falls du feststeckst."
+h7sb_cart3Desc,desc,items,"Place the cart (RMB) and then press the E button to push it. By holding down the E button, you can open the inventory or pick it up again. Rolls faster than other carts. \n\nCarts work best on flat surfaces - avoid crossing slopes horizontal. Try to shake it (C) if you get stuck.","Platziere die Karre (RMB) und drücke anschließend die E-Taste um sie zu schieben. Durch langes drücken der E-Taste kann man das Inventar öffnen oder sie wieder aufheben. Rollt schneller als andere Karren. \n\nKarren funktionieren am besten auf ebenen Flächen – vermeide es Steigungen horizontal zu überqueren. Versuche daran zu rütteln (C) falls du feststeckst."
+h7sb_cart4Desc,desc,items,"Place the cart (RMB) and then press the E button to push it. By holding down the E button, you can open the inventory or pick it up again. Rolls faster than other carts and has a passenger seat. \n\nCarts work best on flat surfaces - avoid crossing slopes horizontal. Try to shake it (C) if you get stuck.","Platziere die Karre (RMB) und drücke anschließend die E-Taste um sie zu schieben. Durch langes drücken der E-Taste kann man das Inventar öffnen oder sie wieder aufheben. Rollt schneller als andere Karren und hat einen Beifahrersitz. \n\nKarren funktionieren am besten auf ebenen Flächen – vermeide es Steigungen horizontal zu überqueren. Versuche daran zu rütteln (C) falls du feststeckst."
+
+h7sb_shoppingCartPlaceable,items,vehicle,Shopping Cart,Einkaufswagen
+h7sb_utilityCartPlaceable,items,vehicle,Utility Cart,Vielzweckwagen
+h7sb_janitorCarPlaceable,items,vehicle,Janitor Car,Hausmeisterwagen
+h7sb_janitorCarPlaceable,items,vehicle,Janitor Car,Hausmeisterwagen
+h7sb_tiltTruckPlaceable,items,vehicle,Tilt Truck,Kippkarre
+h7sb_laundryTrolleyPlaceable,items,vehicle,Laundry Trolley,Wäschewagen
+h7sb_trashPlaceable,items,vehicle,Trashcan,Aschentonne
+h7sb_stretcherPlaceable,items,vehicle,Stretcher,Bahre
+
+h7sb_shoppingCart,items,vehicle,Shopping Cart,Einkaufswagen
+h7sb_utilityCart,items,vehicle,Utility Cart,Vielzweckwagen
+h7sb_janitorCar,items,vehicle,Janitor Car,Hausmeisterwagen
+h7sb_janitorCar,items,vehicle,Janitor Car,Hausmeisterwagen
+h7sb_tiltTruck,items,vehicle,Tilt Truck,Kippkarre
+h7sb_laundryTrolley,items,vehicle,Laundry Trolley,Wäschewagen
+h7sb_trash,items,vehicle,Trashcan,Aschentonne
+h7sb_stretcher,items,vehicle,Stretcher,Bahre

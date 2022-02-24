@@ -1,0 +1,20 @@
+ <!-- - - - - - - - - - - -
+#########################
+###### H7SB  Carts ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/progression/perks/perk[@name='perkLuckyLooter']">
+<effect_group>
+<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="h7sb_shoppingCartPlaceable"/>
+<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="h7sb_utilityCartPlaceable,h7sb_janitorCarPlaceable,h7sb_trashPlaceable"/>
+<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="h7sb_tiltTruckPlaceable,h7sb_laundryTrolleyPlaceable"/>
+</effect_group>
+</append>
+<append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='1,4']/@tags">,h7sb_stretcherPlaceable</append>
+</eihwaz.de>

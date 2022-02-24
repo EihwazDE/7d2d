@@ -1,0 +1,19 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB  Carts ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/items/item[@name='h7sb_shoppingCartPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append>
+<append xpath="/items/item[@name='h7sb_utilityCartPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append> 
+<append xpath="/items/item[@name='h7sb_janitorCarPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append> 
+<append xpath="/items/item[@name='h7sb_tiltTruckPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append> 
+<append xpath="/items/item[@name='h7sb_laundryTrolleyPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append> 
+<append xpath="/items/item[@name='h7sb_trashPlaceable']"><property name="UnlockedBy" value="perkLuckyLooter"/></append>
+<append xpath="/items/item[@name='h7sb_stretcherPlaceable']"><property name="UnlockedBy" value="perkPhysician"/></append>
+</eihwaz.de>

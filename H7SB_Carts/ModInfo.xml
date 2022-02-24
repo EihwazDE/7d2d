@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="H7SB Carts" />
+		<Description value="Contains a serverside functional carts." />
+		<Author value="Eihwaz" />
+		<Version value="2.1" compat="A20"/>
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>
