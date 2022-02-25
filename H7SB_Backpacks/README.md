@@ -50,9 +50,9 @@ This mod has **additional modules** that can be optionally activated.
 	
 * **Rework: Packmule/Steroids**
 
-	-Packmule			//	4,8,12,16,20/4,8,12,18,24/6,12,18,25,30 Slots
+	-Packmule	4,8,12,16,20/4,8,12,18,24/6,12,18,25,30 Slots
 
-	-Steroids			// 20/24/30 Slots
+	-Steroids	20/24/30 Slots
 	
 * **Rework: Encumbrance**
 	
