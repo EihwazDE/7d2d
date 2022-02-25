@@ -12,7 +12,7 @@
 
 H7SB Carts is a **server-side** mod that includes **pushable carts** that have an inventory.
 
-The mod has **additional modules** that can be optionally activated.
+This mod has **additional modules** that can be optionally activated.
 
 * **New: 5 Different Carts**
 
