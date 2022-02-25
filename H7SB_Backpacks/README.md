@@ -65,7 +65,7 @@ The mod has **additional modules** that can be optionally activated.
 
 	-"zBackpacks(120)" Increases inventory to 120 slots.
 	
-	-"zBackpacks(Hardcore)" Reduces starting inventory size to 0 slots. 
+	-"zzBackpacks(Hardcore)" Reduces starting inventory size to 0 slots. 
 
 
 --- --- --- --- --- --- --- --- ---
