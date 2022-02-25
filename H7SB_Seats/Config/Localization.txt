@@ -1,0 +1,56 @@
+Key,Source,Context,English,German
+
+h7sb_seatsDesc,item,desc,This item can be placed to sit on (E). The middle of the bike is usually the later middle of the block. \n\nBy long press (E) the block can be pick up again.,Dieser Gegenstand kann platziert werden um sich darauf zu setzen (E). Die Mitte des Fahrrads ist idR die spätere Mitte des Blocks. \n\nDurch langes drücken (E) kann der Block wieder aufgehoben werden.
+h7sb_seatsDesc1,item,desc,This item can be placed to sit on (E). The middle of the bike is usually the later middle of the block. \n\nBy long press (E) the block can be pick up again.,Dieser Gegenstand kann platziert werden um sich darauf zu setzen (E). Die Mitte des Fahrrads ist idR die spätere Mitte des Blocks. \n\nDurch langes drücken (E) kann der Block wieder aufgehoben werden.
+h7sb_seatsDesc2,item,desc,This item can be placed to sit on (E). The middle of the bike is usually the later middle of the block. \n\nBy long press (E) the block can be pick up again. \n\nPrevents further spread of infection.,Dieser Gegenstand kann platziert werden um sich darauf zu setzen (E). Die Mitte des Fahrrads ist idR die spätere Mitte des Blocks. \n\nDurch langes drücken (E) kann der Block wieder aufgehoben werden. \n\nVerhindert die weitere Verbreitung der Infektion.
+h7sb_seatsDesc3,item,desc,This item can be placed to sit on (E). The middle of the bike is usually the later middle of the block. \n\nBy long press (E) the block can be pick up again.,Dieser Gegenstand kann platziert werden um sich darauf zu setzen (E). Die Mitte des Fahrrads ist idR die spätere Mitte des Blocks. \n\nDurch langes drücken (E) kann der Block wieder aufgehoben werden.
+
+h7sb_cushionPlaceable,items,vehicle,Seat Cushion,Sitzkissen
+h7sb_officeChairPlaceable,items,vehicle,Office Chair,Chefsessel
+h7sb_foldingChairPlaceable,items,vehicle,Folding Chair,Klappstuhl
+h7sb_woodenStoolPlaceable,items,vehicle,Wooden Stool,Schemel
+h7sb_oldChairPlaceable,items,vehicle,Iron Chair,Eisenstuhl
+h7sb_barStoolPlaceable,items,vehicle,Bar Stool,Barhocker
+h7sb_armchairPlaceable,items,vehicle,Armchair,Stoffsessel
+h7sb_armchair1Placeable,items,vehicle,Leather Armchair,Ledersessel
+h7sb_armchair2Placeable,items,vehicle,Armchair,Stoffsessel
+h7sb_armchair3Placeable,items,vehicle,Leather Armchair,Ledersessel
+h7sb_toiletChairPlaceable,items,vehicle,Porcelain Throne,Porzellan Thron
+h7sb_bankPlaceable,items,vehicle,Park Bench,Parkbank
+h7sb_bank1Placeable,items,vehicle,Park Bench,Parkbank
+h7sb_canteenTablePlaceable,items,vehicle,Canteen Table,Kantinentisch
+h7sb_canteenTable1Placeable,items,vehicle,Canteen Table,Kantinentisch
+h7sb_couchPlaceable,items,vehicle,Sofa,Sofa
+h7sb_couch1Placeable,items,vehicle,Leather Sofa,Ledersofa
+h7sb_toiletPlaceable,items,vehicle,Toilet,Toilette
+h7sb_toilet1Placeable,items,vehicle,Industrial Toilet,Industrie Toilette
+h7sb_pillowPlaceable,items,vehicle,Pillow,Kopfkissen
+h7sb_bedrollPlaceable,items,vehicle,Bedroll,Schlafsack
+h7sb_mattressPlaceable,items,vehicle,Mattress,Matratze
+h7sb_bedPlaceable,items,vehicle,Bed,Bett
+h7sb_hospitalBedPlaceable,items,vehicle,Hospital Bed,Krankenhausbett
+
+h7sb_cushion,items,vehicle,Seat Cushion,Sitzkissen
+h7sb_officeChair,items,vehicle,Office Chair,Chefsessel
+h7sb_foldingChair,items,vehicle,Folding Chair,Klappstuhl
+h7sb_woodenStool,items,vehicle,Wooden Stool,Schemel
+h7sb_oldChair,items,vehicle,Iron Chair,Eisenstuhl
+h7sb_barStool,items,vehicle,Bar Stool,Barhocker
+h7sb_armchair,items,vehicle,Armchair,Stoffsessel
+h7sb_armchair1,items,vehicle,Leather Armchair,Ledersessel
+h7sb_armchair2,items,vehicle,Armchair,Stoffsessel
+h7sb_armchair3,items,vehicle,Leather Armchair,Ledersessel
+h7sb_toiletChair,items,vehicle,Porcelain Throne,Porzellan Thron
+h7sb_bank,items,vehicle,Park Bench,Parkbank
+h7sb_bank1,items,vehicle,Park Bench,Parkbank
+h7sb_canteenTable,items,vehicle,Canteen Table,Kantinentisch
+h7sb_canteenTable1,items,vehicle,Canteen Table,Kantinentisch
+h7sb_couch,items,vehicle,Sofa,Sofa
+h7sb_couch1,items,vehicle,Leather Sofa,Ledersofa
+h7sb_toilet,items,vehicle,Toilet,Toilette
+h7sb_toilet1,items,vehicle,Industrial Toilet,Industrie Toilette
+h7sb_pillow,items,vehicle,Pillow,Kopfkissen
+h7sb_bedroll,items,vehicle,Bedroll,Schlafsack
+h7sb_mattress,items,vehicle,Mattress,Matratze
+h7sb_bed,items,vehicle,Bed,Bett
+h7sb_hospitalBed,items,vehicle,Hospital Bed,Krankenhausbett
