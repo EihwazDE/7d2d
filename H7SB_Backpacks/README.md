@@ -12,7 +12,7 @@
 
 H7SB Backpacks is a **server-side** mod that changes the existing inventory system and adds **visible backpacks**.
 
-The mod has **additional modules** that can be optionally activated.
+This mod has **additional modules** that can be optionally activated.
 
 * **New: 5 Different Backpacks**
 
