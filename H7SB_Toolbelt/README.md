@@ -14,8 +14,6 @@ H7SB Toolbelt is a **server-side** mod that reduces the size of tool belts and c
 
 This mod has **additional modules** that can be optionally activated.
 
-**This mod requires a new savegame and you have to keep the toolbelt after death.**
-
 * **Rework: Tool Belt Size**
 
 	The size of the tool belt has been reduced to 5 slots.
