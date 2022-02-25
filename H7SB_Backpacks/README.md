@@ -25,6 +25,7 @@ This mod has **additional modules** that can be optionally activated.
 	-Large Backpack			// 40/72/90 Slots	// Needle and Thread Vol 7 		// Trader (Secret Stash 1-3)
 	
 	**All backpacks can be placed as a block and have an inventory.**
+
 	**New: The starting inventory size is now 2 rows by default.**
 	
 * **New: Lockable Inventory Slots**
