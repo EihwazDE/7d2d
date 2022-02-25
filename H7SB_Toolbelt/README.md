@@ -36,6 +36,8 @@ This mod has **additional modules** that can be optionally activated.
 
 **The option for players to keep their tool belt after death must be enabled.**
 
+**Don't empty the inventory by pressing the trashcan button in creative mode.**
+
 It's a known bug that you can "overwind" while scrolling. It is recommended to use the hotkeys.
 
 --- --- --- --- --- --- --- --- ---
