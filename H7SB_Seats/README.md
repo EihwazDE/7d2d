@@ -1,12 +1,12 @@
 # How 7Days Should Be: Seats
 
-**VERSION 2.2** - www.eihwaz.de - **CC BY-NC-ND-SA**
+**VERSION 2.3** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU) (*click me*) ---
 
 --- Credits: Snufkin / DIZAYNER57 ---
 
---- --- --- --- --- --- --- --- --- 
+--- --- --- --- --- --- --- --- ---
 
 **Features**
 
@@ -16,23 +16,17 @@ The mod has **additional modules** that can be optionally activated.
 
 * **New: 17 Different Seats**
 
-* **New: 4 Different Beds**
+* **New: 5 Different Beds**
 
 * **New: 2 Different Toilets**
 
-	-This items can be placed to sit on (E).
+	This items can be placed to sit on (E).
 	
-	-The middle of the bike is usually the later middle of the seat.
+	The middle of the bike is usually the later middle of the seat.
 	
-	-By long press (E) the items can be pick up again.
+	By long press (E) the items can be pick up again.
 	
-	-All items have an activatable (X) sound effect.
-	
-* **New: 1 Additional "Bed"**
-
-	-The hospital bed also prevents the spread of infection.
-	
-	-It is recommended to use this in combination with antibiotics.
+	All items have an activatable (X) sound effect.
 	
 * **Optional: Modules**
 	
