@@ -8,7 +8,7 @@ Modlet Collection made by Eihwaz´n´Friendz.
 
 **How 7Days Should Be** (H7SB)
 
-- [x] **H7SB Admin Blocks** - Contains various serverside (indestruc.) blocks and mini game miscs. [**Preview**](https://www.youtube.com/watch?v=a8hCShdfkiw)
+- [x] **H7SB Admin Blocks** - Contains serverside indestructible blocks and mini game miscs. [**Preview**](https://www.youtube.com/watch?v=a8hCShdfkiw)
 - [x] **H7SB Backpacks** - Contains a serverside functional backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
 - [x] **H7SB Carts** - Contains serverside pushable carts with inventory. [**Preview**](https://youtu.be/We6E7j1P3qg?t=126)
 - [x] **H7SB Seats** - Contains serverside functional seats, beds and toilets. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
