@@ -8,19 +8,14 @@ Modlet Collection made by Eihwaz´n´Friendz.
 
 **How 7Days Should Be** (H7SB)
 
-- [x] **H7SB Admin Blocks** - Contains serverside indestructible blocks and mini game miscs. [**Preview**](https://www.youtube.com/watch?v=a8hCShdfkiw)
-- [x] **H7SB Backpacks** - Contains a serverside functional backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
-- [x] **H7SB Carts** - Contains serverside pushable carts with inventory. [**Preview**](https://youtu.be/We6E7j1P3qg?t=126)
-- [x] **H7SB Seats** - Contains serverside functional seats, beds and toilets. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
-- [x] **H7SB Toolbelt** - Contains a serverside changed toolbelt with less slots. [**Preview**](https://abload.de/img/h7sbtoolbeltmajpt.png)
+All H7SB mods are server side and only need to be installed by the host or server.
+
+- [x] **H7SB Admin Blocks** - Contains indestructible blocks and mini game miscs. [**Preview**](https://www.youtube.com/watch?v=a8hCShdfkiw)
+- [x] **H7SB Backpacks** - Contains a functional backpack system in different sizes. [**Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE)
+- [x] **H7SB Carts** - Contains pushable carts with inventory. [**Preview**](https://youtu.be/We6E7j1P3qg?t=126)
+- [x] **H7SB Seats** - Contains functional seats, beds and toilets. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
+- [x] **H7SB Toolbelt** - Contains a changed toolbelt with less slots. [**Preview**](https://abload.de/img/h7sbtoolbeltmajpt.png)
  
---- --- --- --- --- --- --- --- ---
-
-**Dungeon Blocks** (DB)
-
-- [ ] **Dungeon Blocks** - `Core` mod to create dungeons and indestructible POIs. [**Preview**](https://www.youtube.com/watch?v=va9GKprpzfA)
-- [ ] **DB GSS Bifroest** - `Addon` that contain 2 spaceships **(POI)** and a food replicator. [**Preview**](https://www.youtube.com/watch?v=cfCF_4b4Q74)
-
 --- --- --- --- --- --- --- --- ---
 
 *All check marked mods/pois are updated and functional for A20.*
