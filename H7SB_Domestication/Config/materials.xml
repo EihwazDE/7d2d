@@ -1,0 +1,12 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/materials"> <material id="h7sb_Mdomesticated"> <property name="damage_category" value="organic"/> <property name="particle_category" value="organic"/> <property name="surface_category" value="organic"/> <property name="Hardness" type="float" value="1"/> <property name="stepsound" value="leaves"/> <property name="stability_glue" value="0"/> <property name="Mass" type="int" value="1"/> <property name="movement_factor" value="0.5"/> <property name="MaxDamage" value="1250"/> <property name="Experience" value="0"/> </material> </append> </eihwaz.de>

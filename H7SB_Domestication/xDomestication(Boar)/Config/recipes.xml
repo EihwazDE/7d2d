@@ -1,0 +1,41 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/recipes" >
+<recipe name="h7sb_boarCage" count="1" craft_time="30" craft_area="workbench">
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceMetalPipe" count="6"/>
+	<ingredient name="resourceForgedIron" count="12"/>
+</recipe>
+<recipe name="h7sb_boarFeed" count="1" craft_time="7">
+	<ingredient name="foodRawMeat" count="3"/>
+	<ingredient name="foodCropCorn" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+</append>
+<!-- H7SB Fishing 
+<insertAfter xpath="/recipes/recipe[@name='h7sb_fishingRod']">
+	<recipe name="h7sb_boarFeed" count="1" craft_time="7">
+		<ingredient name="h7sb_maggot" count="2"/>
+		<ingredient name="foodCropCorn" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+</insertAfter>
+	H7SB Farming 
+<insertAfter xpath="/recipes/recipe[@name='h7sb_komposter']">
+	<recipe name="h7sb_boarFeed" count="1" craft_time="7">
+		<ingredient name="h7sb_worm" count="2"/>
+		<ingredient name="foodCropCorn" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+</insertAfter>-->
+</eihwaz.de>
