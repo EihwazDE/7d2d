@@ -15,6 +15,7 @@ All H7SB mods are server side and only need to be installed by the host or serve
 - [x] **H7SB Carts** - Contains pushable carts with inventory. [**Preview**](https://youtu.be/We6E7j1P3qg?t=126)
 - [x] **H7SB Domestication**
 - [x] **H7SB Farming**
+- [x] **H7SB Fishing**
 - [x] **H7SB Seats** - Contains functional seats, beds and toilets. [**Preview**](https://www.youtube.com/watch?v=a6ckGaqOIjU)
 - [x] **H7SB Toolbelt** - Contains a changed toolbelt with less slots. [**Preview**](https://abload.de/img/h7sbtoolbeltmajpt.png)
  
