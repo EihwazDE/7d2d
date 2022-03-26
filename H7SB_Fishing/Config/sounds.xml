@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Fishing ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/Sounds" ><SoundDataNode name="h7sb_waterBiome"> <AudioSource name="Sounds/AudioSource_UI"/><AudioClip ClipName="Sounds/biomes/biome_water_lp" Loop="true"/><LowestPitch name="0.9"/> <HighestPitch name="1"/><LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.75"/> <NoiseScale value="0.1"/> <MaxVoices value="10"/> <MaxRepeatRate value="5"/> </SoundDataNode></append></eihwaz.de>

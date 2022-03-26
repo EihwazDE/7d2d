@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Fishing ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>  <append xpath="/entity_classes/entity_class[@name='animalZombieDog']"><drop event="Harvest" name="h7sb_maggot" tag="butcherHarvest" count="1,2"/></append> <append xpath="/entity_classes/entity_class[@name='animalZombieVulture']"><drop event="Harvest" name="h7sb_maggot" tag="butcherHarvest" count="1"/></append> <append xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']"><drop event="Harvest" name="h7sb_maggot" tag="butcherHarvest" count="1,2"/></append> <append xpath="/entity_classes/entity_class[@name='animalZombieBear']"><drop event="Harvest" name="h7sb_maggot" tag="butcherHarvest" count="3,5"/></append> </eihwaz.de>
