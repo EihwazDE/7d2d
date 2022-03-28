@@ -2,7 +2,7 @@
 
 **VERSION 2.3** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
---- [**Video Preview**](https://www.youtube.com/watch?v=bTEWDJeKjvE) (*click me*) ---
+--- [**Video Preview**](https://www.youtube.com/watch?v=TFpet8PRdcw) (*click me*) ---
 
 --- Credits: Khaine (96Slots) / Donovan (120Slots) ---
 
