@@ -2,7 +2,7 @@
 
 **VERSION 2.2** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
---- [**Video Preview**](https://youtu.be/We6E7j1P3qg?t=126) (*click me*) ---
+--- [**Video Preview**](https://www.youtube.com/watch?v=6SlnCmN3nKQ) (*click me*) ---
 
 --- Credits: Snufkin ---
 
