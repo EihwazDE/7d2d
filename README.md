@@ -4,7 +4,7 @@ Modlet Collection made by Eihwaz´n´Friendz.
 
 --- --- --- --- --- --- --- --- ---
 
-**Table of Contents**
+**Table of Content**
 
 **How 7Days Should Be** (H7SB)
 
