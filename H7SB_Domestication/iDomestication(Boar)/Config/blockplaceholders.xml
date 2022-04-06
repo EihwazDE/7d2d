@@ -1,0 +1,35 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+### NO REUPLOAD/REUSE ###
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/blockplaceholders">
+<placeholder name="h7sb_boarDistributor1">
+		<block name="h7sb_boarHungry2" prob="0.95"/>
+		<block name="h7sb_boarSick2" prob="0.05"/>
+</placeholder>
+<placeholder name="h7sb_boarDistributor2">
+		<block name="h7sb_boarHungry3" prob="0.9"/>
+		<block name="h7sb_boarSick3" prob="0.1"/>
+</placeholder>
+<placeholder name="h7sb_boarDistributor3">
+		<block name="h7sb_boarHungry4" prob="0.85"/>
+		<block name="h7sb_boarSick4" prob="0.15"/>
+</placeholder>
+<placeholder name="h7sb_boarDistributor4">
+		<block name="h7sb_boarHungry5" prob="0.8"/>
+		<block name="h7sb_boarSick5" prob="0.2"/>
+</placeholder>
+<placeholder name="h7sb_boarDistributor5">
+		<block name="h7sb_boarHungry5" prob="0.65"/>
+		<block name="h7sb_boarSick5" prob="0.2"/>
+		<block name="h7sb_pigletHungry" prob="0.12"/>
+		<block name="h7sb_domesticatedBoarHarvest5" prob="0.03"/>
+</placeholder>
+</append>
+</eihwaz.de>

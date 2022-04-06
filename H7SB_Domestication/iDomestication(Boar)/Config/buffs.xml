@@ -1,0 +1,99 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Animal Capture -->
+<append xpath="/buffs/buff[@name='h7sb_animalCaptureBuff']/effect_group[@name='sounds']">
+	<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="boardeath"><requirement name="EntityTagCompare" tags="boar"/></triggered_effect>
+</append>
+
+<!-- Animal Remove -->
+<append xpath="/buffs/buff[@name='h7sb_animalRemoveBuff']/effect_group[@name='visuell']">
+	<triggered_effect trigger="onSelfBuffStack" action="SetTransformActive" active="false" transform_path="Hips">
+		<requirement name="EntityTagCompare" tags="boar"/>
+	</triggered_effect>
+</append>
+
+<!-- Domesticated Action -->
+<append xpath="/buffs/buff[@name='h7sb_domesticatedActionBuff']">
+	<effect_group name="boar" tiered="false">
+		<requirement name="EntityTagCompare" tags="domesticated"/>
+		<requirement name="EntityTagCompare" tags="boar"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_blockdestroy_xt_tallgrass" parent_transform="Hips" local_offset="0,0,0.15"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="3" buff="h7sb_boarActionSoundBuff">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+	</effect_group>
+</append>
+<append xpath="/buffs">
+	<buff name="h7sb_boarActionSoundBuff" hidden="true"><stack_type value="ignore"/><duration value="6"/><effect_group tiered="false"><triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="domesticatedBoarAction" play_in_head="true"/></effect_group></buff>
+</append>
+
+<!-- Domesticated Loot -->
+<append xpath="/buffs/buff[@name='h7sb_domesticatedLootBuff']">
+	<effect_group name="boar" tiered="false">
+		<requirement name="EntityTagCompare" tags="domesticated"/>
+		<requirement name="EntityTagCompare" tags="boar"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_blockdestroy_xt_tallgrass" parent_transform="Hips" local_offset="0,0,0.15"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="3" buff="h7sb_boarLootSoundBuff">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+	</effect_group>
+</append>
+<append xpath="/buffs">
+	<buff name="h7sb_boarLootSoundBuff" hidden="true"><stack_type value="ignore"/><duration value="6"/><effect_group tiered="false"><triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="domesticatedBoarLoot" play_in_head="true"/></effect_group></buff>
+</append>
+
+<!-- Domesticated Poop -->
+<append xpath="/buffs/buff[@name='h7sb_domesticatedPoopBuff']">
+	<effect_group name="boar" tiered="false">
+		<requirement name="EntityTagCompare" tags="domesticated"/>
+		<requirement name="EntityTagCompare" tags="boar"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_wire_tool_dust" parent_transform="Hips" local_offset="0,0.06,-0.22"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="3" buff="h7sb_boarActionSoundBuff">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+	</effect_group>
+</append>
+<append xpath="/buffs">
+	<buff name="h7sb_boarPoopSoundBuff" hidden="true"><stack_type value="ignore"/><duration value="6"/><effect_group tiered="false"><triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="boargiveup" play_in_head="true"/></effect_group></buff>
+</append>
+
+<!-- Domesticated No Action -->
+<append xpath="/buffs/buff[@name='h7sb_domesticatedNoActionBuff']">
+	<effect_group name="boar" tiered="false">
+		<requirement name="EntityTagCompare" tags="domesticated"/>
+		<requirement name="EntityTagCompare" tags="boar"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveParticleEffectFromEntity" particle="p_blockdestroy_xt_tallgrass"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveParticleEffectFromEntity" particle="p_wire_tool_dust"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="3" buff="h7sb_boarRoamSoundBuff">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+	</effect_group>
+</append>
+<append xpath="/buffs">
+	<buff name="h7sb_boarRoamSoundBuff" hidden="true"><stack_type value="ignore"/><duration value="6"/><effect_group tiered="false"><triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="domesticatedBoarRoam" play_in_head="true"/></effect_group></buff>
+</append>
+
+<!-- Domesticated Kill -->
+<append xpath="/buffs/buff[@name='h7sb_domesticatedKillBuff']">
+	<effect_group name="boar" tiered="false">
+		<requirement name="EntityTagCompare" tags="domesticated"/>
+		<requirement name="EntityTagCompare" tags="boar"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="selfAOE" range="6" buff="h7sb_boarDeathSoundBuff">
+				<requirement name="EntityTagCompare" target="other" tags="player"/>
+			</triggered_effect>
+	</effect_group>
+</append>
+<append xpath="/buffs">
+	<buff name="h7sb_boarDeathSoundBuff" hidden="true"><stack_type value="ignore"/><duration value="6"/><effect_group tiered="false"><triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="boardeath" play_in_head="true"/></effect_group></buff>
+</append>
+</eihwaz.de>

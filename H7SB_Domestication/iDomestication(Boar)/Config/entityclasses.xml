@@ -1,0 +1,90 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Boar Fix -->
+<append xpath="/entity_classes/entity_class[@name='animalBoar']"><property name="Buffs" value="h7sb_animalAliveBuff"/><property name="TimeStayAfterDeath" value="180"/></append>
+
+<!-- Domesticated Boar -->
+<append xpath="/entity_classes">
+<entity_class name="h7sb_domesticatedBoar">
+	<property name="HideInSpawnMenu" value="true"/>
+	<property name="Tags" value="domesticated,boar"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="IsAnimalEntity" value="true"/>
+	<property name="Faction" value="animals"/>
+	<!-- Body -->
+	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="Prefab" value="/Entities/Animals/Boar/AnimalBoarStandardRagdoll"/>
+	<property name="Parent" value="Animals"/>
+	<property name="PhysicsBody" value="boar"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RagdollOnDeathChance" value="0"/>
+	<property name="SurfaceCategory" value="organic"/>
+	<property name="Mass" value="200"/>
+	<property name="Weight" value="300"/>
+	<property name="SizeScale" value="1.3"/>
+	<!-- Gameplay -->
+	<property name="PainResistPerHit" value="1"/>
+	<property name="MaxTurnSpeed" value="280"/>
+	<property name="MoveSpeed" value="0.1"/>
+	<property name="MoveSpeedPanic" value="0"/>
+	<property name="SwimSpeed" value="0"/>
+	<property name="SwimStrokeRate" value="0"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="CanClimbLadders" value="false"/>
+	<property name="ExperienceGain" value="0"/>
+	<property name="TimeStayAfterDeath" value="0"/>
+	<property name="DeadBodyHitPoints" value="1"/>
+	<property name="Buffs" value="h7sb_domesticatedBuff"/>
+	<property name="NavObject" value="animaltracking_boar"/>
+	<property name="HandItem" value="meleeHandAnimalWolf"/>
+	<!-- Sounds -->
+	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
+	<property name="SoundDeath" value=""/>
+	<!-- AI Tasks-->
+	<property name="AIGroupCircle" value="1"/>
+	<property name="AINoiseSeekDist" value="6"/>
+	<property name="AIPathCostScale" value="100, 100"/>
+	<property name="AITask-1" value="Territorial"/>
+	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityPlayer,0"/>
+	<property name="AITask-3" value="Look"/>
+	<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0"/>
+	<!-- Detection -->
+	<property name="MaxViewAngle" value="360"/>
+	<property name="SightRange" value="6"/>
+	<property name="LookAtAngle" value="90"/>
+	<property name="SightLightThreshold" value="-2,150"/>
+	<property name="SleeperWakeupSightDetectionMin" value="-40,5"/>
+	<property name="SleeperWakeupSightDetectionMax" value="340,480"/>
+	<property name="SleeperSenseSightDetectionMin" value="-10,0"/>
+	<property name="SleeperSenseSightDetectionMax" value="200,300"/>
+	<property name="SleeperNoiseSenseThreshold" value="3,8"/>
+	<property name="SleeperNoiseWakeThreshold" value="9,12"/>
+	<property name="SleeperSmellSenseThreshold" value="20,50"/>
+	<property name="SoundSleeperSenseChance" value=".5"/>
+	<effect_group name="main" tiered="false">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="cold,heat,electrical"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="200"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="200" tags="coredamageresist"/>
+		<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="heat,electrical"/>
+		<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffBurningElement,buffBurningEnvironmentHack,buffBurningFlamingArrow,buffBurningMolotov,buffInternalBleeding,buffInjuryBleeding,buffInjuryBleedingTwo,buffShocked"/>
+		<passive_effect name="JumpStrength" operation="base_set" value="0"/>
+	</effect_group>
+</entity_class>
+</append>
+</eihwaz.de>

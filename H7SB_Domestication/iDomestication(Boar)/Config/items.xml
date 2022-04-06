@@ -1,0 +1,61 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+###### www.eihwaz.de ####
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Boar Cage -->
+<append xpath="/items" >	
+<item name="h7sb_boarCage">
+	<property name="CustomIcon" value="decoLargePetCage" />
+	<property name="CustomIconTint" value="FFCCCC"/>
+	<property name="ItemTypeIcon" value="assemble"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DescriptionKey" value="h7sb_boarCageDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mplastics"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<requirement name="EntityTagCompare" target="other" tags="boar"/>
+		<requirement name="HasBuff" target="other" buff="h7sb_animalCaptureBuff"/>
+		<property name="Class" value="UseOther"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="boarroam"/>
+		<property name="Create_item" value="h7sb_boarPlace1"/>
+	</property>
+	<effect_group name="capture" tiered="false">
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="h7sb_animalRemoveBuff"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemoveBuff" target="other" buff="h7sb_animalCaptureBuff"/>
+			<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="other" buff="h7sb_animalRemoveBuff"/>
+	</effect_group>
+</item>
+</append>
+
+<!-- Boar Feed -->
+<append xpath="/items">
+<item name="h7sb_boarFeed">
+	<property name="CustomIcon" value="foodHoboStew" />
+	<property name="CustomIconTint" value="FFCCCC"/>
+	<property name="DescriptionKey" value="h7sb_boarFeedDesc"/>
+	<property name="TintColor" value="255,204,204"/>
+	<property name="Group" value="Food/Cooking"/>
+	<property name="HoldType" value="34"/>
+	<property name="Meshfile" value="#Other/Items?Crafting/Metal/IronBucketWaterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="SellableToTrader" value="false"/>
+</item>
+</append>
+</eihwaz.de>
