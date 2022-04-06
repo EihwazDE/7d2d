@@ -62,7 +62,7 @@ The mod has **special additional modules** (boar) that can be optionally activat
 
 	Grass Seed crafting cost has been reduced and growing time raised.
 	
-* **Optional: xDomestication(Boar)**
+* **Optional: iDomestication(Boar)**
 
 	New: Boar Cage, Boar Feed
 	
@@ -115,11 +115,5 @@ The mod has **special additional modules** (boar) that can be optionally activat
 You are allowed to use this mod for your private use (singleplayer/multiplayer/server).
 
 You are allowed to use this mod as part of your custom modpack (as separated mod).
-
-You are not allow to reupload it without permission!
-
-You are not allow to charge money for it!
-
-You are not allow to copy over hole parts of it for your own Mod and release it under your name.
 
 Of cause your allow to take **inspiration** to improve your **existing** code!
