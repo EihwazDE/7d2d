@@ -4,6 +4,8 @@
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=EmCS7Sb_LP8) (*click me*) ---
 
+--- Credits: Doughs (Darkness) ---
+
 --- --- --- --- --- --- --- --- ---
 
 **Features**
@@ -50,7 +52,7 @@ The mod has **additional modules** that can be optionally activated.
 	
 * **Optional: Modules**
 	
-	-"zzLights(Hardcore)" Removes overpowered head and gun flashlights.
+	-"xLights(Hardcore)" Removes overpowered head/gun flashlights and makes it darker.
 
 --- --- --- --- --- --- --- --- ---
 
@@ -87,11 +89,5 @@ The mod has **additional modules** that can be optionally activated.
 You are allowed to use this mod for your private use (singleplayer/multiplayer/server).
 
 You are allowed to use this mod as part of your custom modpack (as separated mod).
-
-You are not allow to reupload it without permission!
-
-You are not allow to charge money for it!
-
-You are not allow to copy over hole parts of it for your own Mod and release it under your name.
 
 Of cause your allow to take **inspiration** to improve your **existing** code!
