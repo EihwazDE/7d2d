@@ -20,7 +20,7 @@ This mod has **additional modules** that can be optionally activated.
 	
 	Different colors indicates which item is placed.
 	
-	**It is recommended to avoid missclicks use hotkeys to eat/drink.**
+	**It is recommended to use hotkeys to eat/drink to avoid missclicks.**
 	
 	**It is recommended to place the items on flat surface (no terrain)**
 	
