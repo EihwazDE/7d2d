@@ -1,0 +1,10 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Waiters #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <!--h7sb_foodCornBreadToasted--> <append xpath="/items/item[@name='h7sb_foodCornBreadToasted']"><property class="Action1"><property name="Class" value="PlaceAsBlock"/><property name="Delay" value=".5"/> <property name="Blockname" value="h7sb_placeableSpawner_foodCornBreadToasted"/><requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/></property> </append> <!--h7sb_foodShamSandwichToasted--> <append xpath="/items/item[@name='h7sb_foodShamSandwichToasted']"><property class="Action1"><property name="Class" value="PlaceAsBlock"/><property name="Delay" value=".5"/> <property name="Blockname" value="h7sb_placeableSpawner_foodShamSandwichToasted"/><requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/></property> </append> <!--h7sb_foodSmokedMeat--> <append xpath="/items/item[@name='h7sb_foodSmokedMeat']"><property class="Action1"><property name="Class" value="PlaceAsBlock"/><property name="Delay" value=".5"/> <property name="Blockname" value="h7sb_placeableSpawner_foodSmokedMeat"/><requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/></property> </append> <!--h7sb_foodTunaFishGravyToastToasted--> <append xpath="/items/item[@name='h7sb_foodTunaFishGravyToastToasted']"><property class="Action1"><property name="Class" value="PlaceAsBlock"/><property name="Delay" value=".5"/> <property name="Blockname" value="h7sb_placeableFood_foodTunaFishGravyToastToasted"/><requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/></property> </append> </eihwaz.de>

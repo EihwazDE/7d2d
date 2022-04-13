@@ -1,0 +1,10 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Waiters #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/materials"> <material id="Mplaceable"> <property name="Hardness" type="float" value="1"/> <property name="explosionresistance" value="99999"/> <property name="stability_glue" value="-1"/> <property name="Mass" type="int" value="1"/> <property name="MaxDamage" value="10"/> <property name="Experience" value="0"/> </material> <material id="Mplaceable2"> <property name="damage_category" value="metal"/> <property name="surface_category" value="glass"/> <property name="Hardness" type="float" value="1"/> <property name="lightopacity" value="1"/> <property name="stepsound" value="metal"/> <property name="stability_glue" value="20"/> <property name="Mass" type="int" value="5"/> <property name="StabilitySupport" value="true"/> <property name="MaxDamage" value="10"/> <property name="Experience" value="0"/> </material> </append> </eihwaz.de>
