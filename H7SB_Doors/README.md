@@ -18,7 +18,7 @@ H7SB Doors is a **server-side** mod that contains color variations of all vanill
 	
 	These can be selected via a helper block by holding down the "R" button.
 	
-* **New Addtional Doors/Hatches**
+* **New Additional Doors/Hatches**
 
 	Housedoors / Commercialdoors / Jaildoor (incl. Bars) / Sewer Hatch
 	
