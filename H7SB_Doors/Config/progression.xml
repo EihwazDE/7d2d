@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+######  H7SB Doors ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='4,5']/@tags">,h7sb_steelDoorPoweredHelper</append></eihwaz.de>

@@ -1,0 +1,10 @@
+<!-- - - - - - - - - - - -
+#########################
+######  H7SB Doors ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,h7sb_woodenDoorHelper,h7sb_ironDoorHelper,h7sb_steelDoorHelper,h7sb_woodenHatchHelper,h7sb_ironHatchHelper,h7sb_steelHatchHelper,h7sb_steelDoorPoweredHelper</append> <append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,h7sb_woodenDoorHelper,h7sb_ironDoorHelper,h7sb_steelDoorHelper,h7sb_woodenHatchHelper,h7sb_ironHatchHelper,h7sb_steelHatchHelper,h7sb_steelDoorPoweredHelper</append> <append xpath="/items/item[@name='poweredDoorsSchematic']"><effect_group tiered="false"><triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="h7sb_steelDoorPoweredHelper" operation="set" value="1"/></effect_group></append> </eihwaz.de>
