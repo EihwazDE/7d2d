@@ -1,0 +1,10 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Furniture  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <remove xpath="//item[@name='cntCashRegister']"/> <remove xpath="//item[@name='cntCoolerClosed']"/> <remove xpath="//item[@name='cntFileCabinetTallClosed']"/> <remove xpath="//item[@name='cntGraniteSink']"/> <remove xpath="//item[@name='cntLockersShortClosed']"/> <remove xpath="//item[@name='faucetBrass02']"/> <remove xpath="//item[@name='faucetBrass04']"/> <remove xpath="//item[@name='couchSofa01']"/> <remove xpath="//item[@name='chairCouchSofa01']"/> <remove xpath="//item[@name='leatherChairCouchSofa2']"/> <remove xpath="//item[@name='cntWaterCoolerFull']"/> <remove xpath="//item[@name='cntShoppingCartEmpty']"/> <remove xpath="//item[@name='treeAzalea']"/> <remove xpath="//item[@name='barStoolVariantHelper']"/> <remove xpath="//item[@name='cntCabinetOldSink']"/> <remove xpath="//item[@name='window02']"/> </eihwaz.de> 
