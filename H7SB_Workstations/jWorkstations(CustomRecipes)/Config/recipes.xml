@@ -1,0 +1,22 @@
+<!-- - - - - - - - - - - -
+#########################
+###  H7SB Workstation  ##
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<configs>
+<append xpath="/recipes" >
+	<!-- Toaster 
+	<recipe name="h7sb_foodCornBreadToasted" count="1" craft_time="6" craft_area="toaster">
+		<ingredient name="foodCornBread" count="1"/>
+	</recipe>-->
+	
+	<!-- Smoker 
+	<recipe name="h7sb_foodSmokedMeat" count="1" craft_time="180" craft_tool="toolCookingGrill" craft_area="smoker">
+		<ingredient name="foodRawMeat" count="1"/>
+	</recipe>-->
+</append>
+</configs>

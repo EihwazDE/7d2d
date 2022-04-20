@@ -1,0 +1,65 @@
+<!-- - - - - - - - - - - -
+#########################
+###  H7SB Workstation  ##
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Desert']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Desert']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Sun']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Sun']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Orange']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Orange']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Blood']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Blood']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Pink']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Pink']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Purple']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Purple']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Ocean']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Ocean']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Sky']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Sky']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Green']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Green']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Forest']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Forest']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Burned']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Burned']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Night']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_Forge_Night']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Default']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Default']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Desert']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Desert']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Sun']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Sun']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Orange']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Orange']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Blood']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Blood']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Pink']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Pink']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Purple']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Purple']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Ocean']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Ocean']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Sky']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Sky']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Green']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Green']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Forest']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Forest']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Burned']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Burned']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Night']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Night']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+</eihwaz.de>
