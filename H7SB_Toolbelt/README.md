@@ -26,7 +26,7 @@ This mod has **additional modules** that can be optionally activated.
 	
 * **Optional: Modules**
 	
-	-"zzToolbelt(Hardcore)" Removes additional the compass and add time to menue.
+	-"xToolbelt(Hardcore)" Removes additional the compass and add time to menue.
 	
 --- --- --- --- --- --- --- --- ---
 	
