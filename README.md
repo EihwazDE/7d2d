@@ -6,7 +6,7 @@ Modlet Collection made by Eihwaz´n´Friendz.
 
 **Table of Content**
 
-**How 7Days Should Be** (H7SB)Contains various server side functional workstations in many colors.
+**How 7Days Should Be**
 
 All H7SB mods are server side and only need to be installed by the host or server.
 
