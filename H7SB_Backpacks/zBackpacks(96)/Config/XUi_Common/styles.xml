@@ -1,4 +1,14 @@
-<configs>
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
 	<!-- Make the icon select area a bit smaller so there's no overlap -->
 	<append xpath="/styles">	
 		<style name="kh60_itemStack">
@@ -17,4 +27,4 @@
 			<style_entry name="place_sound" value="[place_click]"/>
 		</style>
 	</append>
-</configs>
+</eihwaz.de>
