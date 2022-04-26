@@ -4,8 +4,8 @@
 ### 7 Days to Die Mod ###
 #########################
 ####### Eihwaz © ########
-##### NO REUPLAOD! ######
-#### NO COPY / PASTE ####
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
 #########################
 - - - - - - - - - - - -->
 <config> <append xpath="/xui/ruleset"> <window_group name="workstation_h7sb_komposter" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowKomposterInput" /> <window name="windowKomposterOutput" /> <window name="windowNonPagingHeader" /> </window_group> </append> </config>
