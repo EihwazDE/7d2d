@@ -1,6 +1,6 @@
 # How 7Days Should Be: Domestication
 
-**VERSION 2.0** - www.eihwaz.de - **CC BY-NC-ND-SA**
+**VERSION 2.1** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=Fmb-ltGn2Ac) (*click me*) ---
 
@@ -77,10 +77,6 @@ The mod has **special additional modules** (boar) that can be optionally activat
 	Rework: Rotten Flesh has been renamed to Organic Garbage.
 	
 	**The boar cage must be placed on flat surface or the animal will disappear.**
-	
-* **Optional: Modules**
-	
-	-"zzHook(DomFarmFish)" Hook to combine domestication, farming and fishing.
 
 --- --- --- --- --- --- --- --- ---
 
@@ -115,5 +111,7 @@ The mod has **special additional modules** (boar) that can be optionally activat
 You are allowed to use this mod for your private use (singleplayer/multiplayer/server).
 
 You are allowed to use this mod as part of your custom modpack (as separated mod).
+
+You are not allow to reupload it without permission (exception mentioned)!
 
 Of cause your allow to take **inspiration** to improve your **existing** code!
