@@ -1,0 +1,16 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<Doughs>
+<set xpath="/worldglobal/environment/property[@name='ambientMoon']/@value">0, 0</set>
+<set xpath="/worldglobal/environment/property[@name='ambientEquatorScale']/@value">.7, .45</set>
+<set xpath="/worldglobal/environment/property[@name='ambientGroundScale']/@value">.4, .12</set>
+<set xpath="/worldglobal/environment/property[@name='ambientSkyScale']/@value">.9, .35</set>
+</Doughs>
