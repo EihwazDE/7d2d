@@ -1,6 +1,6 @@
 # How 7Days Should Be: Admin Blocks
 
-**VERSION 2.0** - www.eihwaz.de - **CC BY-NC-ND-SA**
+**VERSION 2.1** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=a8hCShdfkiw) (*click me*) ---
 
@@ -98,10 +98,6 @@ You are allowed to use this mod for your private use (singleplayer/multiplayer/s
 
 You are allowed to use this mod as part of your custom modpack (as separated mod).
 
-You are not allow to reupload it without permission!
-
-You are not allow to charge money for it!
-
-You are not allow to copy over hole parts of it and release it under your name.
+You are not allow to reupload it without permission (exception mentioned)!
 
 Of cause your allow to take **inspiration** to improve your **existing** code!
