@@ -82,6 +82,10 @@ The mod has **special additional modules** (boar) that can be optionally activat
 	
 	**The boar cage must be placed on flat surface or the animal will disappear.**
 
+* **Optional: Modules**
+	
+	-"xDomestication(Nests)" Let bird nests respawn again.
+
 --- --- --- --- --- --- --- --- ---
 
 **Mod Installation**
