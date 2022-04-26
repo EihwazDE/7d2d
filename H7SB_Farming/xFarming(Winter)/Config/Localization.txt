@@ -1,0 +1,2 @@
+Key,Source,Context,English,German
+h7sb_plantDesc,block,desc,"Seeds can be planted (RMB) in beds or farmland and require compost and water to grow. \n\nMost seeds can not be planted in the winter in the snow and grass biome.","Samen können in Beete oder Ackerboden gepflanzt (RMB) werden und benötigen Kompost und Wasser zum wachsen. \n\nDie meisten Samen können im Winter im Schnee- und Grasbiom nicht gepflanzt werden."
