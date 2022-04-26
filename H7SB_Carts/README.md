@@ -56,14 +56,6 @@ This mod has **additional modules** that can be optionally activated.
 
 3. Have fun!
 
-**Module Installation**
-
-1. Go inside the h7sb mod folder.
-	
-2. Copy & paste (NOT drag & drop) the module you like into the main "Mods" folder.
-
-3. Have fun!
-
 --- --- --- --- --- --- --- --- ---
 
 **Copyrights: Attribution-NonCommercial-NoDerivatives 4.0 International**
