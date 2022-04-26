@@ -1,8 +1,8 @@
 # How 7Days Should Be: Doors
 
-**VERSION 1.0** - www.eihwaz.de - **CC BY-NC-ND-SA**
+**VERSION 1.1** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
---- [**Video Preview**](https://www.eihwaz.de) (*click me*) ---
+--- [**Video Preview**](https://www.youtube.com/watch?v=GyH2dzPl7DQ) (*click me*) ---
 
 --- Credits: AgenRain ---
 
