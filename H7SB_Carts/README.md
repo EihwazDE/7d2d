@@ -4,6 +4,10 @@
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=6SlnCmN3nKQ) (*click me*) ---
 
+Leave a thumbs up on the mod (preview) you like to ensure that it gets an update for A21.
+
+Mods (previews) with less thumbs up may be depreciated and deleted.
+
 --- Credits: Snufkin ---
 
 --- --- --- --- --- --- --- --- ---
