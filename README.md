@@ -20,7 +20,7 @@ All H7SB mods are server side and only need to be installed by the host or serve
 - [x] **H7SB Furnitures** Contains various decoration blocks and storages. [**Preview**](https://www.youtube.com/watch?v=Th4V5ptCZWc)
 - [x] **H7SB Lights** Contains re-ignitable light sources and new lamps. [**Preview**](https://www.youtube.com/watch?v=EmCS7Sb_LP8)
 - [x] **H7SB Seats** - Contains functional seats, beds and toilets. [**Preview**](https://www.youtube.com/watch?v=wnyLgzxMUAs)
-- [x] **H7SB Toolbelt** - Contains a changed toolbelt with less slots. [**Preview**](https://abload.de/img/h7sbtoolbeltmajpt.png)
+- [x] **H7SB Toolbelt** - Contains a changed toolbelt with less slots. [**Preview**](https://www.youtube.com/watch?v=WHwMi6P5IW8)
  
 --- --- --- --- --- --- --- --- ---
 
