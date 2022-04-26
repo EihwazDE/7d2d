@@ -1,6 +1,6 @@
 # How 7Days Should Be: Backpacks
 
-**VERSION 2.3** - www.eihwaz.de - **CC BY-NC-ND-SA**
+**VERSION 2.4** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
 --- [**Video Preview**](https://www.youtube.com/watch?v=TFpet8PRdcw) (*click me*) ---
 
@@ -64,7 +64,7 @@ This mod has **additional modules** that can be optionally activated.
 
 	-"zBackpacks(120)" Increases inventory to 120 slots.
 	
-	-"zzBackpacks(Hardcore)" Reduces starting inventory size to 0 slots. 
+	-"xBackpacks(Hardcore)" Reduces starting inventory size to 0 slots. 
 
 
 --- --- --- --- --- --- --- --- ---
@@ -101,10 +101,6 @@ You are allowed to use this mod for your private use (singleplayer/multiplayer/s
 
 You are allowed to use this mod as part of your custom modpack (as separated mod).
 
-You are not allow to reupload it without permission!
-
-You are not allow to charge money for it!
-
-You are not allow to copy over hole parts of it for your own Mod and release it under your name.
+You are not allow to reupload it without permission (exception mentioned)!
 
 Of cause your allow to take **inspiration** to improve your **existing** code!
