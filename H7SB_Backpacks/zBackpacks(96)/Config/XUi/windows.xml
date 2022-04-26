@@ -1,4 +1,14 @@
-<configs>
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
     <!-- update the overall backpack size -->
     <set xpath="/windows/window[@name='windowBackpack']/@width">604</set>
     <set xpath="/windows/window[@name='windowBackpack']/@height">373</set>
@@ -23,4 +33,4 @@
 	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']">
        <kh60_backpack_item_stack name="0"/>
 	</append>	
-</configs>
+</eihwaz.de>
