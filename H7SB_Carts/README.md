@@ -50,13 +50,17 @@ This mod has **additional modules** that can be optionally activated.
 
 **Mod Installation**
 
-1. Download and unpack the Zip data.
-
-	Use "extract here" to prevent double packing.
+1. Download and unpack ("extract here") the Zip data.
 
 2. Place it into your "Mods" folder.
 
-	C:\Steam\steamapps\common\7 Days To Die
+3. Have fun!
+
+**Module Installation**
+
+1. Go inside the h7sb mod folder.
+	
+2. Copy & paste (NOT drag & drop) the module you like into the main "Mods" folder.
 
 3. Have fun!
 
