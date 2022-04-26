@@ -1,4 +1,14 @@
-<configs>
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
 	<append xpath="/controls">
 		<!-- Make cells not look like crap and item icons fit properly -->
 		<kh60_backpack_item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
@@ -25,4 +35,4 @@
 			</rect>
 		</kh60_backpack_item_stack>
 	</append>
-</configs>
+</eihwaz.de>
