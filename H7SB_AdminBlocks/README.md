@@ -80,13 +80,9 @@ This mod former named Dungeons Blocks - old POIs cannot be updated.
 
 **Mod Installation**
 
-1. Download and unpack the Zip data.
-
-	Use "extract here" to prevent double packing.
+1. Download and unpack ("extract here") the Zip data.
 
 2. Place it into your "Mods" folder.
-
-	C:\Steam\steamapps\common\7 Days To Die
 
 3. Have fun!
 
