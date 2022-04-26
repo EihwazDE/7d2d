@@ -4,7 +4,7 @@
 		<Name value="H7SB Domestication" />
 		<Description value="Contains a new catch and breed system to domesticate wild chicken." />
 		<Author value="Eihwaz" />
-		<Version value="2.0" compat="A20"/>
+		<Version value="2.1" compat="A20"/>
 		<Website value="www.eihwaz.de" />
 	</ModInfo>
 </xml>
