@@ -58,6 +58,8 @@ The mod has **additional modules** that can be optionally activated.
 	
 * **Optional: Modules**
 
+	-"xFarming(Seeds)" Plants always give seeds.
+
 	-"xFarming(Midsummer)" Changes the season in the game and prevents planting in certain biomes.
 	
 	-"xFarming(Winter)" Changes the season in the game and prevents planting in certain biomes.
