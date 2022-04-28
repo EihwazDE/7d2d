@@ -27,6 +27,8 @@ This mod has **additional modules** that can be optionally activated.
 * **Rework: HUD**
 
 	The HUD has been centered around the tool belt and adjusted to its size.
+
+	The button to clear the inventory in creative mode has been removed.
 	
 * **Optional: Modules**
 	
