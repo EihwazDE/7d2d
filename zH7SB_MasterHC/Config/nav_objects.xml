@@ -1,0 +1,13 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- LCB -->
+<set xpath="/nav_object_classes/nav_object_class[@name='land_claim']/onscreen_settings/property[@name='max_distance']/@value">3</set>
+</eihwaz.de>

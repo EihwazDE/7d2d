@@ -1,0 +1,14 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Glass -->
+<remove xpath="/materials/material[@id='MresourceCrushedSand']/property[@name='forge_category']"/>
+<remove xpath="/materials/material[@id='MresourceOilShale']/property[@name='forge_category']"/>
+</eihwaz.de>

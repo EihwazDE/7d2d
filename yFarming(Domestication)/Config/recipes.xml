@@ -1,0 +1,24 @@
+<!-- - - - - - - - - - - -
+#########################
+####### H7SB Hook #######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/recipes" >
+	<recipe name="h7sb_chickenFeed" count="3" craft_time="7">
+		<ingredient name="h7sb_worm" count="2"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+
+	<recipe name="h7sb_boarFeed" count="1" craft_time="7">
+		<ingredient name="h7sb_worm" count="2"/>
+		<ingredient name="foodCropCorn" count="1"/>
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+</append>
+</eihwaz.de>

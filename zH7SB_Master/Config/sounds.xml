@@ -1,0 +1,31 @@
+<!-- - - - - - - - - - - -
+#########################
+######  H7SB Master  ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<!-- Sound Fix -->
+<remove xpath="/Sounds/SoundDataNode[@name='bladetrap_fire_lp']"/>
+<remove xpath="/Sounds/SoundDataNode[@name='bladetrap_dm1_lp']"/>
+<remove xpath="/Sounds/SoundDataNode[@name='bladetrap_dm2_lp']"/>
+<append xpath="/Sounds/SoundDataNode">
+<SoundDataNode name="bladetrap_fire_lp"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Electricity/BladeTrap/bladetrap_fire_lp"/>
+	<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> </SoundDataNode>
+
+<SoundDataNode name="bladetrap_dm1_lp"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Electricity/BladeTrap/bladetrap_fire_dmg1_lp"/>
+	<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> </SoundDataNode>
+
+<SoundDataNode name="bladetrap_dm2_lp"> <AudioSource name="Sounds/AudioSource_Impact"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/Electricity/BladeTrap/bladetrap_fire_dmg2_lp"/>
+	<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> </SoundDataNode>
+</append>
+</config>

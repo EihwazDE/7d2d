@@ -1,0 +1,107 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Money -->
+<append xpath="/items/item"><property name="SellableToTrader" value="false"/></append>
+<append xpath="/items/item[@name='resourceSilverNugget']"><property name="SellableToTrader" value="true"/></append>
+<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='EconomicValue']/@value">250</set>
+<append xpath="/items/item[@name='resourceGoldNugget']"><property name="SellableToTrader" value="true"/></append>
+<set xpath="/items/item[@name='resourceGoldNugget']/property[@name='EconomicValue']/@value">500</set>
+<append xpath="/items/item[@name='resourceRawDiamond']"><property name="SellableToTrader" value="true"/></append>
+<set xpath="/items/item[@name='resourceRawDiamond']/property[@name='EconomicValue']/@value">750</set>
+<!--candy-->
+<set xpath="/items/item[@name='drugAtomJunkies']/property[@name='EconomicValue']/@value">500</set>
+
+<!-- Glass -->
+<set xpath="/items/item[@name='unit_glass']/property[@name='CustomIcon']/@value">resourceBrokenGlass</set>
+<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Weight']/@value">3</set>
+<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Weight']/@value">5</set>
+
+<!-- Diary -->
+<remove xpath="//property[@name='PickupJournalEntry']"/>
+
+<!-- Meat -->
+<set xpath="/items/item[@name='h7sb_fishingNet']/property[@class='Action0']/property[@name='Create_item_count']/@value">5</set>
+<set xpath="/items/item[@name='h7sb_fishingNet']/property[@class='Action1']/property[@name='Create_item_count']/@value">10</set>
+
+<!-- Mod Balance -->	
+<set xpath="//passive_effect[@name='ModSlots'][@tier='1,2,3,4,5,6']/@value">0,1,2,3,4,5</set>
+
+<!-- Primitiv Weapons -->
+<remove xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="150,300" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<append xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']"><property name="RepairTools" value="resourceRockSmall"/><property name="DegradationBreaksAfter" value="false"/></append>
+
+<remove xpath="/items/item[@name='meleeToolShovelT0StoneShovel']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeToolShovelT0StoneShovel']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="125,200" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<append xpath="/items/item[@name='meleeToolShovelT1IronShovel']"><property name="DegradationBreaksAfter" value="false"/></append>
+
+<remove xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,175" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<remove xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeWpnClubT0WoodenClub']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="80,125" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<remove xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="80,100" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<remove xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,150" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<remove xpath="/items/item[@name='meleeWpnKnucklesT0LeatherKnuckles']/property[@name='RepairTools']"/>
+<append xpath="/items/item[@name='meleeWpnKnucklesT0LeatherKnuckles']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="100,175" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+<remove xpath="/items/item[@name='gunBowT0PrimitiveBow']/property[@name='RepairTools']"/>
+<set xpath="/items/item[@name='gunBowT0PrimitiveBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">ammoArrowStone,ammoArrowIron</set>
+<append xpath="/items/item[@name='gunBowT0PrimitiveBow']">
+	<property name="DegradationBreaksAfter" value="true"/>
+	<effect_group>
+		<passive_effect name="DegradationMax" operation="base_set" value="90,150" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,0,0,0,0,0" tier="1,2,3,4,5,6"/>
+	</effect_group>
+</append>
+</eihwaz.de>

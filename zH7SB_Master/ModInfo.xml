@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="H7SB Master" />
+		<Description value="Contains various changes for the modpack." />
+		<Author value="Eihwaz,JaxTeller718,ErrorNull,Doughs,Donovan,khzmusik,mipastu,elucidus" />
+		<Version value="A20" />
+		<Website value="https://www.eihwaz.de" />
+	</ModInfo>
+</xml>

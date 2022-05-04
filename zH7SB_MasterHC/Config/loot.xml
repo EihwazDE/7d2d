@@ -1,0 +1,63 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Food -->
+<remove xpath="//item[@name='foodCornMeal']"/>
+<remove xpath="//item[@name='foodRawMeat']"/>
+<remove xpath="//item[@name='foodCharredMeat']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupFoodSmall01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupFoodMed01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupFoodLarge01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupFoodLarge02']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupRefrigerator01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_03']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupShamwayFreezer01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupShamwayCrate01']/item[@group='groupFoodRare']"/>
+<remove xpath="/lootcontainers/lootgroup[@name='groupCooler01']/item[@group='groupFoodRare']"/>
+
+<!-- Money -->
+<set xpath="/lootcontainers/lootgroup[@name='groupQuestcasinoCoinT1']/item[@name='casinoCoin']/@count">100</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupQuestcasinoCoinT2']/item[@name='casinoCoin']/@count">200</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupQuestcasinoCoinT3']/item[@name='casinoCoin']/@count">300</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupQuestcasinoCoinT4']/item[@name='casinoCoin']/@count">400</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupQuestcasinoCoinT5']/item[@name='casinoCoin']/@count">600</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasure']/item[@name='casinoCoin']/@count">500,1250</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupValuablesSmall']/item[@name='casinoCoin']/@count">1,9</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupValuablesMed']/item[@name='casinoCoin']/@count">24,50</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupValuablesLarge']/item[@name='casinoCoin']/@count">64,125</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='casinoCoin']/@count">100,250</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupPurse02']/item[@name='casinoCoin']/@count">1,9</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg03']/item[@name='casinoCoin']/@count">75,175</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong03']/item[@name='casinoCoin']/@count">125,225</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']/item[@name='casinoCoin']/@count">200,500</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupApacheArtifactChest']/item[@name='casinoCoin']/@count">10,100</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_09']/item[@name='casinoCoin']/@count">100,200</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_07']/item[@name='casinoCoin']/@count">175,200</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupLaundry02']/item[@name='casinoCoin']/@count">1</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupCoffins03']/item[@name='casinoCoin']/@count">2</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupCaskets03']/item[@name='casinoCoin']/@count">2,3</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupCaskets03']/item[@name='casinoCoin']/@count">2,3</set>
+<set xpath="/lootcontainers/lootcontainer[@id='55']/item[@name='casinoCoin']/@count">6,21</set>
+
+<!-- Treasure Map -->
+<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong03']/item[@group='groupTreasureMaps']/@loot_prob_template">veryLow</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_05']/item[@group='groupTreasureMaps']/@loot_prob_template">veryLow</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_07']/item[@group='groupTreasureMaps']/@loot_prob_template">veryLow</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_05']/item[@group='groupTreasureMaps']/@loot_prob_template">veryLow</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_05']/item[@group='groupTreasureMaps']/@loot_prob_template">veryLow</set>
+
+<!-- Repair Kits -->
+<set xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']/item[@name='resourceRepairKit']/@count">1</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupUtilityItems']/item[@name='resourceRepairKit']/@count">1</set>
+<!--<set xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot03']/item[@name='resourceRepairKit']/@count">1</set>-->
+<set xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']/item[@name='resourceRepairKit']/@count">1</set>
+<set xpath="/lootcontainers/lootgroup[@name='groupPassNGas01']/item[@name='resourceRepairKit']/@count">1,2</set>
+</eihwaz.de>

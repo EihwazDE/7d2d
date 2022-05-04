@@ -1,0 +1,56 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Money -->
+<append xpath="/blocks/block"><property name="SellableToTrader" value="false"/></append>
+
+<!-- Glass -->
+<set xpath="/blocks/block[@name='paintingBen']/drop[@event='Destroy']/@name">resourceBrokenGlass</set> 
+
+<!-- Meat -->
+<!--chicken-->
+<set xpath="/blocks/block[@name='h7sb_domesticatedHarvest']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">3,5</set>
+<!--boar-->
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest1']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">24</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest2']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">24,28</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest3']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">28,32</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest4']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">32,40</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest5']/drop[@event='Harvest'][@name='foodRawMeat'][@tag='butcherHarvest']/@count">40,50</set>
+
+<!-- Bones -->
+<!--chicken-->
+<remove xpath="/blocks/block[@name='h7sb_domesticatedHarvest']/drop[@event='Harvest'][@name='resourceBone']"/>
+<!--boar-->
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest1']/drop[@event='Harvest'][@name='resourceBone'][@tag='butcherHarvest']/@count">8,9</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest1']/drop[@event='Harvest'][@name='resourceBone'][@tag='allToolsHarvest']/@count">1</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest2']/drop[@event='Harvest'][@name='resourceBone'][@tag='butcherHarvest']/@count">9,10</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest2']/drop[@event='Harvest'][@name='resourceBone'][@tag='allToolsHarvest']/@count">1</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest3']/drop[@event='Harvest'][@name='resourceBone'][@tag='butcherHarvest']/@count">10,11</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest3']/drop[@event='Harvest'][@name='resourceBone'][@tag='allToolsHarvest']/@count">1</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest4']/drop[@event='Harvest'][@name='resourceBone'][@tag='butcherHarvest']/@count">11,12</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest4']/drop[@event='Harvest'][@name='resourceBone'][@tag='allToolsHarvest']/@count">1</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest5']/drop[@event='Harvest'][@name='resourceBone'][@tag='butcherHarvest']/@count">14</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest5']/drop[@event='Harvest'][@name='resourceBone'][@tag='allToolsHarvest']/@count">1</set>
+
+<!-- Leather-->
+<!--boar-->
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest1']/drop[@event='Harvest'][@name='resourceLeather'][@tag='butcherHarvest']/@count">6,7</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest2']/drop[@event='Harvest'][@name='resourceLeather'][@tag='butcherHarvest']/@count">7,8</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest3']/drop[@event='Harvest'][@name='resourceLeather'][@tag='butcherHarvest']/@count">8,9</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest4']/drop[@event='Harvest'][@name='resourceLeather'][@tag='butcherHarvest']/@count">9,10</set>
+<set xpath="/blocks/block[@name='h7sb_domesticatedBoarHarvest5']/drop[@event='Harvest'][@name='resourceLeather'][@tag='butcherHarvest']/@count">10,12</set>
+
+<!-- Tree Animation
+<append xpath="/blocks/block[@name='treeMaster']"><property name="FallOver" value="false" /></append>
+<append xpath="/blocks/block[@name='treePlainsTree']"><property name="FallOver" value="false" /></append>
+<append xpath="/blocks/block[@name='treeDeadPineLeaf']"><property name="FallOver" value="false" /></append>
+<append xpath="/blocks/block[@name='treeSnowyDeadBush']"><property name="FallOver" value="false" /></append>
+<append xpath="/blocks/block[@name='treeAzalea']"><property name="FallOver" value="false" /></append>-->
+</eihwaz.de>

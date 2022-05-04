@@ -1,0 +1,30 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Mods -->
+<remove xpath="//item[@group='schematicsModsCommon']"/>
+<remove xpath="//item[@group='schematicsVehiclesMods']"/>
+<remove xpath="//item[@name='modRoboticDroneCargoModSchematic']"/>
+<remove xpath="//item[@name='modRoboticDroneMedicModSchematic']"/>
+<remove xpath="//item[@name='modRoboticDroneHeadlampModSchematic']"/>
+<remove xpath="//item[@name='modRoboticDroneArmorPlatingModSchematic']"/>
+<remove xpath="//item[@name='modRoboticDroneMoraleBoosterModSchematic']"/>
+
+<!-- Vending -->
+<remove xpath="//item[@name='cntVendingMachine']"/>
+<!-- Food -->
+<remove xpath="/traders/trader_info[@id='4']/trader_items"/>
+<append xpath="/traders/trader_info[@id='4']">
+	<trader_items count="9">
+		<item group="preparedDrink"/>
+		<item group="foodCandy" count="1" prob="0.1"/>
+	</trader_items>
+</append>
+</eihwaz.de>

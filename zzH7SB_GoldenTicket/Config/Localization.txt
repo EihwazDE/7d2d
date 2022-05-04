@@ -1,0 +1,10 @@
+Key,Context,English,German
+
+h7sb_goldenTicket,item,Golden Ticket,Goldenes Ticket
+h7sb_goldenTicketDesc,item,"You have received a golden ticket from a t4/5 clear or fetch and clear mission! \n\nCollect 12 of them and trade (craft) them for a golden loot chest!","Du hast ein goldenes Ticket aus einer t4/5 Säuberungs- bzw. Säuberungs- und Sammelmission erhalten! \n\nSammle davon 12 Stück und tausche (crafte) sie gegen eine goldene Beutetruhe!"
+h7sb_goldenLootBox,item,Golden Loot Box,Goldene Beutetruhe
+h7sb_goldenLootBoxDesc,item,"The reward of your toil. \nWhat may there be in it?","Der Lohn deiner Mühe. \nWas mag wohl darin sein?"
+
+h7sb_goldenLootBoxQ,quest,Golden Loot Box,Goldene Beutetruhe
+h7sb_goldenLootBoxQDesc,quest,Golden Loot Box,Goldene Beutetruhe
+h7sb_goldenLootBoxQOffer,quest,"The chest plays a soft melody ... do you want to open it? \n\nEih Wonka, Eih Wonka - He's a genius who just can't be beat, the magician and the modding 'wiz. The best darn guy who ever lived, Eih Wonka here it is - your gift!","Die Truhe spielt eine leise Melodie ... möchtest du sie öffnen? \n\nEih Wonka, Eih Wonka - ist ein Künstler, ein Modprophet. Ein Genie das sein Geschäft versteht, wenn es sich um Modding dreht. Eih Wonka weiß wie es geht!"
