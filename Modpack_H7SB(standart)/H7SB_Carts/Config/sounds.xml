@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB  Carts ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/Sounds" ><SoundDataNode name="h7sb_humming"> <AudioSource name="Sounds/AudioSource_VO"/><Noise ID="2" noise="15" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/VO/Trader/Male/Like/trader_male_like_greeting_24"/><AudioClip ClipName="Sounds/VO/Trader/Male/Like/trader_male_like_greeting_25"/><LowestPitch name="0.9"/> <HighestPitch name="1"/><LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode></append> <append xpath="/Sounds" ><SoundDataNode name="h7sb_garbage"> <AudioSource name="Sounds/AudioSource_VO"/><Noise ID="2" noise="15" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/Ambient_Loops/flies_lp"/><AudioClip ClipName="Sounds/UseActions/open_trashcan"/><LowestPitch name="0.9"/> <HighestPitch name="1"/><LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode></append> <append xpath="/Sounds" ><SoundDataNode name="h7sb_doctor"> <AudioSource name="Sounds/AudioSource_VO"/><Noise ID="2" noise="15" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_heal_player_01"/><AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_heal_player_05"/><LowestPitch name="0.9"/> <HighestPitch name="1"/><LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode></append> </eihwaz.de>

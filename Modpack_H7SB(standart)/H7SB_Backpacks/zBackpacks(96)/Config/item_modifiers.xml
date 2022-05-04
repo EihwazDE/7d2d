@@ -1,0 +1,16 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">3</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">3</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">6</set>
+<set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">6</set>
+</eihwaz.de>
