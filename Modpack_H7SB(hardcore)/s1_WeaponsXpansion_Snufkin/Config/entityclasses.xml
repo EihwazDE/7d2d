@@ -1,0 +1,71 @@
+<configs>
+	<append xpath="/entity_classes">
+		<entity_class name="turretAuger">
+			<property name="Tags" value="turret,deployed"/>
+			<property name="Class" value="EntityTurret"/>
+			<property name="Parent" value="NPC"/>
+			<property name="Prefab" value="#Other/Items?Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="false"/>
+			<property name="LootListAlive" value="0"/>
+			<property name="IsEnemyEntity" value="false"/>
+
+			<property name="WakeUpTime" value="0.5"/>
+			<property name="FallAsleepTime" value="10"/>
+
+			<property name="YawRange" value="90"/> 
+			<property name="PitchRange" value="90"/>
+			<property name="TurnSpeed" value="22.5"/>
+			<property name="MaxDistance" value="2.5"/>
+
+			<property name="EntityDamage" value="25"/>
+			<property name="BlockDamage" value="1"/>
+			<property name="RaySpread" value="5"/>
+			<property name="RayCount" value="1"/>
+			<property name="BustRoundCount" value="1"/>
+			<property name="BurstFireRate" value="1"/>
+			<property name="RoundsPerMinute" value="300"/>
+			<property name="OvershootTime" value="0"/>
+			<property name="MaxOwnerDistance" value="25"/>
+
+			<property name="WakeUpSound" value="turret_windup"/>
+			<property name="FireSound" value="Weapons/Motorized/Auger/auger_fire_lp"/>
+
+			<property name="ParticlesMuzzleFire" value="nozzleflashuzi"/>
+			<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+			<property name="TimeStayAfterDeath" value="0"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="1"/>
+			<property name="Explosion.RadiusEntities" value="1"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_electric_turret"/>
+			
+			<effect_group name="Base Effects">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity" prefab="#Other/Items?Tools/augerPrefab.prefab" local_offset="-0.00275,0,0.135" local_rotation="180,0,90" parent_transform="Muzzle" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="turretaugerdeco"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".01,0,.05" local_rotation="0,180,-90" prefab="#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Muzzle" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Muzzle" transform_path="lightSource"/>			
+			</effect_group>
+		</entity_class>
+	</append>
+	
+<!-- Junk Turret Gun -->
+	<append xpath="/entity_classes/entity_class[@name='junkTurretGun']">
+		<effect_group>
+			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".01,0,.05" local_rotation="0,180,-90" prefab="#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Muzzle" />
+			<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Muzzle" transform_path="lightSource"/>
+		</effect_group>
+	</append>
+	
+<!-- Junk Turret Sledge -->	
+	<append xpath="/entity_classes/entity_class[@name='junkTurretSledge']">
+		<effect_group>
+			<triggered_effect trigger="onSelfFirstSpawn" action="AttachPrefabToEntity"  local_offset=".01,0,.05" local_rotation="0,0,-90" prefab="#Other/Items?Mods/Sides/side_attachment_flashlightPrefab.prefab" parent_transform="Head" />
+			<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="true"  parent_transform="Head" transform_path="lightSource"/>
+		</effect_group>
+	</append>	
+	
+</configs>

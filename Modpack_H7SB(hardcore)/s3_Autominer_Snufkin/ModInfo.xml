@@ -1,0 +1,9 @@
+<xml>
+	<ModInfo>
+		<Name value="AutoMiner" />
+		<Description value="Updates and Expands on Snufkin's older a18 version to a20. Adds category tabs to the recipes area of the autominer and scales crafting times and outputs based on updated tools as well as adds in description to the workstation. Gas bundle infinite resource loop fix." />
+		<Author value="Snufkin,magejosh" />
+		<Version value="20.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

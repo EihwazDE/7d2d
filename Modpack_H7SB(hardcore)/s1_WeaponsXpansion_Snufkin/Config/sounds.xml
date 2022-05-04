@@ -1,0 +1,144 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="laserrifle_fire">
+			<AudioSource name="Sounds/AudioSource_WeaponFire"/>
+			<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Weapons/Melee/StunBaton/stunbaton_hit5"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="laserrifle_draw">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Electricity/BatteryBank/batterybank_start"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="laserrifle_idle">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Weapons/Melee/StunBaton/stunbaton_charged_lp" Loop="true"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="laserrifle_end">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Electricity/BatteryBank/batterybank_stop"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="laserrifle_charged">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Weapons/Thrown/Charge/charge_beep"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="CrimsonCharged">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Animals/Wolf/wolfalert3"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="VulcanWindup">
+			<AudioSource name="Sounds/AudioSource_Amb_Med"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="Sounds/Electricity/Turret/turret_windup"/>
+			<LowestPitch name="0"/>
+			<HighestPitch name="0"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="x12fire">
+			<AudioSource name="Sounds/AudioSource_WeaponFire"/>
+			<NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire1"/>
+			<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire2"/>
+			<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire3"/>
+			<AudioClip ClipName="Sounds/Weapons/Ranged/pumpshotgun/pump_shotgun_s_fire4"/>
+			<LowestPitch name="0.6"/>
+			<HighestPitch name="0.6"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="30"/>
+			<MaxVoicesPerEntity value="10"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="x12ready">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Electricity/Turret/turret_windup"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="x12on">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Weapons/Melee/StunBaton/stunbaton_hit4"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="x12off">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+			<AudioClip ClipName="Sounds/Electricity/Turret/turret_overheat_lp"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="20"/>
+			<MaxVoicesPerEntity value="6"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		
+<SoundDataNode name="blaster_fire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+	<Noise ID="0" noise="108" time="2" muffled_when_crouched="0.8" heat_map_strength="0.9" heat_map_time="180"/>
+
+
+	<AudioClip ClipName="Sounds/Weapons/Melee/StunBaton/stunbaton_hit5"/>
+	<LowestPitch name="2"/>
+	<HighestPitch name="2"/>
+	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="30"/> <MaxVoicesPerEntity value="10"/> <MaxRepeatRate value="0.001"/></SoundDataNode>
+
+	</append>
+</configs>

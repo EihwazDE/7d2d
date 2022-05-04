@@ -1,0 +1,69 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="resourceOilShale" count="5" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering,desert" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="autominer,recipetag,desert,perkAdvancedEngineering"/></effect_group>
+			<!-- <effect_group><passive_effect name="CraftingOutputCount" operation="base_add" value="@currrentPlayerLevel" tags="recipetag"/></effect_group> -->
+		</recipe>
+		<recipe name="resourceClayLump" count="72" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapBrass" count="72" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceCoal" count="68" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapIron" count="72" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapLead" count="72" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceRockSmall" count="72" craft_area="AutoMiner" craft_time="1366" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="autominer,recipetag,perkAdvancedEngineering"/></effect_group>
+		</recipe>
+		<recipe name="resourcePotassiumNitratePowder" count="72" craft_time="1366" craft_area="AutoMiner" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="100"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="autominer,recipetag,perkAdvancedEngineering"/></effect_group>
+		</recipe>
+		<recipe name="resourceOilShale" count="56" craft_area="AutoMiner" craft_time="6660" tags="autominer,desert,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="autominer,recipetag,desert,perkAdvancedEngineering"/></effect_group>
+		</recipe>
+		<recipe name="resourceClayLump" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapBrass" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceCoal" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapIron" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceScrapLead" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourceRockSmall" count="750" craft_area="AutoMiner" craft_time="6660" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="recipetag"/></effect_group>
+		</recipe>
+		<recipe name="resourcePotassiumNitratePowder" count="750" craft_time="6660" craft_area="AutoMiner" tags="autominer,recipetag,perkAdvancedEngineering" craft_tool="meleeToolPickT3Auger">
+			<ingredient name="ammoGasCan" count="1000"/>
+			<effect_group><passive_effect name="CraftingOutputCount" operation="perc_add" value="0.1" tags="autominer,recipetag,perkAdvancedEngineering"/></effect_group>
+		</recipe>
+	</append>
+</configs>
