@@ -1,0 +1,13 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Fishing ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<remove xpath="/buffs/buff[@name='naturalWaterCheck']/effect_group[@name='sound']"/>
+</eihwaz.de>
