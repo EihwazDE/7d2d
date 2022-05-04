@@ -54,6 +54,8 @@ The Modpack is available in a **standart** and **hardcore** version.
 	
 	Modules: xBackpack(Hardcore), xLights(Hardcore), xToolbelt(Hardcore)
 	
+--- --- --- --- --- --- --- --- ---	
+
 * **Community Modlets**
 
 	The Modpack includes some mods from other modders.
@@ -73,6 +75,8 @@ The Modpack is available in a **standart** and **hardcore** version.
 	**Autominer** - Auto Mining (GoldenTicket). Made by Snufkin, magejosh [**Forum**](https://community.7daystodie.com/topic/18673-snufkins-assorted-modlets/)
 	
 	**ActionSkills** - LBD Tools/Guns. Made by JaxTeller718 [**Forum**](https://community.7daystodie.com/topic/25860-jaxteller718s-a20-modlets/)
+	
+--- --- --- --- --- --- --- --- ---
 	
 * **Standart/Hardcore**
 
