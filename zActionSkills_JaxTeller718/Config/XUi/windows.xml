@@ -1,4 +1,0 @@
-<JaxTeller718>
-	<set xpath="/windows/window[@name='windowSkillPerkInfo']/@hidden_entries_with_paging">0</set>
-	<set xpath="/windows/window[@name='windowSkillPerkInfo']/rect/rect[@name='pagerBox']/@pos">3,-678</set>
-</JaxTeller718>
