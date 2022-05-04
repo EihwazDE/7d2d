@@ -1,0 +1,21 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Meat -->
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1' and @entitygroup='WildGameForest']/@respawndelay">3</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@maxcount='1' and @entitygroup='EnemyAnimalsForest']/@respawndelay">3.5</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@maxcount='1' and @entitygroup='WildGameForest']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@maxcount='1' and @entitygroup='EnemyAnimalsBurntForest']/@respawndelay">4</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1' and @entitygroup='WildGameForest']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@maxcount='1' and @entitygroup='EnemyAnimalsDesert']/@respawndelay">4</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@maxcount='1' and @entitygroup='WildGameForest']/@respawndelay">5</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@maxcount='1' and @entitygroup='EnemyAnimalsSnow']/@respawndelay">4</set>
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@maxcount='1' and @entitygroup='EnemyAnimalsWasteland']/@respawndelay">2</set>
+</eihwaz.de>

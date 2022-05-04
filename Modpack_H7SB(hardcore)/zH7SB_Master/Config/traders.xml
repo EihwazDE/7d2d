@@ -1,0 +1,13 @@
+<!-- - - - - - - - - - - -
+#########################
+######  H7SB Master  ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Debug -->
+<remove xpath="//item[@name='apparelNightvisionGoggles']"/>
+</eihwaz.de>

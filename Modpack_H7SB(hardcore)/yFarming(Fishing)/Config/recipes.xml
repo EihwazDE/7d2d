@@ -1,0 +1,19 @@
+<!-- - - - - - - - - - - -
+#########################
+####### H7SB Hook #######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/recipes" >
+	<recipe name="h7sb_bait" count="1" craft_time="3">
+		<ingredient name="h7sb_worm" count="1"/>
+		<ingredient name="resourceFeather" count="1"/>
+		<ingredient name="resourceScrapLead" count="3"/>
+	</recipe>
+</append>
+</eihwaz.de>

@@ -1,0 +1,24 @@
+<!-- - - - - - - - - - - -
+#########################
+######  H7SB Master  ####
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Falling Damage Limitation -->
+<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@trigger='onSelfFallImpact']"/>
+<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+	<effect_group name="limitation">
+		<triggered_effect trigger="onSelfFallImpact" action="AddBuff" buff="buffPlayerFallingDamage">
+			<requirement name="CVarCompare" cvar="_fallSpeed" operation="GTE" value=".08"/>
+			<requirement name="CVarCompare" cvar="_fallSpeed" operation="LTE" value=".4"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfFallImpact" action="ModifyStats" stat="Health" operation="subtract" value="999">
+			<requirement name="CVarCompare" cvar="_fallSpeed" operation="GT" value=".4"/>
+		</triggered_effect>
+	</effect_group>
+</append>
+</eihwaz.de>

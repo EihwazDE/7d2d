@@ -1,0 +1,215 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Glass -->
+<remove xpath="/recipes/recipe[@name='resourceCrushedSand']"/>
+<append xpath="/recipes" >
+<recipe name="resourceBrokenGlass" count="1" material_based="true" craft_area="forge" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+	<ingredient name="unit_glass" count="3"/>
+</recipe>
+<recipe name="resourceCrushedSand" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceRockSmall" count="1"/>
+</recipe>
+</append>
+
+<!-- Server -->
+<remove xpath="/recipes/recipe[@name='ammoGasCan']"/>
+<remove xpath="/recipes/recipe[@name='ammoGasCanBundle']"/>
+<remove xpath="/recipes/recipe[@name='resourceCement']"/>
+<remove xpath="/recipes/recipe[@name='resourceConcreteMix']"/>
+<remove xpath="/recipes/recipe[@name='ammoRocketFrag']"/>
+<remove xpath="/recipes/recipe[@name='ammoRocketHE']"/>
+<remove xpath="/recipes/recipe[@name='bladeTrap']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleWood']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleIron']"/>
+<remove xpath="/recipes/recipe[@name='cellarDoorDoubleSteel']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarPureMineralWater']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarCoffee']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarBlackStrapCoffee']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarGoldenRodTea']"/>
+<remove xpath="/recipes/recipe[@name='drinkJarRedTea']"/>
+<remove xpath="/recipes/recipe[@name='drugAntibiotics']"/>
+<remove xpath="/recipes/recipe[@name='drugHerbalAntibiotics']"/>
+<remove xpath="/recipes/recipe[@name='medicalBandage']"/>
+<remove xpath="/recipes/recipe[@name='medicalFirstAidBandage']"/>
+<remove xpath="/recipes/recipe[@name='medicalSplint']"/>
+<remove xpath="/recipes/recipe[@name='resourceCloth']"/>
+<remove xpath="/recipes/recipe[@name='resourceDuctTape']"/>
+<remove xpath="/recipes/recipe[@name='resourceForgedIron']"/>
+<remove xpath="/recipes/recipe[@name='resourceForgedSteel']"/>
+<remove xpath="/recipes/recipe[@name='resourceMilitaryFiber']"/>
+<remove xpath="/recipes/recipe[@name='resourceRepairKit']"/>
+<remove xpath="/recipes/recipe[@name='resourceRocketCasing']"/>
+<remove xpath="/recipes/recipe[@name='resourceRocketTip']"/>
+<append xpath="/recipes" >
+<recipe name="ammoGasCan" count="10" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceOilShale" count="2"/>
+</recipe>
+<recipe name="ammoGasCanBundle" count="1" craft_time="600" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceOilShale" count="1600"/>
+</recipe>
+<recipe name="ammoGasCan" count="250" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="kompost" count="8"/>
+</recipe>
+<recipe name="resourceCement" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+	<ingredient name="unit_stone" count="12"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_stone"/>
+	</effect_group>
+</recipe>
+<recipe name="resourceConcreteMix" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceCrushedSand" count="2"/>
+	<ingredient name="resourceRockSmall" count="1"/>
+	<ingredient name="resourceCement" count="1"/>
+</recipe>
+
+<recipe name="ammoRocketFrag" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBuckshot" count="32"/>
+	<ingredient name="resourceGunPowder" count="36"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="ammoGasCan" count="750"/>
+	<ingredient name="resourceRocketCasing" count="1"/>
+</recipe>
+<recipe name="ammoRocketHE" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceRocketTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="36"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="ammoGasCan" count="750"/>
+	<ingredient name="resourceRocketCasing" count="1"/>
+</recipe>
+
+<recipe name="bladeTrap" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="16"/>
+	<ingredient name="resourceForgedSteel" count="32"/>
+	<ingredient name="resourceMechanicalParts" count="16"/>
+	<ingredient name="resourceElectricParts" count="12"/>
+	<ingredient name="resourceOil" count="9"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedIron,resourceForgedSteel,resourceMechanicalParts,resourceElectricParts,resourceOil"/>
+	</effect_group>
+</recipe>
+
+<recipe name="cellarDoorDoubleWood" count="1">
+	<ingredient name="resourceWood" count="24"/>
+	<ingredient name="resourceNail" count="6"/>
+</recipe>
+<recipe name="cellarDoorDoubleIron" count="1">
+	<ingredient name="resourceForgedIron" count="32"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+<recipe name="cellarDoorDoubleSteel" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="40"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="drinkJarPureMineralWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="drinkJarRiverWater" count="1"/>
+	<ingredient name="resourceSnowBall" count="3"/>
+	<ingredient name="resourceCoal" count="6"/>
+	<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+	<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+</recipe>
+<recipe name="drinkJarCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceCropCoffeeBeans" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+<recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceCropCoffeeBeans" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+<recipe name="drinkJarGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+<recipe name="drinkJarRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="drugAntibiotics" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="drugHerbalAntibiotics" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="16"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+<recipe name="drugHerbalAntibiotics" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="foodCropBlueberries" count="5"/>
+	<ingredient name="foodCropMushrooms" count="6"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="9"/>
+	<ingredient name="drinkJarPureMineralWater" count="1"/>
+</recipe>
+<recipe name="drugHerbalAntibiotics" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="foodCropBlueberries" count="2"/>
+	<ingredient name="foodCropMushrooms" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="medicalBandage" count="1" >
+	<ingredient name="resourceCloth" count="5"/>
+</recipe>
+<recipe name="medicalFirstAidBandage" count="1" tags="learnable">
+	<ingredient name="medicalAloeCream" count="1"/>
+	<ingredient name="medicalBandage" count="1"/>
+</recipe>
+<recipe name="medicalSplint" count="1">
+	<ingredient name="medicalBandage" count="2"/>
+	<ingredient name="resourceWood" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<recipe name="resourceCloth" count="1">
+	<ingredient name="resourceCropCottonPlant" count="1"/>
+</recipe>
+<recipe name="resourceDuctTape" count="1">
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+</recipe>
+<recipe name="resourceForgedIron" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="12"/>
+	<ingredient name="unit_clay" count="5"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+<recipe name="resourceForgedSteel" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_iron" count="24"/>
+	<ingredient name="unit_clay" count="10"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+<recipe name="resourceMilitaryFiber" count="10" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+	<ingredient name="resourceCloth" count="64"/>
+	<ingredient name="resourceScrapPolymers" count="36"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+<recipe name="resourceRepairKit" count="1">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+
+<recipe name="resourceRocketCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_clay" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_iron"/>
+	</effect_group>
+</recipe>
+<recipe name="resourceRocketTip" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="unit_lead" count="75"/>
+	<ingredient name="unit_clay" count="30"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_clay,unit_lead"/>
+	</effect_group>
+</recipe>
+</append>
+</eihwaz.de>

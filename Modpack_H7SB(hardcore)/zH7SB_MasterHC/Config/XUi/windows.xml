@@ -1,0 +1,18 @@
+<!-- - - - - - - - - - - -
+#########################
+####  H7SB Master HC  ###
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Screen Image -->
+<!--inventar-->
+<insertAfter xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']">
+<texture name="ItemBackground" size="603,346" depth="10" pos="0,-46" material="Materials/Transparent Colored" texture="@https://abload.de/img/server_infopanelm3kqx.png"/></insertAfter>
+<!--login screen-->
+<append xpath="/windows/window[@name='serverjoinrulesdialog']/panel[@name='content']">
+<texture name="ItemBackground" depth="10" size="900,500" texture="@https://abload.de/img/server_infopanelm3kqx.png" material="Materials/Transparent Colored" pos="0,0" /></append>
+</eihwaz.de>
