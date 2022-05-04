@@ -1,0 +1,108 @@
+Key,Context,English,German
+h7sb_maggots,newItem,Maggot,Made
+h7sb_maggotsDesc,newItemDesc,"This item can be eaten (LMB) or used to make pet food." ,"Dieser Gegenstand kann gegessen (LMB) oder zur Herstellung von Tiernahrung verwendet werden."
+
+h7sb_carrotAndStick,newItem,Carrot and Stick,Zuckerbrot und Peitsche
+h7sb_carrotAndStickDesc,newItemDesc,"Use this item to feed,heal and breed (LMB) or scold (RMB) domesticated animals. \n\nThe food or medicine must be in the inventory for this. All actions, apart from scolding, must be applied on the enclosure and not on the animal itself!","Verwende diesen Gegenstand um domestizierte Tiere zu füttern, heilen uvm (LMB) oder sie zu schelten (RMB). \n\nDie Nahrung oder Medizin muss sich dafür im Inventar befinden. Alle Aktionen, abgesehen vom schelten, müssen auf das Gehege ausgeführt werden und nicht auf das Tier selbst!"
+
+h7sb_animalMedicine,newItem,Veterinary Medicine,Tiermedizin
+h7sb_animalMedicineDesc,newItemDesc,"This item is required to heal sick domesticated animals.","Dieser Gegenstand wird benötigt um kranke domestizierte Tiere zu heilen."
+
+h7sb_snakePoision,newItem,Snake Venom,Schlangengift
+h7sb_snakePoisionDesc,newItemDesc,"This item is used to make tranquilizer darts. You can get it by eviscerating snakes.","Dieser Gegenstand wird benötigt zur Herstellung von Betäubungspfeilen. Man erhält ihn beim ausweiden von Schlangen."
+
+h7sb_tranquillizerDart,newItem,Tranquilizer Dart,Betäubungspfeil
+h7sb_tranquillizerDartDesc,newItemDesc,"Place this object in an bow and shoot it at a wild animal to poison it. The effects of the poison slow the animal down a little and unfold completely as soon as it goes down. \n\nStunned animals can be captured with a appropriate cage. Another shock in this state kills the wild animal.","Lege diesen Gegenstand in einen Bogen ein und schieße damit auf ein wildes Tier, um es zu vergiften. Die Wirkung des Gifts lässt das Tier etwas langsamer werden und entfaltet sich vollständig, sobald es zu Boden geht. \n\nBetäubte Tiere können mit einem passenden Käfig eingefangen werden. Ein weiterer Schock in diesem Zustand tötet das wilde Tier."
+
+h7sb_chickenCage,newItem,Chicken Cage,Hühnerkäfig
+h7sb_chickenCageDesc,newItemDesc,"Use this item (RMB) to capture a fully stunned wild chicken.","Verwende diesen Gegenstand (RMB) um ein vollständig betäubtes wildes Huhn einzufangen."
+
+h7sb_chickenFeed,newItem,Chicken Feed,Hühnerfutter
+h7sb_chickenFeedDesc,newItemDesc,"This item is required to feed domesticated chickens.","Dieser Gegenstand wird benötigt um domestizierte Hühner zu füttern."
+
+h7sb_fertilizedEgg,newItem,Egg (fertilized),Ei (befruchtet)
+h7sb_fertilizedEggDesc,newItemDesc,"Use the carrot and stick item to exchange a hen's egg with this one. \n\nAt night a wild rooster sneaked into the chicken coop and laid with your hen. The result is a fertilized egg that needs to be hatched.","Verwende den Gegenstand Zuckerbrot und Peitsche, um das Ei einer Henne mit diesem auszutauschen. \n\nIn der Nacht hat sich ein wilder Hahn in den Hühnerstall geschlichen und zu deiner Henne gelegt. Das Ergebnis ist ein befruchtetes Ei, dass ausgebrütet werden muss."
+
+h7sb_tranquillizerCheckBuff,newBuff,Wild animal poisoned,Wildtier vergiftet
+h7sb_tranquillizerCheckBuffDesc,newBuffDesc,"You have successfully poisoned a wild animal. Its movement speed is slightly reduced and if you bring it to the ground within 90 seconds you can capture it." ,"Du hast ein wildes Tier erfolgreich vergiftet. Sein Lauftempo ist leicht verringert und falls du es zu Boden bringst innerhalb von 90 Sekunden, kannst du es einfangen."
+
+h7sb_domesticatedChickenDesc,newBlock,"Place (RMB) the nest and wait a short moment for the chicken to appear. Then use the carrot and stick to care for the chicken. \n\nIf the chicken does not appear, it is not bad - but it can be fixed by picking up the block and place it again. All animals need at least 1 block distance to other animals in order to appear!","Platziere (RMB) das Nest und warte einen kurzen Moment bis das Huhn erscheint. Verwende anschließend den Gegenstand Zuckerbrot und Peitsche, um das Huhn zu versorgen. \n\nSollte das Huhn nicht erscheinen ist es nicht schlimm - kann aber behoben werden, indem man den Block aufhebt und erneut platziert. Alle Tiere benötigen mindestens 1 Block Abstand zu anderen Tieren um zu erscheinen!"
+h7sb_chickenPlace1,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace2,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace3,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace4,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace5,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace6,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace7,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace8,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace9,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace10,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace11,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenPlace12,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace13,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace14,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace15,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace16,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace17,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace18,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace19,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace20,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace21,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace22,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace23,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace24,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenPlace25,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace26,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace27,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace28,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace29,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace30,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace31,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace32,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace33,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace34,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace35,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenPlace36,newBlock,Chicken ([ffb3ba]ancient[-]),Huhn ([ffb3ba]steinalt[-])
+
+h7sb_chickenLoot2,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot3,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot4,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot5,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot6,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot7,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot8,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot9,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot10,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot11,newBlock,Chicken ([baffc9]young[-]),Huhn ([baffc9]jung[-])
+h7sb_chickenLoot12,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot13,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot14,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot15,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot16,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot17,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot18,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot19,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot20,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot21,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot22,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot23,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot24,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenLoot25,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot26,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot27,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot28,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot29,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot30,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot31,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot32,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot33,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot34,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot35,newBlock,Chicken ([ffdfba]old[-]),Huhn ([ffdfba]alt[-])
+h7sb_chickenLoot36,newBlock,Chicken ([ffb3ba]ancient[-]),Huhn ([ffb3ba]steinalt[-])
+
+h7sb_chickenFert12,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenFledged12,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenFert24,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenFledged24,newBlock,Chicken ([ffffba]adult[-]),Huhn ([ffffba]ausgewachsen[-])
+h7sb_chickenFert36,newBlock,Chicken ([ffb3ba]ancient[-]),Huhn ([ffb3ba]steinalt[-])
+h7sb_chickenFledged36,newBlock,Chicken ([ffb3ba]ancient[-]),Huhn ([ffb3ba]steinalt[-])

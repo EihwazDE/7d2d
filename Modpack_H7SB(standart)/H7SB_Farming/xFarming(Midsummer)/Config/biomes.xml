@@ -1,0 +1,75 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Farming ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Desert -->
+<remove xpath="/worldgeneration/biomes/biome[@name='desert']/weather"/>
+<append xpath="/worldgeneration/biomes/biome[@name='desert']">
+	<spectrum name="desert"/>
+	<weather name="default" prob="100">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="55" max="75" prob="1"/>
+		<Precipitation min="25" max="55" prob="1"/>
+		<Fog min="1" max="4" prob="1"/>
+		<Wind min="15" max="35" prob="1"/>
+		<spectrum name="Rainy"/>
+		<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="7"/>
+	</weather>
+	<weather name="rain" prob="1">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="90" max="100" prob="1"/>
+		<Precipitation min="55" max="80" prob="1"/>
+		<Fog min="3" max="15" prob="1"/>
+		<Wind min="50" max="55" prob="1"/>
+		<spectrum name="Stormy"/>
+	</weather>
+	<weather name="storm" prob="10">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="90" max="100" prob="1"/>
+		<Precipitation min="55" max="80" prob="1"/>
+		<Fog min="3" max="15" prob="1"/>
+		<Wind min="50" max="55" prob="1"/>
+		<spectrum name="Stormy"/>
+	</weather>
+</append>
+
+<!-- Grassland -->
+<remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']/weather"/>
+<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+	<spectrum name="desert"/>
+	<weather name="default" prob="100">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="0" max="0" prob="33"/>
+		<CloudThickness min="10" max="50" prob="66"/>
+		<Precipitation min="0" max="0" prob="1"/>
+		<Wind min="8" max="25" prob="1"/>
+		<ParticleEffect prefab="ParticleEffects/p_sandstorm" ChunkMargin="7"/>
+	</weather>
+	<weather name="rain" prob="1">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="55" max="75" prob="1"/>
+		<Precipitation min="25" max="55" prob="1"/>
+		<Fog min="1" max="4" prob="1"/>
+		<Wind min="15" max="35" prob="1"/>
+		<spectrum name="Rainy"/>
+	</weather>
+	<weather name="storm" prob="10">
+		<Temperature min="95" max="105" prob="1"/>
+		<CloudThickness min="90" max="100" prob="1"/>
+		<Precipitation min="55" max="80" prob="1"/>
+		<Fog min="3" max="15" prob="1"/>
+		<Wind min="50" max="55" prob="1"/>
+		<spectrum name="Stormy"/>
+	</weather>
+</append>
+
+<!-- Snow -->
+<remove xpath="/worldgeneration/biomes/biome[@name='snow']/spectrum"/>
+</eihwaz.de>
