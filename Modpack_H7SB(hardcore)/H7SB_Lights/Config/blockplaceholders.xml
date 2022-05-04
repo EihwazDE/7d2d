@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/blockplaceholders"><placeholder name="helperBurnTorch"><block name="air" prob="1"/></placeholder></append></eihwaz.de>

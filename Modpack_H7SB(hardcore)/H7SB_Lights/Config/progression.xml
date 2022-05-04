@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,5']/@tags">,h7sb_lightsVariantHelper,h7sb_lightsHall,h7sb_lightsHallIndustrial,h7sb_lightsWorkside,h7sb_lightsStreetClassic,h7sb_lightsRoadBarricade,h7sb_fuseBox</append></eihwaz.de>

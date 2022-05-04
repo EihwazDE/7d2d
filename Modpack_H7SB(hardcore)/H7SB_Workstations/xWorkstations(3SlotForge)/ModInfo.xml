@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="xWorkstations(3SlotForge)" />
+        <Description value="This modlet changes the forge to 3 slots." />
+        <Author value="KhaineGB,Eihwaz"/>
+        <Version value="1.0.0"/>
+    </ModInfo>
+</xml>
