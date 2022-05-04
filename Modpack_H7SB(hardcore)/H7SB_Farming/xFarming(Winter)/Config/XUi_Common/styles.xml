@@ -1,0 +1,14 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Farming ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/styles/global/style_entry[@name='iconColor']/@value">216,229,242</set>
+<set xpath="/styles/global/style_entry[@name='labelColor']/@value">216,229,242</set>
+</eihwaz.de>

@@ -1,0 +1,104 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Farming ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!--winterproof-->
+<!-- +snowberry -->
+<append xpath="/items/item[@name='seedMushroom']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedBlueberry']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<!--not plantable-->
+<append xpath="/items/item[@name='seedYucca']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedCotton']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedCoffee']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedGoldenrod']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedAloe']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedPotato']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedChrysanthemum']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedCorn']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedGraceCorn']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedHop']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+<append xpath="/items/item[@name='seedPumpkin']/property[@class='Action1']" >
+<requirement name="!InBiome" biome="1"/>
+<requirement name="!InBiome" biome="3"/>
+<requirement name="!InBiome" biome="6"/>
+<requirement name="!InBiome" biome="18"/>
+<requirement name="!InBiome" biome="19"/>
+</append>
+</eihwaz.de>

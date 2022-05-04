@@ -1,0 +1,14 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Domestication ##
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Nest Fix -->
+<setattribute xpath="/lootcontainers/lootcontainer[@id='25']" name="destroy_on_close">false</setattribute>
+</eihwaz.de>
