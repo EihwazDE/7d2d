@@ -1,0 +1,148 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+Gamma Gun,items,item,,,Gamma Gun,,,,,
+GammaGunDesc,items,item,,,"(Intellect + Dead Eye) The Gamma Gun uses the Gamma Round for ammunition. A crude but very deadly weapon that shoots impact exploding projectiles, releasing radiation on a 5 block radius. Deadly to living beings, but is not very effective against zombies. Be careful where you shoot it as you are not immune to this effect."
+
+Gamma Round,items,item,,,Gamma Round,,,,,
+GammaRoundDesc,items,item,,,"The Gamma Round is used in the Gamma Gun. Explodes on impact to release deadly radiation. Great damage to living entities but not very effective on zombies. You are not immune to its effects. Craft in batches of 1 or 100."
+
+Newcomen,items,item,,,Newcomen,,,,,
+NewcomenDesc,items,item,,,"(Agility + Gunslinger) A steam-powered Submachine Gun with a high magazine capacity and dual fire mode. Press primary action to shoot in semi-auto, and hold secondary action to unleash a 30-shot burst. Extremely deadly at short range. This weapon doesn't have a zoom mode."
+
+StickyGrenade,items,item,,,Sticky Grenade,,,,,
+StickyGrenadeDesc,items,item,,,"A hand grenade that will adhere to the surface it touches, be it inanimate or animate. Hold primary action to build throwing distance and release to throw. This grenade will prime upon contact."
+
+HyperBlaster,items,item,,,Hyper Blaster,,,,,
+HyperBlasterDesc,items,item,,,"(Fortitude + Machine Gunner) An assault rifle that shoots UV bolts instead of bullets. It has a very high rate of fire but low damage output per shot, so to use effectively you need to fire in long bursts."
+
+Energy Cells,items,item,,,Energy Cells,,,,,
+EnergyCellsDesc,items,item,,,"Energy Cells are used in the Hyper Blaster weapon. UV bolts that have low damage per shot and require long sustained bursts to cause significant damage. Craft in batches of 100 or 1000."
+
+Vampire Gauntlets,items,item,,,Vampire Gauntlets,,,,,
+VampireGauntletsDesc,items,item,,,"(Fortitude + Brawler + Flurry of Blows) A set of high power gauntlets with an incoporated health-draining device. Accumulate 20 hits and activate the device by pressing the flashlight key. You will gain 50% life steal and 50% faster movement speed. The effect lasts 10 seconds. Successful hits appear numerically on the left side of the screen. A fully charged device will emit an audible signal. Changing weapons will reset the counter."
+
+Stun Grenade,items,item,,,Stun Grenade,,,,,
+StunGrenadeDesc,items,item,,,"A hand grenade that will stun entities within its stun radius. Press secondary action to prime and hold primary action to increase throwing distance before releasing to throw."
+
+turretAuger,items,item,,,Turret Auger,,,,,
+turretAugerDesc,items,item,,,"(Strength + Miner69'er + Mother Lode) A melee, short range turret, perfect for placing on corners or blocking hallways. While holding it, you can press primary action to use it as a normal auger and secondary action to place it on the ground. Like other motor tools it needs Gasoline to operate."
+
+Balrog IX,items,item,,,Balrog IX,,,,,
+BalrogIXDesc,items,item,,,"(Fortitude + Brawler + Flurry of Blows) A set of high power melee weapons. Accumulate 5 eliminations and activate the device by pressing the flashlight key. You will gain increased attack speed and the necessary stamina to support it."
+
+Kronos XII,items,item,,,Kronos XII,,,,,
+KronosXIIDesc,items,item,,,"(Strength + Boomstick) A high-grade fully automatic Shotgun with a 30 cartridge drum magazine and a special attached module. Accumulate 20 eliminations and activate the module by pressing the flashlight key. For 20 seconds, spread and knockback will be reduced significantly, while the max range will be doubled. Successful hits appear numerically on the left side of the screen. A fully charged module will emit an audible signal. Changing weapons will reset the counter."
+
+Vulcan,items,item,,,Vulcan,,,,,
+VulcanDesc,items,item,,,"(Fortitude + Machine Gunner) An electrically fired Gatling-style rotary cannon which fires 7.62 mm rounds at an extremely high rate and has a very high ammo capacity. The downside is that it must be charged before firing in fully-auto by holding primary action or secondary action. It also has a movement penalty."
+
+CrimsonHunter,items,item,,,Crimson Hunter,,,,,
+CrimsonHunterDesc,items,item,,,"(Agility + Gunslinger) A modified revolver with a special contact grenade attached that requires charging before launching. You need to accumulate 5 kills to charge it completely, after which you can launch it using secondary action. Successful kills are indicated by the number on the left side of the screen. A fully charged grenade will be filled with blood. Changing weapons will reset the counter. This weapon doesn't have a zoom mode."
+
+Savery,items,item,,,Savery,,,,,
+SaveryDesc,items,item,,,"(Perception + Dead Eye) A sniper rifle that uses Magnum ammo and has a 12 cartridge double-cylinder that allows it to fire in rapid succession and reload very fast. Very effective at long and medium range."
+
+PP-19 Bizon,items,item,,,PP-19 Bizon,,,,,
+PP-19BizonDesc,items,item,,,"(Agility + Gunslinger) A Russian Submachine Gun with a very high magazine capacity, low recoil and low spread. It is able to deal with multiple enemies effectively. However, the damage output is relatively low."
+
+Polearm,items,item,,,Polearm,,,,,
+PolearmDesc,items,item,,,"(Strength + Flurry of Blows) A long range melee weapon that is very effective in open high areas but somewhat limited when in restricted areas."
+
+QuadShotgun,items,item,,,Quad Shotgun,,,,,
+QuadShotgunDesc,items,item,,,"(Strength + Boomstick) A natural evolution of the double-barrel shotgun. It holds 4 cartridges with dual fire mode. Pressing primary action will fire individual shots, while secondary action will release the four cartridges in a quick barrage. This weapon doesn't have a zoom mode."
+
+Railgun,items,item,,,Railgun,,,,,
+RailgunDesc,items,item,,,"(Perception + Dead Eye) A modified sniper rifle that uses an electromagnetic coil to fire a steel projectile at high velocity. Needs charging before shooting by holding primary action. The longer you charge the higher the damage and flytime of the projectile will be. A full charge is indicated by beeps."
+
+RailgunAmmo,items,item,,,Railgun Ammo,,,,,
+RailgunAmmoDesc,items,item,,,"A steel projectile that is fired from the Railgun at high velocity for devastating impact."
+
+Thor Hammer,items,item,,,Thor's Hammer,,,,,
+ThorHammerDesc,items,item,,,"(Strength + Skull Crusher + Electrocutioner) A modified Steel Sledgehammer with an electric shock device attached. On each successful hit it discharges a current on the target that stuns it for a few seconds. Using the Power Attack on a block or an enemy discharges the current over an area."
+
+CrossbowMag,items,item,,,Crossbow Mag,,,,,
+CrossbowMagDesc,items,item,,,"(Agility + Archery) A compound crossbow with a 10-bolt capacity and very fast semi-auto firing mode. It infringes more damage than a regular crossbow and the bolts fly further and with more force."
+
+Klak Attack,items,item,,,Klak Attack,,,,,
+KlakAttackDesc,items,item,,,"(Agility + Deep Cuts + Flurry of Blows + The Huntsman) A hand made weapon with a combination of brute force and deep wound potential." 
+
+Glass Baseball Bat,items,item,,,Glass Baseball Bat,,,,,
+GlassBaseballBatDesc,items,item,,,"(Strength + Deep Cuts + Pummel Pete + Flurry of Blows) A hand made weapon with a combination of brute force and deep wound potential."
+
+Knife Baseball Bat,items,item,,,Knife Baseball Bat,,,,,
+KnifeBaseballBatDesc,items,item,,,"(Strength + Deep Cuts + Pummel Pete + Flurry of Blows) A hand made weapon with a combination of brute force and deep wound potential."
+
+Star Baseball Bat,items,item,,,Star Baseball Bat,,,,,
+StarBaseballBatDesc,items,item,,,"(Strength + Deep Cuts + Pummel Pete + Flurry of Blows) A hand made weapon with a combination of brute force and deep wound potential."
+
+Metal Bollard Club,items,item,,,Metal Bollard Club,,,,,
+MetalBollardClubDesc,items,item,,,"(Strength + Pummel Pete + Deep Cuts + Flurry of Blows) A hand made weapon with a combination of brute force and deep wound potential."
+
+DCLXVI Zeus,items,item,,,DCLXVI Zeus,,,,,
+DCLXVIZeusDesc,items,item,,,"(Perception + Dead Eye) A modified Nail gun with sniper potential that uses an electromagnetic coil to fire a charged steel projectile at high velocity. Needs charging before shooting by holding primary action. The longer you charge the higher the damage and flytime of the projectile will be. A full charge is indicated by beeps."
+
+DCLXVI Zeus Ammo,items,item,,,DCLXVI Zeus Ammo,,,,,
+DCLXVIZeusAmmoDesc,items,item,,,"A charged steel projectile that is fired from the DCLXVI Zeus at high velocity for devastating charged impact."
+
+arramus Fire,items,item,,,arramus Fire,,,,,
+arramusFireDesc,items,item,,,"(Perception + Demolitions Expert) Unleash the pyromaniac in you. Beware of splash damage as it will not make you very popular. Walking increases accuracy." 
+
+arramus Fire Round,items,item,,,arramus Fire Round,,,,,
+arramusFireRoundDesc,items,item,,,"Ammunition for the arramus Fire and Dre X3 weapons."
+
+Dre X3,items,item,,,Dre X3,,,,,
+DreX3Desc,items,item,,,"(Intellect + Demolitions Expert) A highly versatile weapon that fires X3 types of ammunition; DCLXVI Zeus Ammo, arramus Fire Rounds, and Dre X3 Clucker Rounds. Dre X3 Clucker Rounds are found in a bird's nest or crafted."
+
+Dre X3 Clucker Round,items,item,,,Dre X3 Clucker Round,,,,,
+DreX3CluckerRoundDesc,items,item,,,"Dre X3 Clucker Rounds are used in the Dre X3 weapon. They can only found in a bird's nest or crafted. They are highly explosive."
+
+oakraven X11,items,item,,,oakraven X11,,,,,
+oakravenX11Desc,items,item,,,"(Agility + Gunslinger) A made to order weapon from the mysterious gunsmith oakraven. Fires Magnum rounds to devastating effect. After 10 eliminations, press secondary action to fire a bonus explosive projectile made from recycled spent Magnum cartridges."
+
+Black Widow,items,item,,,Black Widow,,,,,
+BlackWidowDesc,items,item,,,"(Agility + Archery) A devastating bow that is deemed to have been returned from Middle Earth. A sleek and stealthy weapon with a base of 300% stealth damage. Highly accurate with mininal recalibration required for long range release."
+
+ammoRedWidow,items,item,,,Black Widow - Red Arrow,,,,,
+ammoRedWidowDesc,items,item,,,"This Red Arrow is used in the Black Widow Bow. In addition to damage, it can cause the entity to be knocked down and lose health from bleeding. Stays true to target in wind, humidity and the elements."
+
+ammoBlueWidow,items,item,,,Black Widow - Blue Arrow,,,,,
+ammoBlueWidowDesc,items,item,,,"This Blue Arrow is used in the Black Widow Bow. In addition to damage, it can cause the entity to be shocked and lose health from electrocution. Stays true to target in wind, humidity and the elements." 
+
+Brainsaw,items,item,,,Brainsaw,,,,,
+BrainsawDesc,items,item,,,"(Strength + Miner 69'er + Mother Lode) This chainsaw is modified with a reinforced chassis, diamond tipped teeth, and a plasma powered engine. The plasma field has been known to bring on bouts of rage as you release the Evil Dead from their suffering." 
+
+Hazard Spear,items,item,,,Hazard Spear,,,,,
+HazardSpearDesc,items,item,,,"(Perception + Javelin Master + Flurry of Blows) The Hazard Spear is made with rare Wasteland metals that provide about 10% benefit compared to the Steel Spear for attack damage, speed of attack, stamina, and degradation."
+
+Cow Helmet,item_modifiers,mod,,,Cow Helmet Mod,,,,,
+Cow HelmetDesc,item_modifiers,mod,,,"Increases Strength, Damage resistance, Cold and Heat resistance, Fire and Electric Shock resistance, Fortitude, and Agility. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This helmet mod is visible to other players."
+
+Pumpkin Hat,item_modifiers,mod,,,Pumpkin Hat Mod,,,,,
+Pumpkin HatDesc,item_modifiers,mod,,,"Reduces Noise, Increases Damage resistance, Strength, Cold and Heat resistance, Fire and Electric Shock resistance, Fortitude, and Agility. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This hat mod is visible to other players."
+
+Magnet Hat,item_modifiers,mod,,,Magnet Hat Mod,,,,,
+Magnet HatDesc,item_modifiers,mod,,,"Increases Impact bracing when falling from a height, and Strength. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This hat mod is visible to other players."
+
+WagonWheel,item_modifiers,mod,,,Wagon Wheel Mod,,,,,
+WagonWheelDesc,item_modifiers,mod,,,"Increases bartering skill with +10% for sales and -10% for purchases. Inreases Strength and Stamina recovery when running. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This clothing mod is visible to other players."
+
+Rabbit Friend,item_modifiers,mod,,,Rabbit Friend Mod,,,,,
+Rabbit FriendDesc,item_modifiers,mod,,,"Increases Entity damage, Strength, Damage resistance, and Cold and Heat resistance. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This clothing mod is visible to other players. かわいい兎ちゃんでしょう？"
+
+Snake Friend,item_modifiers,mod,,,Snake Friend Mod,,,,,
+Snake FriendDesc,item_modifiers,mod,,,"Increases Impact bracing when falling from a height, and Strength. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This clothing mod is visible to other players."
+
+Vulture Friend,item_modifiers,mod,,,Vulture Friend Mod,,,,,
+Vulture FriendDesc,item_modifiers,mod,,,"Reduces walk and run speed but Increases Jump strength and Jump stamina. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This clothing mod is visible to other players."
+
+Big Backpack,item_modifiers,mod,,,Big Backpack Mod,,,,,
+Big BackpackDesc,item_modifiers,mod,,,"Increases Strength, Damage resistance, and Backpack capacity by +5. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This clothing mod is visible to other players."
+
+Pumpkin Man,item_modifiers,mod,,,Pumpkin Man Mod,,,,,
+Pumpkin ManDesc,item_modifiers,mod,,,"Increases Strength, Damage resistance, and Harvest count by +2. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This hat mod is visible to other players."
+
+SpeakerHat,item_modifiers,mod,,,Speaker Hat Mod,,,,,
+SpeakerHatDesc,item_modifiers,mod,,,"Increases Strength, Damage resistance, Fire and Electric Shock resistance, and resists the effects of Banshee screams, Mantis narcotics, Parasite leaching, and Archon shields. Can be found in hardened chests as a lootable item and installed in the armor headware paint slot. This hat mod is visible to other players."
+
+modWeaponDurability,item_modifiers,mod,,,Weapon Durability Mod,,,,,
+modWeaponDurabilityDesc,item_modifiers,mod,,,"This modification for weapons lowers degradation by 50%."

@@ -1,0 +1,57 @@
+<!--
+Sam's Sam's Sustainable Forestry
+v20.0.0
+by saminal
+barely tested, good luck
+
+blockplaceholders.xml
+-->
+
+<configs>
+    <append xpath="/blockplaceholders">
+        <placeholder name="treeMountainPineRandomHelper">
+            <block name="treeMountainPine12m" prob="1.0" randomrotation="true"/>
+            <block name="treeMountainPine19m" prob="1.0" randomrotation="true"/>
+            <block name="treeMountainPine27m" prob="1.0" randomrotation="true"/>
+            <block name="treeMountainPineDry21m" prob="1.0" randomrotation="true"/>
+            <block name="treeMountainPine31m" prob="1.0" randomrotation="true"/>
+            <block name="treeFirLrg01" prob="1.0" randomrotation="true"/>
+        </placeholder>
+
+        <placeholder name="treeOakRandomHelper">
+            <block name="treeOakSml01" prob="1.0" randomrotation="true"/>
+            <block name="treeOakMed02" prob="1.0" randomrotation="true"/>
+            <block name="treeOakMed01" prob="1.0" randomrotation="true"/>
+            <block name="treeOakLrg01" prob="1.0" randomrotation="true"/>
+        </placeholder>
+
+        <placeholder name="treeWinterPineRandomHelper">
+            <block name="treeWinterEverGreen" prob="1.0" randomrotation="true"/>
+            <block name="treeWinterPine13m" prob="1.0" randomrotation="true"/>
+            <block name="treeWinterPine19m" prob="1.0" randomrotation="true"/>
+            <block name="treeWinterPine28m" prob="1.0" randomrotation="true"/>
+        </placeholder>
+
+        <placeholder name="treeBurntWastelandRandomHelper">
+            <block name="treeBurntMaple01" prob="0.3" biome="burnt_forest" randomrotation="true"/>
+            <block name="treeBurntMaple02" prob="0.3" biome="burnt_forest" randomrotation="true"/>
+            <block name="treeBurntMaple03" prob="0.3" biome="burnt_forest" randomrotation="true"/>
+            <block name="treeBurntPineMed" prob="1.0" biome="burnt_forest" randomrotation="true"/>
+            <block name="treeBurntPineLrg" prob="1.0" biome="burnt_forest" randomrotation="true"/>
+            <block name="treeBurntMaple01" prob="1.0" biome="wasteland" randomrotation="true"/>
+            <block name="treeBurntMaple02" prob="1.0" biome="wasteland" randomrotation="true"/>
+            <block name="treeBurntMaple03" prob="1.0" biome="wasteland" randomrotation="true"/>
+            <block name="treeDeadTree01" prob="1.0" randomrotation="true"/>
+            <block name="treeMountainPineDry21m" prob="1.0" randomrotation="true"/>
+        </placeholder>
+
+        <placeholder name="treeCactusRandomHelper">
+            <block name="treeCactus01" prob="1.0" randomrotation="true"/>
+            <block name="treeCactus02" prob="1.0" randomrotation="true"/>
+            <block name="treeCactus03" prob="1.0" randomrotation="true"/>
+            <block name="treeCactus04" prob="0.3" randomrotation="true"/>
+            <block name="treeCactus05" prob="0.6" randomrotation="true"/>
+            <block name="treeCactus06" prob="0.6" randomrotation="true"/>
+        </placeholder>
+    </append>
+</configs>

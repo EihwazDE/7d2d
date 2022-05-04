@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+treeOakSapling,blocks,block,,,Oak Sapling
+treeMountainPineSapling,blocks,block,,,Pine Sapling
+treeWinterPineSapling,blocks,block,,,Blue Spruce Sapling
+treeBurntWastelandSapling,blocks,block,,,"'Dead' Sapling"
+treeCactusSapling,blocks,block,,"Cactus 'Sapling'"
