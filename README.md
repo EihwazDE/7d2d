@@ -23,6 +23,13 @@ All H7SB mods are server side and only need to be installed by the host or serve
 - [x] **H7SB Toolbelt** - Contains a changed toolbelt with less slots. [**Preview**](https://www.youtube.com/watch?v=WHwMi6P5IW8)
 - [x] **H7SB Waiter** - Contains colored placeable food and drink items. [**Preview**](https://www.youtube.com/watch?v=ZvaOw51VSvg)
 - [x] **H7SB Workstations** - Contains various functional workstations in many colors. [**Preview**](https://www.youtube.com/watch?v=0Aghx2HSDTc)
+
+**H7SB Modpack**
+
+ The H7SB modpack is server side and only needs to be installed by the host/server.
+ 
+- [x] **H7SB Modpack(standart)**
+- [x] **H7SB Modpack(hardcore)**
  
 --- --- --- --- --- --- --- --- ---
 
