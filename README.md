@@ -26,7 +26,7 @@ All H7SB mods are server side and only need to be installed by the host or serve
 
 **H7SB Modpack**
 
- The H7SB modpack is server side and only needs to be installed by the host/server.
+ The H7SB modpack is server side and only needs to be installed by the host or server.
  
 - [x] **Modpack H7SB(standart)**
 - [x] **Modpack H7SB(hardcore)**
