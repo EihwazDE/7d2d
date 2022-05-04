@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="H7SB_Workstations" />
+		<Description value="Contains various server side functional workstations in many colors." />
+		<Author value="Eihwaz,AgentRain" />
+		<Version value="A20"/>
+	</ModInfo>
+</xml>
