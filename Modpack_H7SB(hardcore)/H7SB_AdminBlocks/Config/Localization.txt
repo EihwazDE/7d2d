@@ -1,0 +1,102 @@
+Key,Source,Context,English,German
+
+buffGodModeNameShort,rework,buff,Admin,Admin
+buffGodModeTooltip,rework,buff,Admin-Modus activated,Admin-Modus aktiviert
+
+h7sb_adminTool,new,item,Admin: Welder,Admin: Schweißer
+h7sb_adminToolDesc,new,item,"Can be used to upgrade blocks or melt down at close range. \n\nRequired to remove admin blocks (RMB).","Kann verwendet werden um Blöcke aufzuwerten oder auf kurze Distanz einzuschmelzen. \n\nWird benötigt um Admin Blocks zu entfernen (RMB)."
+meleeToolPaintToolAdmin,rework,item,Admin: Painter,Admin: Maler
+meleeToolSalvageWrenchAdmin,rework,item,Admin: Disassembler,Admin: Zerleger
+meleeToolBlockReplaceTool,rework,item,Admin: Replacer,Admin: Ersetzer
+gunToolDiggerAdmin,rework,item,Admin: Digger,Admin: Bohrer
+gunHandgunPistolAdmin,rework,item,Admin: Gun,Admin: Waffe
+toolTerrainModelerAdmin,rework,item,Admin: Terraformer,Admin: Terraformer
+
+h7sb_key,new,item,Door Key,Türschlüssel
+h7sb_keyDesc,desc,item,"This item can be used to open locked admin block doors.","Dieser Gegenstand kann verwendet werden um verschlossene Admin Block Türen zu öffnen."
+
+materialMeihwaz,new,block,Admin Block,Admin Block
+h7sb_adminBlockDesc,desc,block,"Admin Blocks are indestructible and can only be removed with the Admin Welder (RMB). Pressing and holding the R key opens the selection menu. \n\nThey also have the ability to fly, which unfortunately gets lost when copied in as a prefab. In this case it is recommended to use invisible pillars from the admin miscs.","Admin Blöcke sind unzerstörbar und können nur mit dem Admin Schweißer entfernt (RMB) werden. Langes drücken der R-Taste öffnet das Auswahlmenü. \n\nSie verfügen außerdem über eine Flugfähigkeit, die leider beim reinkopieren als Prefab verloren geht. In diesem Fall ist es empfohlen unsichtbare Stützen aus dem Admin Zubehör zu verwenden."
+materialMzweiwaz,new,block,DO NOT USE!,NICHT VERWENDEN!
+materialMbedrock,new,block,DO NOT USE!,NICHT VERWENDEN!
+h7sb_adminDebrisDesc,desc,block,"DO NOT USE! This block is only visible due to a vanilla bug.","NICHT VERWENDEN! Dieser Block ist nur aufgrund eines Vanilla Fehlers sichtbar."
+
+h7sb_adminGlassHelper,new,block,Admin Glass,Admin Glas
+h7sb_adminGlassHelperDesc,desc,block,"Admin Glass are indestructible and can only be removed with the Admin Welder (RMB). Pressing and holding the R key opens the selection menu. \n\nThey also have the ability to fly, which unfortunately gets lost when copied in as a prefab. In this case it is recommended to use invisible pillars from the admin miscs.","Admin Glas ist unzerstörbar und kann nur mit dem Admin Schweißer entfernt (RMB) werden. Langes drücken der R-Taste öffnet das Auswahlmenü. \n\nEs verfügen außerdem über eine Flugfähigkeit, die leider beim reinkopieren als Prefab verloren geht. In diesem Fall ist es empfohlen unsichtbare Stützen aus dem Admin Zubehör zu verwenden."
+
+h7sb_adminMiscHelper,new,block,Admin Misc,Admin Zubehör
+h7sb_adminMiscHelperDesc,desc,block,"Admin Miscs are indestructible and can only be removed with the Admin Welder (RMB). Long press the R key opens the selection menu.","Admin Zubehör ist unzerstörbar und kann nur mit dem Admin Schweißer entfernt (RMB) werden. Langes drücken der R-Taste öffnet das Auswahlmenü."
+
+h7sb_adminMisc_Spy,new,block,Spy Glass,Spionage Glas
+h7sb_adminMisc_SpyDesc,desc,block,"This block allows one-sided viewing through other blocks.","Dieser Block ermöglicht es einseitig durch andere Blöcke zu sehen."
+
+h7sb_adminMisc_invisiblePillar5,new,block,Invisible Pillar (5m),Unsichtbare Säule (5m)
+h7sb_adminMisc_invisiblePillar15,new,block,Invisible Pillar (15m),Unsichtbare Säule (15m)
+h7sb_adminMisc_invisiblePillar45,new,block,Invisible Pillar (45m),Unsichtbare Säule (45m)
+h7sb_adminMisc_invisiblePillarDesc,desc,block,"Apparently, this block makes it possible to build flying things. The actual block is just a small plate that is offset in the ground. \n\nTo stack pillars on top of each other you need an auxiliary scaffolding that you can remove afterwards.","Dieser Block ermöglicht es anscheinend fliegende Dinge zu bauen. Der eigentliche Block ist nur eine kleine Platte die versetzt im Boden steckt. \n\nUm Säulen übereinander zu stapeln benötigt man ein Hilfsgerüst, dass man danach entfernen kann."
+
+h7sb_adminMisc_Stone,new,block,Stone,Stein
+h7sb_adminMisc_Terrain,new,block,Terrain,Terrain
+h7sb_adminMisc_BlockNS,new,block,Block (unbuildable),Block (unbebaubar)
+h7sb_adminMisc_StoneNS,new,block,Stone (unbuildable),Stein (unbebaubar)
+h7sb_adminMisc_TerrainNS,new,block,Terrain (unbuildable),Terrain (unbebaubar)
+h7sb_adminMisc_NSDesc,desc,block,"All blocks placed on this block break immediately.","Alle Blöcke die man auf diesen Block platziert zerbrechen umgehend."
+
+h7sb_adminMisc_doorPassword,new,block,Door (secured),Tür (gesichert)
+h7sb_adminMisc_hatchPassword,new,block,Hatch (secured),Klappe (gesichert)
+h7sb_adminMisc_passwordDesc,desc,"This door/hatch is indestructible and can be password protected.","Diese Tür ist unzerstörbar und kann mit einem Passwort versehen werden."
+h7sb_adminMisc_doorLocked,new,block,Door (locked),Tür (verschlossen)
+h7sb_adminMisc_hatchLocked,new,block,Hatch (locked),Klappe (verschlossen)
+h7sb_adminMisc_lockedDesc,desc,"This door/hatch is indestructible and can be opened once with a key. After that, the door becomes its destructible counterpart.","Diese Tür ist unzerstörbar und kann mit einem Schlüssel einmalig geöffnet werden. Danach wird die Tür zu ihrem zerstörbaren Gegenstück."
+h7sb_adminMisc_doorPowered,new,block,Door (powered),Tür (elektrisch)
+h7sb_adminMisc_hatchPowered,new,block,Hatch (powered),Klappe (elektrisch)
+h7sb_adminMisc_poweredDesc,desc,"This door/hatch is indestructible and can be opened with electricity.","Diese Tür ist unzerstörbar und kann mit Strom geöffnet werden."
+h7sb_adminMisc_keyChest,new,block,Key Boy,Schlüsselbox
+h7sb_adminMisc_keyChestPlacer,new,block,Key Boy,Schlüsselbox
+h7sb_adminMisc_keyChestPlacerDesc,desc,"This box contains the key to open locked doors.","Diese Kiste beinhaltet den Schlüssel zum öffnen verschlossener Türen."
+
+h7sb_adminMisc_SignWood1x1,new,block,Sign (1x1),Schild (1x1)
+h7sb_adminMisc_SignWood1x3,new,block,Sign (1x3),Schild (1x3)
+h7sb_adminMisc_SignWood2x5,new,block,Sign (2x5),Schild (2x5)
+
+h7sb_adminMisc_Switch,new,block,Switch,Schalter
+h7sb_adminMisc_Pressureplate,new,block,Pressureplate,Druckplatte
+h7sb_adminMisc_PressureplateLong,new,block,Large Pressureplate,Große Druckplatte
+h7sb_adminMisc_electricityDesc,desc,"This block is indestructible and requires no electricity.","Dieser Block ist unzerstörbar und benötigt keinen Strom."
+
+h7sb_adminMisc_campfire,new,block,Campfire,Lagerfeuer
+h7sb_adminMisc_forge,new,block,Forge,Schmiede
+h7sb_adminMisc_workbench,new,block,Workbench,Werkbank
+h7sb_adminMisc_chemistryStation,new,block,Chemistry Station,Chemiestation
+h7sb_adminMisc_cementMixer,new,block,Cement Mixer,Zementmischer
+h7sb_adminMisc_workstationDesc,desc,"This block is indestructible.","Dieser Block ist unzerstörbar."
+
+h7sb_adminMisc_jumpPadSmall,new,block,Super Jump (6m),Super Sprung (6m)
+h7sb_adminMisc_jumpPadMedium,new,block,Super Jump (15m),Super Sprung (15m)
+h7sb_adminMisc_jumpPadLarge,new,block,Super Jump (30m),Super Sprung (30m)
+buffJumpPad,new,buff,Super Jump,Super Sprung
+buffJumpPadDesc,desc,buff,"Temporarily increase jump strength and prevents fall damage.","Erhöht kurzzeitig die Sprungkraft und verhindert Fallschaden."
+
+h7sb_adminMisc_hastePlayer,new,block,Super Running Speed,Super Lauftempo
+buffHastePlayer,new,buff,Super Running Speed,Super Lauftempo
+buffHastePlayerDesc,desc,buff,"Temporarily increases movement speed.","Erhöht kurzzeitig das Lauftempo."
+
+h7sb_adminMisc_hasteVehicle,new,block,Super Acceleration,Super Beschleunigung
+buffHasteVehicle,new,buff,Super Acceleration,Super Beschleunigung
+buffHasteVehicleDesc,desc,buff,"Temporarily increases the speed of vehicles.","Erhöht kurzzeitig das Tempo von Fahrzeugen."
+
+h7sb_adminMisc_startLine,new,block,Starting Line,Startlinie
+h7sb_adminMisc_finishLine,new,block,Finish Line,Ziellinie
+h7sb_adminMisc_raceDesc,desc,block,"When you cross the starting line, the stopwatch starts counting. When you reach the finish line, the time stops and is saved in the character window. \n\nYou can increase the number of laps with the stopwatch item.","Überquert man die Startlinie beginnt die Stoppuhr zu zählen. Erreicht man die Ziellinie stoppt die Zeit und wird im Charackterfenster abgespeichert. \n\nMan kann die Rundenanzahl mit dem Stoppuhr Gegenstand erhöhen."
+h7sb_stopwatchAdmin,new,item,Admin: Stopwatch,Admin: Stoppuhr
+h7sb_stopwatchAdminDesc,desc,item,"Can be used (LMB) to change the number of laps or restart (RMB) races.\n\nThis item works in combination with the start and finish line block.","Kann verwendet (LMB) werden um die Rundenzahl zu ändern oder zum neustarten (RMB) von Rennen. \n\nDieser Gegenstand funktioniert in Kombination mit dem Start- und Ziellinien-Block."
+buffLapStart,new,buff,Stopwatch,Stoppuhr
+buffLapStartDesc,desc,buff,"Shows the elapsed time since the start or the last time a checkpoint was crossed.","Zeigt die vergangene Zeit an seit dem Start bzw. dem letzten überqueren einen Checkpoints."
+buffLaps,new,buff,Lap,Runde
+buffLapsDesc,desc,buff,"Time required for the lap/checkpoint.","Benötigte Zeit für die Runde/Checkpoint."
+buffLapFinish,new,buff,Race finished,Rennen beendet
+buffLapFinishDesc,desc,buff,"The race is over. In 3 minutes you can a new round.","Das Renne ist zu Ende. In 3 Minuten kannst du am nächsten teilnehmen."
+h7sb_adminMisc_lapCounter,new,block,Lap Count,Rundenanzahl
+h7sb_adminMisc_lapCounterDesc,desc,block,"When you stand on this block, the number of rounds increases slowly.","Wenn du auf diesem Block stehst erhöht sich langsam die Rundenanzahl."
+buffLapCounter,new,buff,Lap Count,Rundenanzahl
+buffLapCounterDesc,desc,buff,"The number shows how many laps or checkpoints you have to reach to finish a race.","Die Zahl zeigt an wie viele Runden bzw. Checkpoints man erreichen muss, um ein Rennen zu beenden."

@@ -1,0 +1,17 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">12,8</set>
+<set xpath="/lootcontainers/lootcontainer[@name='h7sb_xsBackpack']/@size">12,1</set>
+<set xpath="/lootcontainers/lootcontainer[@name='h7sb_smallBackpack']/@size">12,2</set>
+<set xpath="/lootcontainers/lootcontainer[@name='h7sb_mediumBackpack']/@size">12,4</set>
+<set xpath="/lootcontainers/lootcontainer[@name='h7sb_largeBackpack']/@size">12,6</set>	
+</eihwaz.de>

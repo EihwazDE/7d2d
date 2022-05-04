@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB  Carts ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/lootcontainers"> <lootcontainer name="h7sb_cartSmall" count="0" size="10,3" sound_open="UseActions/open_shopping_cart" sound_close="UseActions/close_shopping_cart" loot_quality_template="qualBaseTemplate"></lootcontainer> <lootcontainer name="h7sb_cartMedium" count="0" size="10,5" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate"></lootcontainer> <lootcontainer name="h7sb_cartLarge" count="0" size="10,9" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate"></lootcontainer> </append> </eihwaz.de>

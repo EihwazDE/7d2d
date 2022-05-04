@@ -1,0 +1,10 @@
+Key,Source,Context,English,German
+
+perkPackMuleRank1LongDesc,progression,backpack,"This ability unlocks a total of 6 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 6 zusätzliche Inventarplätze frei."
+perkPackMuleRank2LongDesc,progression,backpack,"This ability unlocks a total of 12 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 12 zusätzliche Inventarplätze frei."
+perkPackMuleRank3LongDesc,progression,backpack,"This ability unlocks a total of 18 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 18 zusätzliche Inventarplätze frei."
+perkPackMuleRank4LongDesc,progression,backpack,"This ability unlocks a total of 24 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 24 zusätzliche Inventarplätze frei."
+perkPackMuleRank5LongDesc,progression,backpack,"This ability unlocks a total of 30 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 30 zusätzliche Inventarplätze frei."
+
+modClothingStoragePocketDesc,desc,pocket,"This pocket mod unlocks 4 additional inventory slots.","Diese Taschen Mod schaltet 4 zusätzliche Inventarplätze frei."
+modClothingCargoStoragePocketDesc,itemMods,desc,"This pocket mod unlocks 7.5 additional inventory slots.","Diese Taschen Mod schaltet 7.5 zusätzliche Inventarplätze frei."
