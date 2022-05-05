@@ -1,5 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text
-
-AutoMiner,blocks,Workstation,,,AutoMiner,
-AutoMinerDesc,blocks,Workstation,,,"The AutoMiner is a great asset to the survivor.\nIt is a workstation you can craft at a workbench after unlocking it with Advanced Engineering level 3. With it you can power it with gasoline to mine basic resources for you in scaling times and outputs based on tools used and their tier level as well as Advanced Engineering level.\nNeeds one auger to function, adding a Robotic Sledge and Robotic Drone will greatly improve crafting time and output, especially so with higher tiers.",
-
