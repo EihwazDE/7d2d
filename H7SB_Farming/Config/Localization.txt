@@ -1,0 +1,128 @@
+Key,Source,Context,English,German
+
+h7sb_komposter,block,farming,Composter,Komposter
+h7sb_komposterDesc,block,desc,"In the composter plants and organic objects (except plant fibers) can be turned into compost. \n\nNo cans of preservatives! We want to do better in this world.","Im Komposter kann man pflanzliche und organische Gegenstände (ausgenommen Pflanzenfasern) in Kompost umwandeln. \n\nKeine Dosen mit Konservierungsstoffen! Wir wollen es in dieser Welt besser machen."
+kompost,item,farming,Compost,Kompost
+kompostDesc,item,desc,"Moist and fertile compost that can be used with a hoe to fertilize crops and create farmland.","Feuchter und fruchtbarer Kompost der mit einer Hacke verwendet werden kann um Pflanzen zu düngen und Ackerland anzulegen."
+h7sb_scrapsOfLeather,item,kompost,Scraps of Leather,Lederfetzen
+h7sb_plantRemains,item,kompost,Plant Remains,Pflanzenreste
+h7sb_newCompostDes,item,kompost,"Can be composted.","Kann kompostiert werden kann."
+h7sb_kompostXUI,UI,farming,Composting,Kompostieren
+h7sb_kompostXUI2,UI,farming,Output,Ausgabe
+h7sb_worm,item,fishing,Worm,Wurm
+h7sb_wormDesc,desc,fishing,"A small squirming worm - should I eat it? \n\nAlso used in H7SB Domestication and Fishing.","Ein kleiner sich windender Wurm - ob ich ihn essen sollte? \n\nWird außerdem in H7SB Domestication und Fishing verwendet."
+
+h7sb_farmland,block,farming,Farmland,Ackerland
+h7sb_hoe,item,farming,Hoe,Hacke
+h7sb_hoeDesc,item,farming,"The hoe is used (RMB) to fertilize crops or create arable land. For this you need compost from the composter.","Die Hacke wird verwendet (RMB) um Pflanzen zu düngen oder Ackerboden zu erschaffen. Dazu benötigt man Kompost aus dem Komposter."
+
+h7sb_wateringCan,item,farming,Watering Can,Gießkanne
+h7sb_wateringCanDesc,desc,farming,"This item can can be used (RMB) to water dry plants.","Die Gießkanne kann verwendet werden (RMB) um trockene Pflanzen zu bewässern."
+h7sb_wateringCanREMOVED,desc,farming,"This item can can be used (RMB) to water dry plants.  When the watering can is empty, refill it (RMB) with a jar water.","Die Gießkanne kann verwendet werden (RMB) um trockene Pflanzen zu bewässern. Wenn sie leer ist, verwende (RMB) einen Krug Wasser um sie wieder aufzufüllen."
+drinkJarBoiledWaterREMOVED,items,Food,"This item can be used to drink (LMB) or to refill (RMB) the watering can.\n\nTo avoid mishaps, you can only refill the can when it is empty.","Dieser Gegenstand kann verwendet (LMB) werden um zu trinken oder zum nachfüllen (RMB) der Gießkanne. \n\nUm Missgeschicke zu vermeiden kann man die Kanne nur nachfüllen, wenn sie leer ist."
+drinkJarPureMineralWaterREMOVED,items,Food,"This item can be used to drink (LMB) or to refill (RMB) the watering can.\n\nTo avoid mishaps, you can only refill the can when it is empty.","Dieser Gegenstand kann verwendet (LMB) werden um zu trinken oder zum nachfüllen (RMB) der Gießkanne. \n\nUm Missgeschicke zu vermeiden kann man die Kanne nur nachfüllen, wenn sie leer ist."
+waterLevel,buff,farming,Water Level,Füllstand
+waterLevelDesc,buff,farming,"This value indicates how full your watering can is. When the watering can empty, refill it (LMB) from a water source.","Dieser Wert gibt an die hoch der Füllstand deiner Gießkanne ist. Wenn sie leer ist fülle (LMB) sie an einer Wasserquelle wieder auf."
+perkLivingOffTheLandRank1LongDesc,perk,farming,"Double the harvest of wild or planted crops. Craft seeds for flowers and decorative plants like goldenrod, chrysanthemum, aloe, and yucca.\n\nIncreased the capacity of the watering can.","Verdopple die Ernte von wilden oder angepflanzten Feldfrüchten. Fertige Samen von Blumen und dekorativen Pflanzen wie Goldrute, Chrysantheme, Aloe oder Yucca.\n\nErhöhte die Füllmenge der Gießkanne."
+perkLivingOffTheLandRank2LongDesc,perk,farming,"You can craft seeds for berries and vegetables.\n50% chance to harvest 1 additional crop.\n\nIncreased the capacity of the watering can.","Du kannst Samen von Beeren und Gemüse fertigen. \n\nErhöhte die Füllmenge der Gießkanne."
+perkLivingOffTheLandRank3LongDesc,perk,farming,"Triple the harvest of wild or planted crops. \n\nIncreased the capacity of the watering can.","Verdreifache die Ernte von wilden oder angepflanzten Feldfrüchten. \n\nErhöhte die Füllmenge der Gießkanne."
+
+h7sb_plantDesc,block,desc,"Seeds can be planted (RMB) in beds or farmland and require compost and water to grow. \n\nSeeds placed outside beds disappear after fertilizing but can used this way as decoration.","Samen können in Beete oder Ackerboden gepflanzt (RMB) werden und benötigen Kompost und Wasser zum wachsen. \n\nSamen, die außerhalb der Beete ausgesät werden, verschwinden nach der Befruchtung, können aber auf diese Weise als Dekoration verwendet werden."
+
+seedMushroom,item,farming,Mushroom Spores,Pilzsporen
+seedMushroomFert,block,farming,Mushroom Spores ([B1907F]fertilize[-]),Pilzsporen ([B1907F]düngen[-])
+seedMushroomWater,block,farming,Mushroom Spores ([80cee1]dry[-]),Pilzsporen ([80cee1]trocken[-])
+plantedMushroom1,block,farming,Mushroom Spores ([77dd77]grows[-]),Pilzsporen ([77dd77]wächst[-])
+plantedMushroomWater,block,farming,Mushroom ([80cee1]dry[-]),Pilz ([80cee1]trocken[-])
+plantedMushroom2,block,farming,Mushroom ([77dd77]grows[-]),Pilz ([77dd77]wächst[-])
+
+seedYucca,item,farming,Yucca Seed,Yucca Samen
+seedYuccaFert,block,farming,Yucca Seed ([B1907F]fertilize[-]),Yucca Samen ([B1907F]düngen[-])
+seedYuccaWater,block,farming,Yucca Seed ([80cee1]dry[-]),Yucca Samen ([80cee1]trocken[-])
+plantedYucca1,block,farming,Yucca Seed ([77dd77]grows[-]),Yucca Samen ([77dd77]wächst[-])
+plantedYuccaWater,block,farming,Yucca ([80cee1]dry[-]),Yucca ([80cee1]trocken[-])
+plantedYucca2,block,farming,Yucca ([77dd77]grows[-]),Yucca ([77dd77]wächst[-])
+
+seedCotton,item,farming,Cotton Seed,Baumwolle Samen
+seedCottonFert,block,farming,Cotton Seed ([B1907F]fertilize[-]),Baumwolle Samen ([B1907F]düngen[-])
+seedCottonWater,block,farming,Cotton Seed ([80cee1]dry[-]),Baumwolle Samen ([80cee1]trocken[-])
+plantedCotton1,block,farming,Cotton Seed ([77dd77]grows[-]),Baumwolle Samen ([77dd77]wächst[-])
+plantedCottonWater,block,farming,Cotton ([80cee1]dry[-]),Baumwolle ([80cee1]trocken[-])
+plantedCotton2,block,farming,Cotton ([77dd77]grows[-]),Baumwolle ([77dd77]wächst[-])
+
+seedCoffee,item,farming,Coffee Seed,Kaffee Samen
+seedCoffeeFert,block,farming,Coffee Seed ([B1907F]fertilize[-]),Kaffee Samen ([B1907F]düngen[-])
+seedCoffeeWater,block,farming,Coffee Seed ([80cee1]dry[-]),Kaffee Samen ([80cee1]trocken[-])
+plantedCoffee1,block,farming,Coffee Seed ([77dd77]grows[-]),Kaffee Samen ([77dd77]wächst[-])
+plantedCoffeeWater,block,farming,Coffee ([80cee1]dry[-]),Kaffee ([80cee1]trocken[-])
+plantedCoffee2,block,farming,Coffee ([77dd77]grows[-]),Kaffee ([77dd77]wächst[-])
+
+seedGoldenrod,item,farming,Goldenrod Seed,Goldrute Samen
+seedGoldenrodFert,block,farming,Goldenrod Seed ([B1907F]fertilize[-]),Goldrute Samen ([B1907F]düngen[-])
+seedGoldenrodWater,block,farming,Goldenrod Seed ([80cee1]dry[-]),Goldrute Samen ([80cee1]trocken[-])
+plantedGoldenrod1,block,farming,Goldenrod Seed ([77dd77]grows[-]),Goldrute Samen ([77dd77]wächst[-])
+plantedGoldenrodWater,block,farming,Goldenrod ([80cee1]dry[-]),Goldrute ([80cee1]trocken[-])
+plantedGoldenrod2,block,farming,Goldenrod ([77dd77]grows[-]),Goldrute ([77dd77]wächst[-])
+
+seedAloe,item,farming,Aloe Vera Seed,Aloe Vera Samen
+seedAloeFert,block,farming,Aloe Vera Seed ([B1907F]fertilize[-]),Aloe Vera Samen ([B1907F]düngen[-])
+seedAloeWater,block,farming,Aloe Vera Seed ([80cee1]dry[-]),Aloe Vera Samen ([80cee1]trocken[-])
+plantedAloe1,block,farming,Aloe Vera Seed ([77dd77]grows[-]),Aloe Vera Samen ([77dd77]wächst[-])
+plantedAloeWater,block,farming,Aloe Vera ([80cee1]dry[-]),Aloe Vera ([80cee1]trocken[-])
+plantedAloe2,block,farming,Aloe Vera ([77dd77]grows[-]),Aloe Vera ([77dd77]wächst[-])
+
+seedBlueberry,item,farming,Blueberry Seed,Heidelbeeren Samen
+seedBlueberryFert,block,farming,Blueberry Seed ([B1907F]fertilize[-]),Heidelbeeren Samen ([B1907F]düngen[-])
+seedBlueberryWater,block,farming,Blueberry Seed ([80cee1]dry[-]),Heidelbeeren Samen ([80cee1]trocken[-])
+plantedBlueberry1,block,farming,Blueberry Seed ([77dd77]grows[-]),Heidelbeeren Samen ([77dd77]wächst[-])
+plantedBlueberryWater,block,farming,Blueberry ([80cee1]dry[-]),Heidelbeeren ([80cee1]trocken[-])
+plantedBlueberry2,block,farming,Blueberry ([77dd77]grows[-]),Heidelbeeren ([77dd77]wächst[-])
+
+seedPotato,item,farming,Potato Seed,Kartoffel Samen
+seedPotatoFert,blockFert,farming,Potato Seed ([B1907F]fertilize[-]),Kartoffel Samen ([B1907F]düngen[-])
+seedPotatoWater,block,farming,Potato Seed ([80cee1]dry[-]),Kartoffel Samen ([80cee1]trocken[-])
+plantedPotato1,block,farming,Potato Seed ([77dd77]grows[-]),Kartoffel Samen ([77dd77]wächst[-])
+plantedPotatoWater,block,farming,Potato ([80cee1]dry[-]),Kartoffel ([80cee1]trocken[-])
+plantedPotato2,block,farming,Potato ([77dd77]grows[-]),Kartoffel ([77dd77]wächst[-])
+
+seedChrysanthemum,item,farming,Chrysanthemum Seed,Chrysantheme Samen
+seedChrysanthemumFert,block,farming,Chrysanthemum Seed ([B1907F]fertilize[-]),Chrysantheme Samen ([B1907F]düngen[-])
+seedChrysanthemumWater,block,farming,Chrysanthemum Seed ([80cee1]dry[-]),Chrysantheme Samen ([80cee1]trocken[-])
+plantedChrysanthemum1,block,farming,Chrysanthemum Seed ([77dd77]grows[-]),Chrysantheme Samen ([77dd77]wächst[-])
+plantedChrysanthemumWater,block,farming,Chrysanthemum ([80cee1]dry[-]),Chrysantheme ([80cee1]trocken[-])
+plantedChrysanthemum2,block,farming,Chrysanthemum ([77dd77]grows[-]),Chrysantheme ([77dd77]wächst[-])
+
+seedCorn,item,farming,Corn Seed,Mais Samen
+seedCornFert,block,farming,Corn Seed ([B1907F]fertilize[-]),Mais Samen ([B1907F]düngen[-])
+seedCornWater,block,farming,Corn Seed ([80cee1]dry[-]),Mais Samen ([80cee1]trocken[-])
+plantedCorn1,block,farming,Corn Seed ([77dd77]grows[-]),Mais Samen ([77dd77]wächst[-])
+plantedCornWater,block,farming,Corn ([80cee1]dry[-]),Mais ([80cee1]trocken[-])
+plantedCorn2,block,farming,Corn ([77dd77]grows[-]),Mais ([77dd77]wächst[-])
+
+seedGraceCorn,item,farming,Super Corn Seed,Super Mais Samen
+seedGraceCornFert,block,farming,Super Corn Seed ([B1907F]fertilize[-]),Super Mais Samen ([B1907F]düngen[-])
+seedGraceCornWater,block,farming,Super Corn Seed ([80cee1]dry[-]),Super Mais Samen ([80cee1]trocken[-])
+plantedGraceCorn1,block,farming,Super Corn Seed ([77dd77]grows[-]),Super Mais Samen ([77dd77]wächst[-])
+plantedGraceCornWater,block,farming,Super Corn ([80cee1]dry[-]),Super Mais ([80cee1]trocken[-])
+plantedGraceCorn2,block,farming,Super Corn ([77dd77]grows[-]),Super Mais ([77dd77]wächst[-])
+
+seedHop,item,farming,Hop Seed,Hopfen Samen
+seedHopFert,block,farming,Hop Seed ([B1907F]fertilize[-]),Hopfen Samen ([B1907F]düngen[-])
+seedHopWater,block,farming,Hop Seed ([80cee1]dry[-]),Hopfen Samen ([80cee1]trocken[-])
+plantedHop1,block,farming,Hop Seed ([77dd77]grows[-]),Hopfen Samen ([77dd77]wächst[-])
+plantedHopWater,block,farming,Hop ([80cee1]dry[-]),Hopfen ([80cee1]trocken[-])
+plantedHop2,block,farming,Hop ([77dd77]grows[-]),Hopfen ([77dd77]wächst[-])
+
+seedSnowberry,item,farming,Snowberry Seed,Schneebeeren Samen
+seedSnowberryFert,block,farming,Snowberry Seed ([B1907F]fertilize[-]),Schneebeeren Samen ([B1907F]düngen[-])
+seedSnowberryWater,block,farming,Snowberry Seed ([80cee1]dry[-]),Schneebeeren Samen ([80cee1]trocken[-])
+plantedSnowberry1,block,farming,Snowberry Seed ([77dd77]grows[-]),Schneebeeren Samen ([77dd77]wächst[-])
+plantedSnowberryWater,block,farming,Snowberry ([80cee1]dry[-]),Schneebeeren ([80cee1]trocken[-])
+plantedSnowberry2,block,farming,Snowberry ([77dd77]grows[-]),Schneebeeren ([77dd77]wächst[-])
+
+seedPumpkin,block,farming,Pumpkin Seed,Kürbis Samen
+seedPumpkinFert,block,farming,Pumpkin Seed ([B1907F]fertilize[-]),Kürbis Samen (düngen)
+seedPumpkinWater,block,farming,Pumpkin Seed ([80cee1]dry[-]),Kürbis Samen ([80cee1]trocken[-])
+plantedPumpkin1,block,farming,Pumpkin Seed ([77dd77]grows[-]),Kürbis Samen ([77dd77]wächst[-])
+plantedPumpkinWater,block,farming,Pumpkin ([80cee1]dry[-]),Kürbis ([80cee1]trocken[-])
+plantedPumpkin2,block,farming,Pumpkin ([77dd77]grows[-]),Kürbis ([77dd77]wächst[-])
