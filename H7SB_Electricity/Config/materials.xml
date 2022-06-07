@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB  Electricity ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/materials"> <material id="Mmetal_weak2"> <property name="damage_category" value="metal"/> <property name="surface_category" value="metal"/> <property name="forge_category" value="iron"/> <property name="Hardness" type="float" value="1"/> <property name="stepsound" value="metal"/> <property name="stability_glue" value="120"/> <property name="Mass" type="int" value="10"/> <property name="MaxDamage" value="100"/> <property name="Experience" value="0"/> </material> </append> </eihwaz.de> 

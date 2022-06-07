@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB  Electricity ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']"><item name="futurTecSchematic" prob="0.1"/></append> <append xpath="/lootcontainers/lootgroup[@name='groupElectricalDevices']"> <item name="h7sb_CD_disco" prob="0.15"/> <item name="h7sb_CD_biomes" prob="0.15"/> <item name="h7sb_CD_rain" prob="0.15"/> </append> </eihwaz.de> 

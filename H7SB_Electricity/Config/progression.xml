@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB  Electricity ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,h7sb_switchHelper,h7sb_pressureplateHelper,h7sb_pressureplateLongHelper,h7sb_relayHelper,h7sb_relayTimedHelper,h7sb_fuseBox,h7sb_bladeTrapHelper</append> <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,h7sb_batterybankHelper,h7sb_generatorbank,h7sb_hotWireFencepost,h7sb_acidThrower,h7sb_ammoAcid</append> <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,h7sb_controlPanelSwitchHelper,h7sb_controlPanelFillerHelper,h7sb_nearFieldGenerator,h7sb_generatorbankLarge,h7sb_largeEngine,h7sb_laptop,resourceGoldNugget</append>  <append xpath="/progression/perks/perk[@name='perkTurrets']"><effect_group><passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="h7sb_turretAuger,h7sb_turretChainsaw"/></effect_group></append> </eihwaz.de>

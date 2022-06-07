@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>  <remove xpath="//item[@name='candle']"/>   <remove xpath="//item[@name='ceilingLight01_player']"/> <append xpath="/traders/trader_item_groups/trader_item_group[@name='traderElectrical']"><item name="h7sb_lightsVariantHelper" count="1,6" prob="1.0"/></append> </eihwaz.de> 

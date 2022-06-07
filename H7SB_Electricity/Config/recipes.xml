@@ -1,0 +1,173 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB  Electricity ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Switch -->
+<remove xpath="/recipes/recipe[@name='switch']"/>
+<append xpath="/recipes">
+<recipe name="h7sb_switchHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+	<ingredient name="resourceForgedIron" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+</append>
+
+<!-- Pressureplates -->
+<remove xpath="/recipes/recipe[@name='pressureplate']"/>
+<remove xpath="/recipes/recipe[@name='pressureplateLong']"/>
+<append xpath="/recipes">
+<recipe name="h7sb_pressureplateHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+<recipe name="h7sb_pressureplateLongHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="60"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+</recipe>
+</append>
+
+<!-- Relay/Fusebox -->
+<remove xpath="/recipes/recipe[@name='electrictimerrelay']"/>
+<remove xpath="/recipes/recipe[@name='electricwirerelay']"/>
+<append xpath="/recipes">
+<recipe name="h7sb_relayHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+<recipe name="h7sb_relayTimedHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+</recipe>
+<recipe name="h7sb_fuseBox" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="8"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+</append>
+
+<!-- Batterbank/Generator -->
+<remove xpath="/recipes/recipe[@name='batterybank']"/>
+<remove xpath="/recipes/recipe[@name='generatorbank']"/>
+<append xpath="/recipes">
+<recipe name="h7sb_batterybankHelper" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceElectricParts" count="12"/>
+	<ingredient name="resourceScrapPolymers" count="16"/>
+</recipe>
+<recipe name="generatorbank" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="16"/>
+	<ingredient name="resourceMechanicalParts" count="12"/>
+	<ingredient name="resourceElectricParts" count="14"/>
+</recipe>
+<recipe name="h7sb_generatorbank" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="generatorbank" count="1"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="24"/>
+	<ingredient name="resourceElectricParts" count="14"/>
+</recipe>
+</append>
+
+<!-- Traps -->
+<remove xpath="/recipes/recipe[@name='bladeTrap']"/>
+<append xpath="/recipes">
+<recipe name="h7sb_hotWireFencepost" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="resourceElectricParts" count="3"/>
+</recipe>
+<recipe name="h7sb_acidThrower" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="32"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="24"/>
+</recipe>
+<recipe name="h7sb_ammoAcid" count="24" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="foodRottingFlesh" count="24"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+<recipe name="h7sb_bladeTrapHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+</append>
+
+<!-- Turrets -->
+<append xpath="/recipes">
+<recipe name="h7sb_turretAuger" count="1" craft_area="workbench" tags="perkTurrets,learnable">
+	<ingredient name="gunBotRoboticsParts" count="4"/>
+	<ingredient name="resourceForgedSteel" count="40"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="meleeToolPickT3Auger" count="1"/>
+</recipe>
+<recipe name="h7sb_turretChainsaw" count="1" craft_area="workbench" tags="perkTurrets,learnable">
+	<ingredient name="gunBotRoboticsParts" count="4"/>
+	<ingredient name="resourceForgedSteel" count="40"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="meleeToolAxeT3Chainsaw" count="1"/>
+</recipe>
+</append>
+
+<!-- Futur Tec -->
+<append xpath="/recipes">
+<!--gold-->
+<recipe name="resourceGoldNugget" count="3" craft_area="chemistryStation" tags="perkAdvancedEngineering,learnable" >
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="resourceElectricParts" count="96"/>
+</recipe>
+<!--control panel (switch)-->
+<recipe name="h7sb_controlPanelSwitchHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="h7sb_switchHelper" count="1"/>
+	<ingredient name="resourceGoldNugget" count="1"/>
+</recipe>
+<recipe name="h7sb_controlPanelFillerHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+	<ingredient name="resourceForgedSteel" count="12"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+<!--nearFieldGenerator-->
+<recipe name="h7sb_nearFieldGenerator" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceElectricParts" count="12"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceGoldNugget" count="2"/>
+</recipe>
+<!--generator-->
+<recipe name="h7sb_generatorbankLarge" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="h7sb_generatorbank" count="4"/>
+	<ingredient name="resourceForgedSteel" count="36"/>
+	<ingredient name="resourceScrapPolymers" count="48"/>
+	<ingredient name="resourceElectricParts" count="14"/>
+	<ingredient name="resourceGoldNugget" count="3"/>
+</recipe>
+<recipe name="h7sb_largeEngine" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="smallEngine" count="4"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceGoldNugget" count="1"/>
+</recipe>
+<recipe name="h7sb_laptop" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedSteel" count="12"/>
+	<ingredient name="resourceScrapPolymers" count="24"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceGoldNugget" count="3"/>
+</recipe>
+</append>
+</eihwaz.de>

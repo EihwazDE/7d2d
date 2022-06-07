@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/entity_classes/entity_class[@name='junkTurretSledge']/property[@name='Tags']/@value">,turretLight,turretSledge</append><append xpath="/entity_classes/entity_class[@name='junkTurretGun']/property[@name='Tags']/@value">,turretLight,turretGun</append></eihwaz.de>

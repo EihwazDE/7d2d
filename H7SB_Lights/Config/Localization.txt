@@ -1,0 +1,92 @@
+Key,Source,Context,English,German
+h7sb_lights_edit,description,main,This block was changed by H7SB Lights Mod. Use the ignitable variant in the game!,Dieser Block wurde verändert durch die H7SB Lights Mod. Verwende im Spiel die entzündbare Variante!
+
+h7sb_flint,items,light,Flint,Feuerstein
+h7sb_flintDesc,description,light,"The flint is used to ignite (RMB) flammable objects like torches. \n\nCandles require additional animal fat. \nFire bowls require additional coal. \nLantern require additional fuel.","Der Feuerstein wird verwendet (RMB) um entzündbare Gegenstände wie Fackeln zu entflammen. \n\nKerzen benötigen zusätzlich Tierfett. \nFeuerschalen benötigen zusätzlich Kohle. \nLaternen benötigen zusätzlich Benzin."
+h7sb_lighter,items,light,Lighter,Feuerzeug
+h7sb_lighterDesc,description,light,"The lighter is used to quickly ignite (RMB) flammable objects like torches. \n\nCandles require additional animal fat. \nFire bowls require additional coal. \nLantern require additional fuel.","Das Feuerzeug wird verwendet (RMB) um schnell entzündbare Gegenstände wie Fackeln zu entflammen. \n\nKerzen benötigen zusätzlich Tierfett. \nFeuerschalen benötigen zusätzlich Kohle. \nLaternen benötigen zusätzlich Benzin."
+
+meleeToolTorch,items,light,Torch ([ffff99]ignitable[-]),Fackel ([ffff99]entzündbar[-])
+meleeToolTorchLitUp,items,light,Torch,Fackel
+torchWallHolder,blocks,light,Torch ([cfcfc4]burned out[-]),Fackel ([cfcfc4]ausgebrannt[-])
+torchFlammable,blocks,light,Torch ([ffff99]ignitable[-]),Fackel ([ffff99]entzündbar[-])
+wallTorchLight,blocks,light,Torch POI,Fackel POI
+wallTorchLightPlayer,blocks,light,Torch,Fackel
+wallTorchLightPlayerPlaced,blocks,light,Torch,Fackel
+torchFlammableDesc,description,light,"Place (RMB) the torch and then light it with a flint or lighter. Optionally, it can also be ignited in other fire sources (LMB). You can pick it up again by pressing the E button.","Platziere (RMB) die Fackel, um sie anschließend mit einem Feuerstein oder Feuerzeug zu entzünden. Optional kann sie auch an anderen Feuerquellen entflammt werden (LMB). Durch drücken der E-Taste kannst du sie wieder aufheben."
+torchLitUpDesc,description,light,"The burning torch gives you light and can set enemies (LMB) on fire. \n\nAfter placing (RMB) you have a short moment to pick it up again with the E button before it slowly burns.","Die brennende Fackel spendet dir Licht und kann getroffene Gegner (LMB) in Brand setzten. \n\nNach dem platzieren (RMB) hast du einen kurzen Moment um sie wieder aufzuheben mit der E-Taste, bevor sie langsam verbrennt."
+
+candleWallLight,blocks,light,Candle ([cfcfc4]burned out[-]),Kerze ([cfcfc4]ausgebrannt[-])
+candleTableLight,blocks,light,Candle ([cfcfc4]burned out[-]),Kerze ([cfcfc4]ausgebrannt[-])
+candleFlammable,blocks,light,Candle ([ffff99]ignitable[-]),Kerze ([ffff99]entzündbar[-])
+candleWallFlammable,blocks,light,Candle ([ffff99]ignitable[-]),Kerze ([ffff99]entzündbar[-])
+candleWallLightPlayer,blocks,light,Candle,Kerze
+candleTableLightPlayer,blocks,light,Candle,Kerze
+candleFlammableDesc,description,light,"Candles can be lit with a flint or a lighter and animal fat. If the block is destroyed, the light goes out and can be re-lit or picked up.","Kerzen können mit einem Feuerstein oder Feuerzeug und Tierfett entzündet werden. Zerstört man den Block erlischt das Licht und kann neu entzündet oder aufgehoben werden."
+
+burningBarrel,blocks,light,Fire Bowl ([cfcfc4]burned out[-]),Feuerschale ([cfcfc4]ausgebrannt[-])
+FlammableBarrel,blocks,light,Fire Bowl ([ffff99]ignitable[-]),Feuerschale ([ffff99]entzündbar[-])
+burningBarrelPlayer,blocks,light,Fire Bowl,Feuerschale
+barrelFlammableDesc,description,light,"Fire bowls can be lit with a flint or a lighter and coal. If the block is destroyed, the light goes out and can be re-lit or picked up.","Feuerschalen können mit einem Feuerstein oder Feuerzeug und Kohle entzündet werden. Zerstört man den Block erlischt das Licht und kann neu entzündet oder aufgehoben werden."
+
+lanternDecorLight,blocks,light,Lantern ([cfcfc4]broken[-]),Laterne ([cfcfc4]defekt[-])
+FlameableLantern,blocks,light,Lantern ([ffff99]ignitable[-]),Laterne ([ffff99]entzündbar[-])
+lanternLight_player,blocks,light,Lantern,Laterne
+lanternFlammableDesc,description,light,"Lanterns can be lit with a flint or a lighter and gas. If the block is destroyed, the light goes out and can be re-lit or picked up.","Laternen können mit einem Feuerstein oder Feuerzeug und Benzin entzündet werden. Zerstört man den Block erlischt das Licht und kann neu entzündet oder aufgehoben werden."
+
+h7sb_lightsVariantHelper,blocks,light,Electric Lighting,Elektrisches Licht
+h7sb_lights_electric,description,light,This block can be connected to a power source to light up.,Dieser Block kann mit einer Stromquelle verbunden werden um zu leuchten.
+h7sb_lights_helper,description,light,This helper block contains all 1-block lights. Its selection can be opened by a long press on the R key.,Dieser Helfer Block beinhaltet alle 1-Block-Lichter. Seine Auswahl kann durch langes drücken der R Taste geöffnet werden.
+h7sb_lights,blocks,light,Light Bulb,Glühbirne
+h7sb_lights2,blocks,light,Industrial Light Bulb,Industrielle Glühbirne
+h7sb_lights3,blocks,light,Industrial Light Bulb (red),Industrielle Glühbirne (rot)
+h7sb_lights4,blocks,light,Desk Lamp,Schreibtischlampe
+h7sb_lights5,blocks,light,Table Lamp,Tischlampe
+h7sb_lights5_1,blocks,light,Table Lamp (centered),Tischlampe (mittig)
+h7sb_lights6,blocks,light,Fluorescent Tube,Leuchtröhre
+h7sb_lights7,blocks,light,Industrial Fluorescent Tube,Industrielle Leuchtröhre
+h7sb_lights8,blocks,light,Wall Lamp (outdoor),Wandlampe (außen)
+h7sb_lights9,blocks,light,Wall Lamp (half),Wandlampe (halb)
+h7sb_lights10,blocks,light,Round Ceiling Lamp (silver),Runde Deckenlampe (silber)
+h7sb_lights11,blocks,light,Round Ceiling Lamp (gold),Runde Deckenlampe (gold)
+h7sb_lights12,blocks,light,Ceiling Lamp,Deckenlampe
+h7sb_lights13,blocks,light,Ceiling Lamp (silver),Deckenlampe (silber)
+h7sb_lights14,blocks,light,Ceiling Lamp (gold),Deckenlampe (gold)
+h7sb_lights15,blocks,light,Shop Sign (open),Ladenschild (geöffnet)
+h7sb_lights16,blocks,light,Shop sign (exit),Ladenschild (ausgang)
+h7sb_lights17,blocks,light,Recessed Light,Versenktes Licht
+h7sb_lights18,blocks,light,Porch Light,Außenlicht
+h7sb_lights19,blocks,light,Porch Light (silver),Außenlicht (silber)
+h7sb_lights20,blocks,light,Porch Light (gold),Außenlicht (gold)
+
+h7sb_lightsTable,blocks,light,Bedside Table,Nachttisch
+h7sb_lightsFan,blocks,light,Fan,Ventilator
+
+h7sb_lightsWorkside,blocks,light,Construction Site Light,Baustellenlicht
+h7sb_lightsRoadBarricade,blocks,light,Road Closure,Straßenabsperrung
+h7sb_crossWalk,blocks,light,Crosswalk,Fußgängerüberweg
+h7sb_trafficLight1,blocks,light,Traffic Light (center),Ampel (mitte)
+h7sb_trafficLight2,blocks,light,Traffic Light,Ampel
+h7sb_streetTrafficHelper,blocks,light,Street Traffic,Straßenverkehr
+
+h7sb_PillsLogoS,blocks,light,Sign: Pop N Pills (small),Schild: Pop N Pills (klein)
+h7sb_PillsLogoL,blocks,light,Sign: Pop N Pills (large),Schild: Pop N Pills (groß)
+h7sb_xRay1,blocks,light,X Ray Display,Röntgenbilder
+h7sb_xRay2,blocks,light,X Ray Display,Röntgenbilder
+h7sb_medicalLightHelper,blocks,light,Electric Lighting (Medical),Elektrisches Licht (Medizinisch)
+
+h7sb_projector1,blocks,light,Projector (Table),Projektor (Tisch)
+h7sb_projector1,blocks,light,Projector (Ceiling),Projektor (Decke)
+h7sb_projectorHelper,blocks,light,Projector,Projektor
+
+h7sb_lightsHall,blocks,light,Spotlights,Strahler
+h7sb_lightsHallIndustrial,blocks,light,Hall Light,Flurlicht
+h7sb_multiDimLightsHelper,blocks,light,Ceiling Chandelier,Deckenleuchten
+
+h7sb_lightsStreetClassic,blocks,light,Street Lamp,Straßenlaterne
+
+lightCheck,buff,Battery Charge,Batterieladung
+lightCheckDesc,desc,"Displays the current charge level of your battery. \n\nBy hitting a turret, you can activate its light for 3 minutes.","Zeigt den aktuellen Ladestand deiner Batterie an. \n\nDurch einen Schlag auf einen Geschützturm kann man sein Licht für 3 Minuten aktivieren."
+
+gunBotT1JunkSledgeDesc,desc,"You may not be good at punching but you have the technology. You can also deploy this on the ground using the Secondary action. \n\nYou can activate the light by hitting it if your battery is charged.","Du schlägst vielleicht nicht so fest zu, aber du hast die nötige Technologie. Kann mit der sekundären Aktion auf dem Boden stationiert werden. \n\nSie können das Licht aktivieren, indem Sie es anschlagen, wenn Ihr Akku geladen ist."
+gunBotT2JunkTurretDesc,desc,"This contraption can be fired and reloaded like a gun. You can also deploy it on the ground using the Secondary action. \n\nYou can activate the light by hitting it if your battery is charged.","Diese Vorrichtung kann wie eine Waffe abgefeuert und nachgeladen werden. Kann mit der sekundären Aktion auf dem Boden stationiert werden. \n\nSie können das Licht aktivieren, indem Sie es anschlagen, wenn Ihr Akku geladen ist."
