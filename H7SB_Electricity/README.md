@@ -2,7 +2,7 @@
 
 **VERSION 1.0** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
---- [**Video Preview**](https://www.eihwaz.de) (*click me*) ---
+--- [**Video Preview**](https://www.youtube.com/watch?v=9ayQq4Ty_EQ) (*click me*) ---
 
 Leave a thumbs up on the mod (preview) you like to ensure that it gets an update for A21.
 
