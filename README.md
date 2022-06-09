@@ -15,7 +15,7 @@ All H7SB mods are server side and only need to be installed by the host or serve
 - [x] **H7SB Carts** - Contains pushable carts with inventory and passenger seats. [**Preview**](https://www.youtube.com/watch?v=6SlnCmN3nKQ)
 - [x] **H7SB Domestication** Contains catching/keeping/breeding of chicken/boars. [**Preview**](https://www.youtube.com/watch?v=Fmb-ltGn2Ac)
 - [x] **H7SB Doors** Contains color variations of all vanilla doors (not gates). [**Preview**](https://www.youtube.com/watch?v=GyH2dzPl7DQ)
-- [x] **H7SB Electricity** Contains quality of life improvements and new components. [**Preview**](https://www.eihwaz.de)
+- [x] **H7SB Electricity** Contains quality of life improvements and new components. [**Preview**](https://www.youtube.com/watch?v=9ayQq4Ty_EQ)
 - [x] **H7SB Farming** Contains a new compost-system and plant watering. [**Preview**](https://www.youtube.com/watch?v=lKlbDbP5Ngs)
 - [x] **H7SB Fishing** Contains a quick time based fishing system. [**Preview**](https://www.youtube.com/watch?v=ut__sSTPLf8)
 - [x] **H7SB Furnitures** Contains various decoration blocks and storages. [**Preview**](https://www.youtube.com/watch?v=Th4V5ptCZWc)
