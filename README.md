@@ -34,4 +34,4 @@ All H7SB mods are server side and only need to be installed by the host or serve
  
 --- --- --- --- --- --- --- --- ---
 
-*All check marked mods/pois are updated and functional for A20.4*
+*All check marked mods/pois are updated and functional for A20.6*
