@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Admin Blocks ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/gameevents">  <action_sequence name="debug_vehicleAdminBlocks"><action class="EjectFromVehicle"><property name="phase" value="0" /></action></action_sequence>  <action_sequence name="action_oilyGround"> <action class="FlipRotation"> <property name="phase" value="0" /> </action> <action class="Delay"> <property name="phase" value="1" /> <property name="time" value="0.3" /> </action> <action class="FlipRotation"> <property name="phase" value="2" /> </action> <action class="Delay"> <property name="phase" value="3" /> <property name="time" value="0.3" /> </action> <action class="FlipRotation"> <property name="phase" value="4" /> </action> </action_sequence>  <action_sequence name="spawn_acidBarrel"> <action class="SpawnEntity"> <property name="entity_names" value="acidBarrel" /> <property name="spawn_count" value="1" param1="spawncount" /> <property name="min_distance" value="0" /> <property name="max_distance" value="0" /> </action> </action_sequence>  <action_sequence name="spawn_bombBarrel"> <action class="SpawnEntity"> <property name="entity_names" value="bombBarrel" /> <property name="spawn_count" value="1" param1="spawncount" /> <property name="min_distance" value="0" /> <property name="max_distance" value="0" /> </action> </action_sequence> <action_sequence name="tp_bombBarrel"> <action class="Explode"> <property name="phase" value="0" /> <property name="blast_power" value="0" /> <property name="block_damage" value="0" /> <property name="block_radius" value="0" /> <property name="entity_damage" value="0" /> <property name="entity_radius" value="0" /> </action> <action class="Teleport"> <property name="phase" value="0" /> <property name="target_position" value="0,2,0" /> <property name="offset_type" value="Relative" /> </action> </action_sequence> </append> </eihwaz.de> 

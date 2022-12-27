@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Admin Blocks ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/xui/ruleset"> <window_group name="workstation_h7sb_adminMisc_campfire" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowToolsCampfire" /> <window name="windowFuel" /> <window name="windowOutput" /> <window name="windowNonPagingHeader" /> </window_group> <window_group name="workstation_h7sb_adminMisc_forge" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowToolsForge" /> <window name="windowFuel" /> <window name="windowForgeInput" /> <window name="windowOutput" /> <window name="windowNonPagingHeader" /> </window_group> <window_group name="workstation_h7sb_adminMisc_workbench" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowOutput" /> <window name="windowNonPagingHeader" /> </window_group> <window_group name="workstation_h7sb_adminMisc_chemistryStation" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowFuel" /> <window name="windowOutput" /> <window name="windowNonPagingHeader" /> </window_group> <window_group name="workstation_h7sb_adminMisc_cementMixer" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true"> <window name="windowCraftingList"/> <window name="craftingInfoPanel"/> <window name="windowCraftingQueue"/> <window name="windowOutput" /> <window name="windowNonPagingHeader" /> </window_group> </append> </eihwaz.de> 

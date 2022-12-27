@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Admin Blocks ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/materials"> <material id="Meihwaz"> <property name="damage_category" value="stone"/> <property name="surface_category" value="stone"/> <property name="stepsound" value="stone"/> <property name="particle_destroy_category" value="metal"/> <property name="Hardness" type="float" value="99999"/> <property name="explosionresistance" value="99999"/> <property name="stability_glue" value="99999"/> <property name="Mass" type="int" value="1"/> <property name="MaxDamage" value="999999"/> <property name="Experience" value="0"/> </material> <material id="Mzweiwaz"> <property name="damage_category" value="stone"/> <property name="surface_category" value="stone"/> <property name="stepsound" value="stone"/> <property name="Hardness" type="float" value="99999"/> <property name="explosionresistance" value="99999"/> <property name="stability_glue" value="99999"/> <property name="Mass" type="int" value="1"/> <property name="MaxDamage" value="1"/> <property name="Experience" value="0"/> </material> </append> <append xpath="/materials/material[@id='Mbedrock']"> <property name="damage_category" value="stone"/> <property name="surface_category" value="stone"/> <property name="stepsound" value="stone"/> <property name="Hardness" type="float" value="99999"/> <property name="explosionresistance" value="99999"/> <property name="stability_glue" value="99999"/> <property name="Mass" type="int" value="1"/> <property name="MaxDamage" value="99999"/> <property name="Experience" value="0"/> </append> </eihwaz.de> 

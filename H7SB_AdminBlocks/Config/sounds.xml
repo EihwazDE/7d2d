@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+### H7SB Admin Blocks ###
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/Sounds" ><SoundDataNode name="h7sb_kartFlash"> <AudioSource name="Sounds/AudioSource_Explosion"/><Noise ID="2" noise="15" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/ambient_oneshots/a_thunder1"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/></SoundDataNode></append> <append xpath="/Sounds" ><SoundDataNode name="h7sb_kartFlash1"> <AudioSource name="Sounds/AudioSource_Explosion"/><Noise ID="2" noise="15" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/ambient_oneshots/a_thunder5"/><LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/></SoundDataNode></append> <append xpath="/Sounds" ><SoundDataNode name="h7sb_kartBarrel"> <AudioSource name="Sounds/AudioSource_Explosion"/><Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/><AudioClip ClipName="Sounds/UseActions/open_cooler"/><LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode></append> </eihwaz.de>
