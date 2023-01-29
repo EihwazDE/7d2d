@@ -8,7 +8,7 @@ Leave a thumbs up on the mod (preview) you like to ensure that it gets an update
 
 Mods (previews) with less thumbs up may be depreciated and deleted.
 
---- Credits: Arramus ---
+--- Credits: Arramus, ranshin (FR) ---
 
 --- --- --- --- --- --- --- --- ---
 
