@@ -1,0 +1,10 @@
+Key,Source,Context,English,German,French
+
+perkPackMuleRank1LongDesc,progression,backpack,"This ability unlocks a total of 4 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 4 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 4 emplacements d'inventaire supplémentaires"
+perkPackMuleRank2LongDesc,progression,backpack,"This ability unlocks a total of 8 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 8 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 8 emplacements d'inventaire supplémentaires"
+perkPackMuleRank3LongDesc,progression,backpack,"This ability unlocks a total of 12 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 12 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 12 emplacements d'inventaire supplémentaires"
+perkPackMuleRank4LongDesc,progression,backpack,"This ability unlocks a total of 18 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 18 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 18 emplacements d'inventaire supplémentaires"
+perkPackMuleRank5LongDesc,progression,backpack,"This ability unlocks a total of 24 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 24 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 24 emplacements d'inventaire supplémentaires"
+
+modClothingStoragePocketDesc,desc,pocket,"This pocket mod unlocks 3 additional inventory slots.","Diese Taschen Mod schaltet 3 zusätzliche Inventarplätze frei.","Ce mod de poche débloque 3 emplacements d'inventaire supplémentaires"
+modClothingCargoStoragePocketDesc,itemMods,desc,"This pocket mod unlocks 6 additional inventory slots.","Diese Taschen Mod schaltet 6 zusätzliche Inventarplätze frei.","Ce mod de poche débloque 6 emplacements d'inventaire supplémentaires"
