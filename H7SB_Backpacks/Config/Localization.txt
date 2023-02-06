@@ -1,0 +1,34 @@
+Key,Source,Context,English,German,French
+
+h7sb_backpackRemove,main,remove,This item has been removed by the H7SB Backpacks Mod. It is still there to avoid errors but has no effect!,Dieser Gegenstand wurde durch die H7SB Backpacks Mod entfernt. Er ist noch vorhanden um Fehler zu vermeiden aber hat keinen Effekt mehr!,Cet article a été supprimé par le Mod H7SB Backpacks. Il est toujours là pour éviter les erreurs mais n'a plus aucun effet!
+
+perkPackMuleRank1LongDesc,progression,backpack,"This ability unlocks a total of 4 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 4 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 4 emplacements d'inventaire supplémentaires"
+perkPackMuleRank2LongDesc,progression,backpack,"This ability unlocks a total of 8 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 8 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 8 emplacements d'inventaire supplémentaires"
+perkPackMuleRank3LongDesc,progression,backpack,"This ability unlocks a total of 12 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 12 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 12 emplacements d'inventaire supplémentaires"
+perkPackMuleRank4LongDesc,progression,backpack,"This ability unlocks a total of 16 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 16 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 16 emplacements d'inventaire supplémentaires"
+perkPackMuleRank5LongDesc,progression,backpack,"This ability unlocks a total of 20 additional inventory slots.","Diese Fähigkeit schaltet insgesamt 20 zusätzliche Inventarplätze frei.","Cette capacité vous débloque un total de 20 emplacements d'inventaire supplémentaires"
+
+lblEyewear,UI,Tooltip,Accessoire,Accessoire,Accessoire
+lblFace,UI,Tooltip,Back,Rücken,Déplacement
+
+modDyeOrange,mod,backpack,Dye: Orange,Färben: Orange,Teinture: Orange
+
+modClothingStoragePocket,itemMods,pocket,Small Pocket,Kleine Tasche,Petite Poche
+modClothingStoragePocketDesc,desc,pocket,"This pocket mod unlocks 2.5 additional inventory slots.","Diese Taschen Mod schaltet 2.5 zusätzliche Inventarplätze frei.","Ce mod de poche débloque 2.5 emplacements d'inventaire supplémentaires"
+
+modClothingCargoStoragePocket,itemMods,pocket,Large Pocket,Große Tasche,Grande Poche
+modClothingCargoStoragePocketDesc,itemMods,desc,"This pocket mod unlocks 5 additional inventory slots.","Diese Taschen Mod schaltet 5 zusätzliche Inventarplätze frei.","Ce mod de poche débloque 5 emplacements d'inventaire supplémentaires"
+
+h7sb_bumbag,items,backpack,Bumbag,Gürteltasche,Banane (sac)
+h7sb_smallBackpack,items,backpack,Small Backpack,Kleiner Rucksack,Petit Sac à Dos
+h7sb_blueBackpack,items,backpack,Backpack,Rucksack,Sac à Dos
+h7sb_orangeBackpack,items,backpack,Backpack,Rucksack,Sac à Dos
+h7sb_largeBackpack,items,backpack,Large Backpack,Großer Rucksack,Grand Sac à Dos
+
+h7sb_bumbagBlock,block,backpack,Bumbag,Gürteltasche,Banane (sac)
+h7sb_smallBackpackBlock,block,backpack,Small Backpack,Kleiner Rucksack,Petit Sac à Dos
+h7sb_blueBackpackBlock,block,backpack,Backpack,Rucksack,Sac à Dos
+h7sb_orangeBackpackBlock,items,backpack,Backpack,Rucksack,Sac à Dos
+h7sb_largeBackpackBlock,items,backpack,Large Backpack,Großer Rucksack,Grand Sac à Dos
+
+h7sb_backpackDesc,desc,backpack,"Equip this item (W) to unlock more inventory slots or place it (RMB) to use as a storage slot. Destroy the block to pick up the item again.","Rüste diesen Gegenstand aus (W) um mehr Inventarplätze freizuschalten oder platziere ihn (RMB) um ihn als Lagerplatz zu nutzen. Zerstöre den Block um den Gegenstand wieder aufzuheben.","Equipez cet objet (W) pour débloquer d'avantage d'emplacement d'inventaire, ou placez le comme un bloc (Clic Droit) pour l'utilisez comme un coffre de stockage. détruisez le pour le récupérer à nouveau."
