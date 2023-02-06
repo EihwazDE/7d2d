@@ -1,0 +1,182 @@
+Key,Context,English,German,French
+
+h7sb_switchHelper,blocks,Switch,Schalter,Interrupteur
+h7sb_switch_desert,blocks,Switch (desert),Schalter (desert),Interrupteur (desert)
+h7sb_switch_sun,blocks,Switch (sun),Schalter (sun),Interrupteur (sun)
+h7sb_switch_orange,blocks,Switch (orange),Schalter (orange),Interrupteur (orange)
+h7sb_switch_blood,blocks,Switch (blood),Schalter (blood),Interrupteur (blood)
+h7sb_switch_pink,blocks,Switch (pink),Schalter (pink),Interrupteur (pink)
+h7sb_switch_purple,blocks,Switch (purple),Schalter (purple),Interrupteur (purple)
+h7sb_switch_ocean,blocks,Switch (ocean),Schalter (ocean),Interrupteur (ocean)
+h7sb_switch_sky,blocks,Switch (sky),Schalter (sky),Interrupteur (sky)
+h7sb_switch_green,blocks,Switch (green),Schalter (green),Interrupteur (green)
+h7sb_switch_forest,blocks,Switch (forest),Schalter (forest),Interrupteur (forest)
+h7sb_switch_burned,blocks,Switch (burned),Schalter (burned),Interrupteur (burned)
+h7sb_switch_night,blocks,Switch (night),Schalter (night),Interrupteur (night)
+h7sb_switch,blocks,Switch,Schalter,Interrupteur
+
+h7sb_controlPanelSwitchHelper,blocks,Controll Panel (Switch),Schalttafel (Schalter),Panneau de controle (Interrupteur)
+h7sb_controlPanelBase01,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelBase02,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelBase03,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelBase04,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelBase05,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop01,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop02,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop03,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop04,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop05,blocks,Controll Panel,Schalttafel,Panneau de controle
+h7sb_controlPanelTop06,blocks,Controll Panel,Schalttafel,Panneau de controle
+
+h7sb_controlPanelFillerHelper,blocks,Controll Panel (Filler),Schalttafel (Füller),Panneau de controle (remplisseuse)
+h7sb_controlPanelBase06,blocks,Filler,Füller,remplisseuse
+h7sb_controlPanelBase07,blocks,Filler,Füller,remplisseuse
+h7sb_controlPanelBase08,blocks,Filler,Füller,remplisseuse
+h7sb_controlPanelCorner,blocks,Filler,Füller,remplisseuse
+h7sb_controlPanelTop07,blocks,Filler,Füller,remplisseuse
+
+h7sb_switchDesc,desc,"Used to trigger electrical events when activated.","Wird verwendet um elektrische Ereignisse auszulösen, wenn aktiviert.","Utilisé pour changer l'état électrique, lorsqu'il est activé"
+useSwitchLightOff,UI,{0} Switch off,{0} Ausschalten,{0} Interrupteur Eteint
+useSwitchLightOn,UI,{0} Switch on,{0} Einschalten,{0} Interrupteur Allumé
+
+h7sb_pressureplateHelper,blocks,Pressureplate 1x1,Druckplatte 1x1,Plaque de Pression 1x1
+h7sb_pressureplate_desert,blocks,Pressureplate (desert),Druckplatte (desert),Plaque de Pression 1x1 (desert)
+h7sb_pressureplate_sun,blocks,Pressureplate (sun),Druckplatte (sun),Plaque de Pression 1x1 (sun)
+h7sb_pressureplate_orange,blocks,Pressureplate (orange),Druckplatte (orange),Plaque de Pression 1x1 (orange)
+h7sb_pressureplate_blood,blocks,Pressureplate (blood),Druckplatte (blood),Plaque de Pression 1x1 (blood)
+h7sb_pressureplate_pink,blocks,Pressureplate (pink),Druckplatte (pink),Plaque de Pression 1x1 (pink)
+h7sb_pressureplate_purple,blocks,Pressureplate (purple),Druckplatte (purple),Plaque de Pression 1x1 (purple)
+h7sb_pressureplate_ocean,blocks,Pressureplate (ocean),Druckplatte (ocean),Plaque de Pression 1x1 (ocean)
+h7sb_pressureplate_sky,blocks,Pressureplate (sky),Druckplatte (sky),Plaque de Pression 1x1 (sky)
+h7sb_pressureplate_green,blocks,Pressureplate (green),Druckplatte (green),Plaque de Pression 1x1 (green)
+h7sb_pressureplate_forest,blocks,Pressureplate (forest),Druckplatte (forest),Plaque de Pression 1x1 (forest)
+h7sb_pressureplate_burned,blocks,Pressureplate (burned),Druckplatte (burned),Plaque de Pression 1x1 (burned)
+h7sb_pressureplate_night,blocks,Pressureplate (night),Druckplatte (night),Plaque de Pression 1x1 (night)
+
+h7sb_pressureplateLongHelper,blocks,Pressureplate 1x5,Druckplatte 1x5,Plaque de Pression 1x5
+h7sb_pressureplateLong_desert,blocks,Pressureplate (desert),Druckplatte (desert),Plaque de Pression 1x5 (desert)
+h7sb_pressureplateLong_sun,blocks,Pressureplate (sun),Druckplatte (sun),Plaque de Pression 1x5 (sun)
+h7sb_pressureplateLong_orange,blocks,Pressureplate (orange),Druckplatte (orange),Plaque de Pression 1x5 (orange)
+h7sb_pressureplateLong_blood,blocks,Pressureplate (blood),Druckplatte (blood),Plaque de Pression 1x5 (blood)
+h7sb_pressureplateLong_pink,blocks,Pressureplate (pink),Druckplatte (pink),Plaque de Pression 1x5 (pink)
+h7sb_pressureplateLong_purple,blocks,Pressureplate (purple),Druckplatte (purple),Plaque de Pression 1x5 (purple)
+h7sb_pressureplateLong_ocean,blocks,Pressureplate (ocean),Druckplatte (ocean),Plaque de Pression 1x5 (ocean)
+h7sb_pressureplateLong_sky,blocks,Pressureplate (sky),Druckplatte (sky),Plaque de Pression 1x5 (sky)
+h7sb_pressureplateLong_green,blocks,Pressureplate (green),Druckplatte (green),Plaque de Pression 1x5 (green)
+h7sb_pressureplateLong_forest,blocks,Pressureplate (forest),Druckplatte (forest),Plaque de Pression 1x5 (forest)
+h7sb_pressureplateLong_burned,blocks,Pressureplate (burned),Druckplatte (burned),Plaque de Pression 1x5 (burned)
+h7sb_pressureplateLong_night,blocks,Pressureplate (night),Druckplatte (night),Plaque de Pression 1x5 (night)
+
+h7sb_pressureplateDesc,desc,"Used to trigger electrical events when stepped on.","Wird verwendet um elektrische Ereignisse auszulösen.","Sert à déclencher des événements électriques si quelque chose marche dessus."
+
+h7sb_relayHelper,blocks,Electric Wire Relay,Elektrokabelverschaltung,Relaie pour Cable Electrique
+h7sb_relay_desert,blocks,Electric Wire Relay (desert),Elektrokabelverschaltung (desert),Relaie pour Cable Electrique (desert)
+h7sb_relay_sun,blocks,Electric Wire Relay (sun),Elektrokabelverschaltung (sun),Relaie pour Cable Electrique (sun)
+h7sb_relay_orange,blocks,Electric Wire Relay (orange),Elektrokabelverschaltung (orange),Relaie pour Cable Electrique (orange)
+h7sb_relay_blood,blocks,Electric Wire Relay (blood),Elektrokabelverschaltung (blood),Relaie pour Cable Electrique (blood)
+h7sb_relay_pink,blocks,Electric Wire Relay (pink),Elektrokabelverschaltung (pink),Relaie pour Cable Electrique (pink)
+h7sb_relay_purple,blocks,Electric Wire Relay (purple),Elektrokabelverschaltung (purple),Relaie pour Cable Electrique (purple)
+h7sb_relay_ocean,blocks,Electric Wire Relay (ocean),Elektrokabelverschaltung (ocean),Relaie pour Cable Electrique (ocean)
+h7sb_relay_sky,blocks,Electric Wire Relay (sky),Elektrokabelverschaltung (sky),Relaie pour Cable Electrique (sky)
+h7sb_relay_green,blocks,Electric Wire Relay (green),Elektrokabelverschaltung (green),Relaie pour Cable Electrique (green)
+h7sb_relay_forest,blocks,Electric Wire Relay (forest),Elektrokabelverschaltung (forest),Relaie pour Cable Electrique (forest)
+h7sb_relay_burned,blocks,Electric Wire Relay (burned),Elektrokabelverschaltung (burned),Relaie pour Cable Electrique (burned)
+h7sb_relay_night,blocks,Electric Wire Relay (night),Elektrokabelverschaltung (night),Relaie pour Cable Electrique (night)
+
+h7sb_relayDesc,desc,"Used to connect and extend wires between electrical components.","Wird verwendet um elektrische Komponenten mit Kabeln zu verbinden.","Utilisé pour connecter ou étendre les cables entre les appareils electriques"
+
+h7sb_relayTimedHelper,blocks,Electric Timer Relay,Elektrozeitschalter-Relais,Relais horaire électrique
+h7sb_relayTimed_desert,blocks,Electric Timer Relay (desert),Elektrozeitschalter-Relais (desert),Relais horaire électrique (desert)
+h7sb_relayTimed_sun,blocks,Electric Timer Relay (sun),Elektrozeitschalter-Relais (sun),Relais horaire électrique (sun)
+h7sb_relayTimed_orange,blocks,Electric Timer Relay (orange),Elektrozeitschalter-Relais (orange),Relais horaire électrique (orange)
+h7sb_relayTimed_blood,blocks,Electric Timer Relay (blood),Elektrozeitschalter-Relais (blood),Relais horaire électrique (blood)
+h7sb_relayTimed_pink,blocks,Electric Timer Relay (pink),Elektrozeitschalter-Relais (pink),Relais horaire électrique (pink)
+h7sb_relayTimed_purple,blocks,Electric Timer Relay (purple),Elektrozeitschalter-Relais (purple),Relais horaire électrique (purple)
+h7sb_relayTimed_ocean,blocks,Electric Timer Relay (ocean),Elektrozeitschalter-Relais (ocean),Relais horaire électrique (ocean)
+h7sb_relayTimed_sky,blocks,Electric Timer Relay (sky),Elektrozeitschalter-Relais (sky),Relais horaire électrique (sky)
+h7sb_relayTimed_green,blocks,Electric Timer Relay (green),Elektrozeitschalter-Relais (green),Relais horaire électrique (green)
+h7sb_relayTimed_forest,blocks,Electric Timer Relay (forest),Elektrozeitschalter-Relais (forest),Relais horaire électrique (forest)
+h7sb_relayTimed_burned,blocks,Electric Timer Relay (burned),Elektrozeitschalter-Relais (burned),Relais horaire électrique (burned)
+h7sb_relayTimed_night,blocks,Electric Timer Relay (night),Elektrozeitschalter-Relais (night),Relais horaire électrique (night)
+
+h7sb_relayTimedDesc,desc,"Wire up one of these to trigger events based on time of day.","Schließe einen davon an, um Ereignisse anhand der Tageszeit auszulösen.","Connectez-en un pour déclencher un évènement en fonction de l'heure de la journée"
+
+h7sb_fuseBox,blocks,Fuse Box,Sicherungskasten,Boite à Fusible
+h7sb_nearFieldGenerator,blocks,Near Field Generator,Nahfeldgenerator,Generateur de Champ Electrique Proche
+
+h7sb_wptDesc,desc,"Used to connect and extend wires between electrical components. All outgoing connections are invisible.","Wird verwendet um elektrische Komponenten mit Kabeln zu verbinden. Alle abgehenden Anschlüsse sind unsichtbar.","Sert à connecter et étendre la connection entre les appareils électrique. Toutes les connections sortantes sont invisibles."
+
+h7sb_batterybankHelper,blocks,Battery Bank,Batteriebank,Banc de Batteries
+h7sb_batterybank_desert,blocks,Battery Bank (desert),Batteriebank (desert),Banc de Batteries (desert)
+h7sb_batterybank_sun,blocks,Battery Bank (sun),Batteriebank (sun),Banc de Batteries (sun)
+h7sb_batterybank_orange,blocks,Battery Bank (orange),Batteriebank (orange),Banc de Batteries (orange)
+h7sb_batterybank_blood,blocks,Battery Bank (blood),Batteriebank (blood),Banc de Batteries (blood)
+h7sb_batterybank_pink,blocks,Battery Bank (pink),Batteriebank (pink),Banc de Batteries (pink)
+h7sb_batterybank_purple,blocks,Battery Bank (purple),Batteriebank (purple),Banc de Batteries (purple)
+h7sb_batterybank_ocean,blocks,Battery Bank (ocean),Batteriebank (ocean),Banc de Batteries (ocean)
+h7sb_batterybank_sky,blocks,Battery Bank (sky),Batteriebank (sky),Banc de Batteries (sky)
+h7sb_batterybank_green,blocks,Battery Bank (green),Batteriebank (green),Banc de Batteries (green)
+h7sb_batterybank_forest,blocks,Battery Bank (forest),Batteriebank (forest),Banc de Batteries (forest)
+h7sb_batterybank_burned,blocks,Battery Bank (burned),Batteriebank (burned),Banc de Batteries (burned)
+h7sb_batterybank_night,blocks,Battery Bank (night),Batteriebank (night),Banc de Batteries (night)
+
+generatorbank,block,Small Generator Bank,Kleiner Generator,Petit Generateur
+h7sb_generatorbank,block,Generator Bank,Generator,Generateur
+h7sb_generatorbankLarge,block,Large Generator Bank,Großer Generator,Gros Generateur
+
+h7sb_powerSourceDesc,desc,"Used to power electrical components.","Wird verwendet um elektrische Komponenten mit Strom zu versorgen.","Sert à générer de l'électricité pour vos appareils électriques"
+
+h7sb_largeEngine,item,Large Engine,Großer Motor,Gros Moteur
+h7sb_largeEngineDesc,desc,"A special part for generators.","Ein oft in Generatoren verwendetes Teil.","Une partie spéciale des générateurs"
+
+electricfencepost,block,Electric Fence,Elektrozaun,Cloture Electrique
+h7sb_hotWireFencepost,block,Hot Wire,Heißer Draht,Cable Brulant
+h7sb_hotWireFencepostDesc,blocks,"Wire up 2 or more of these and burn your enemies.","Verbinde 2 oder mehr von diesen, und setze deine Feinde in Brand.","Connectez 2 cables ou plus, et brulez vos ennemis"
+
+h7sb_acidThrower,block,Acid Thrower,Säurewerfer,Lanceur d Acide
+h7sb_acidThrowerDesc,desc,Launches acid when powered.,"Verschleudert Säure, wenn aktiviert.","Lance de l'acide quand alimenté"
+h7sb_ammoAcid,item,Acid Projectile,Säure Geschoss,Projectile d Acide
+h7sb_ammoAcidDesc,desc,"Is fired with an acid launcher.","Wird mit einem Säurewerfer abgefeuert.","Est tiré avec un lanceur d'acide"
+
+h7sb_bladeTrapHelper,blocks,Blade Trap,Klingenfalle,Piège à Lame
+h7sb_bladeTrap_desert,blocks,Blade Trap (desert),Klingenfalle (desert),Piège à Lame (desert)
+h7sb_bladeTrap_sun,blocks,Blade Trap (sun),Klingenfalle (sun),Piège à Lame (sun)
+h7sb_bladeTrap_orange,blocks,Blade Trap (orange),Klingenfalle (orange),Piège à Lame (orange)
+h7sb_bladeTrap_blood,blocks,Blade Trap (blood),Klingenfalle (blood),Piège à Lame (blood)
+h7sb_bladeTrap_pink,blocks,Blade Trap (pink),Klingenfalle (pink),Piège à Lame (pink)
+h7sb_bladeTrap_purple,blocks,Blade Trap (purple),Klingenfalle (purple),Piège à Lame (purple)
+h7sb_bladeTrap_ocean,blocks,Blade Trap (ocean),Klingenfalle (ocean),Piège à Lame (ocean)
+h7sb_bladeTrap_sky,blocks,Blade Trap (sky),Klingenfalle (sky),Piège à Lame (sky)
+h7sb_bladeTrap_green,blocks,Blade Trap (green),Klingenfalle (green),Piège à Lame (green)
+h7sb_bladeTrap_forest,blocks,Blade Trap (forest),Klingenfalle (forest),Piège à Lame (forest)
+h7sb_bladeTrap_burned,blocks,Blade Trap (burned),Klingenfalle (burned),Piège à Lame (burned)
+h7sb_bladeTrap_night,blocks,Blade Trap (night),Klingenfalle (night),Piège à Lame (night)
+
+h7sb_bladeTrapDesc,desc,"Used to chop up zombies into many pieces. Just add zombies and stir.","Wird verwendet um Zombies in viele Stücke zu zerhacken. Nur Zombies hinzufügen und umrühren.","Utilisé pour découper les zombies en petits morceaux. Ajoutez simplement des zombies et remuez."
+
+h7sb_laptop,blocks,Laptop,Laptop,Ordinateur Portable
+h7sb_laptop7d2d,blocks,Laptop,Laptop,Ordinateur Portable
+h7sb_laptopDisco,blocks,Laptop,Laptop,Ordinateur Portable
+h7sb_laptopBiomes,blocks,Laptop,Laptop,Ordinateur Portable
+h7sb_laptopRain,blocks,Laptop,Laptop,Ordinateur Portable
+
+h7sb_laptopDesc,desc,"Used to play music from cds. After insert a cd the device must be reconnected. Pick up to block to adjust its roation.","Dient zur Wiedergabe von Musik von CD's. Nach dem Einlegen einer CD muss das Gerät wieder angeschlossen werden. Heben Sie den Block an, um seine Position zu ändern.","Utilisé pour lire de la musique à partir de CD. Après avoir inséré un cd, l'appareil doit être reconnecté. Ramassez du bloc pour ajuster sa rotation."
+
+h7sb_CD_7d2d,item,"CD: 7 Days Theme","CD: 7 Days Theme","CD: 7 Days Theme"
+h7sb_CD_disco,item,"CD: Disco","CD: Disco","CD: Disco"
+h7sb_CD_biomes,item,"CD: Biomes","CD: Biomes","CD: Biomes"
+h7sb_CD_rain,item,"CD: Raining","CD: Raining","CD: Raining"
+
+h7sb_CDDesc,desc,"Insert (RMB) the cd into a laptop to play music. Destroy the Laptop to get your cd back and play another.","Lege (RMB) die CD in einen Laptop ein, um Musik abzuspielen. Zerstöre den Laptop, um deine CD zurückzubekommen und eine andere abzuspielen.","Insérez (RMB) le CD dans un ordinateur portable pour écouter de la musique. Détruisez l'ordinateur portable pour récupérer votre CD et en lire un autre."
+
+h7sb_turretAuger,blocks,Robotic Auger,Robotik-Bohrer,Foreuse Robotisee
+turretAuger,blocks,Robotic Auger,Robotik-Bohrer,Foreuse Robotisee
+h7sb_turretChainsaw,blocks,Robotic Saw,Robotik-Säge,Scie Robotisee
+turretChainsaw,blocks,Robotic Saw,Robotik-Säge,Scie Robotisee
+h7sb_turretToolDesc,desc,"This item can be placed (RMB) and automatically attacks enemies. \n\nIn combination with H7SB Lights, you can activate the light by hitting it.","Dieser Gegenstand kann platziert (RMB) werden und greift automatisch Gegner an. \n\nIn Kombination mit H7SB Lights kann man das Licht durch einen Schlag aktivieren.","Cet objet peut être placé (RMB) et attaquera automatiquement les ennemis. \n\nEn la combinant avec les lumières H7SB, vous pouvez activer la lumière en le frappant."
+
+futurTecSchematic,item,"Book: Information Age","Buch: Informationszeitalter"
+futurTecSchematicDesc,desc,"This book contains lost knowledge from the past. To read it you need at least engineer rank 3.","Dieses Buch enthält verlorenes Wissen aus der Vergangenheit. Um es zu lesen, brauchst du mindestens Ingenieurrang 3.","Ce livre contient des connaissances perdues du passé. Pour le lire, vous devez posséder au moins le rang d'Ingénieur 3."
+
+h7sb_buffCorroded,buff,Corroded,Verätzt,Corrosion
+h7sb_buffCorrodedDesc,desc,"You have been corroded and are suffering damage.","Du wurdest verätzt und erleidest schaden.","Vous subissez des dommages corrosifs"
