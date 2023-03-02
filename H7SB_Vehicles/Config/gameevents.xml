@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Vehicles #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/gameevents"> <action_sequence name="ActionExplosiveCar"> <action class="Explode"> <property name="phase" value="0" /> <property name="blast_power" value="10" /> <property name="block_damage" value="7500" /> <property name="block_radius" value="10" /> <property name="entity_damage" value="7500" /> <property name="entity_radius" value="15" /> </action> <action class="Kill"> <property name="phase" value="1" /> </action> </action_sequence> </append> </eihwaz.de> 

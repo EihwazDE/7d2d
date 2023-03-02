@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Vehicles #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <append xpath="/blocks/block[starts-with(@name, 'tree')]"> <property name="Tags" value="treeVehicle"/> </append> <append xpath="/blocks/block[starts-with(@name, 'cntCar0')]"> <property name="Tags" value="carVehicle"/> </append> <append xpath="/blocks/block[starts-with(@name, 'rockResource')]"> <property name="Tags" value="rockVehicle"/> </append> </eihwaz.de>

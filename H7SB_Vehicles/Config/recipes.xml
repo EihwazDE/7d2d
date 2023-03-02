@@ -1,0 +1,115 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Vehicles #####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### NO REUPLAOD! ######
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/recipes">
+	<recipe name="h7sb_quadPlaceable" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicleMinibikePlaceable" count="1"/>
+		<ingredient name="resourceForgedIron" count="12"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+		<ingredient name="resourceSpring" count="2"/>
+	</recipe>
+	<recipe name="h7sb_scrapKartPlaceable" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicleMinibikePlaceable" count="1"/>
+		<ingredient name="resourceForgedIron" count="12"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+		<ingredient name="smallEngine" count="1"/>
+	</recipe>
+
+	<recipe name="h7sb_helBikePlaceable" count="1" craft_time="150" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="12"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+		<ingredient name="resourceElectricParts" count="6"/>
+		<ingredient name="smallEngine" count="4"/>
+	</recipe>
+	<recipe name="h7sb_scrapCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="210"/>
+		<ingredient name="vehicleWheels" count="2"/>
+	</recipe>
+	<recipe name="h7sb_scrapCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+	</recipe>
+	
+	<recipe name="h7sb_battleCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="h7sb_scrapCarPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="24"/>
+		<ingredient name="smallEngine" count="2"/>
+	</recipe>
+	<recipe name="h7sb_muscleCarPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="h7sb_scrapCarPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="12"/>
+		<ingredient name="resourceMechanicalParts" count="8"/>
+		<ingredient name="resourceElectricParts" count="6"/>
+		<ingredient name="smallEngine" count="4"/>
+	</recipe>
+	
+	<recipe name="h7sb_monsterTruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="24"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="smallEngine" count="2"/>
+	</recipe>
+	<recipe name="h7sb_explosiveTruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="64"/>
+		<ingredient name="ammoGasCan" count="2400"/>
+	</recipe>
+	<recipe name="h7sb_battleTruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="240"/>
+		<ingredient name="resourceMechanicalParts" count="16"/>
+		<ingredient name="resourceElectricParts" count="12"/>
+		<ingredient name="smallEngine" count="2"/>
+	</recipe>
+	
+	<recipe name="h7sb_ambulancePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="36"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+	<recipe name="h7sb_serviceTruckMoPowerPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="36"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+	<recipe name="h7sb_serviceTruckWorkingStiffPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="36"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+	
+	<recipe name="h7sb_schoolBusPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="120"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+	<recipe name="h7sb_shuttleBusPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="120"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+	<recipe name="h7sb_armyTruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+		<ingredient name="resourceForgedSteel" count="150"/>
+		<ingredient name="resourceMechanicalParts" count="6"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+		<ingredient name="smallEngine" count="1"/>
+	</recipe>
+</append>
+</eihwaz.de>

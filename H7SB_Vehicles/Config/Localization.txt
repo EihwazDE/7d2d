@@ -1,0 +1,62 @@
+Key,Context,English,German
+
+h7sb_scrapCarPlaceable,items,Scrap Car,Schrottwagen
+h7sb_scrapCar,entity,Scrap Car,Schrottwagen
+scrapCarDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 2 seats and a moderately large inventory.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 2 Sitzplätze und ein moderat großes Inventar."
+
+h7sb_battleCarPlaceable,items,Battle Car,Kübelwagen
+h7sb_battleCar,entity,Battle Car,Kübelwagen
+battleCarDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E button opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 2 seats and 1 standing space, plus a very small inventory. You can shoot from the rear position and get a bonus to reload speed when you're near it.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 2 Sitz- und 1 Stehplatz, sowie einem sehr kleinen Inventar. Man kann von der hinteren Position aus schießen und erhält in seiner Nähe einen Bonus auf das Nachladetempo."
+buffbattleCar,buff,Prepared,Vorbereitet
+buffbattleCarDesc,buff,"Increased reload speed (10%).","Erhöhte Nachladegeschwindigkeit (10%)."
+
+h7sb_muscleCarPlaceable,items,Muscle Car,Muscle Car
+h7sb_muscleCar,entity,Muscle Car,Muscle Car
+muscleCarDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 4 seats and a small inventory. It's extra fast.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 4 Sitzplätze und ein kleines Inventar. Es ist besonders schnell."
+
+h7sb_monsterTruckPlaceable,items,Monstertruck,Monstertruck
+h7sb_monsterTruck,entity,Monstertruck,Monstertruck
+monsterTruckDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 2 seats and a moderately large inventory. It dealt increased block damage, especially against trees, boulders, and wrecked cars.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 2 Sitzplätze und ein moderat großes Inventar. Es verursachten erhöhten Blockschaden, besonders gegen Bäume, Felsbrocken und Autowracks."
+
+h7sb_explosiveTruckPlaceable,items,KamiCarZe Truck,KamiCarZe Truck
+h7sb_explosiveTruck,entity,KamiCarZe Truck,KamiCarZe Truck
+explosiveTruckDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 2 seats and a small inventory. More features with A21.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 2 Sitzplätze und ein kleines Inventar. Weitere Features mit A21."
+buffExplosiveTruckPlayer,buff,Self-destruction,Selbstzerstörung
+buffExplosiveTruckPlayerDesc,buff,"After the countdown has expired, the vehicle will be destroyed. Pressing the button (Shift) again ends the process.","Nach Ablauf des Countdowns zerstört sich das Fahrzeug. Erneutes drücken des Knopfs (Shift) beendet den Vorgang."
+
+h7sb_battleTruckPlaceable,items,Tank Truck,Panzerwagen
+h7sb_battleTruck,entity,Tank Truck,Panzerwagen
+battleTruckDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E button opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 1 seat and 1 standing room and a small inventory. More features with A21.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 1 Sitz- und 1 Stehplatz, sowie einem kleinen Inventar. Weitere Features mit A21."
+
+h7sb_ambulancePlaceable,items,Ambulance,Krankenwagen
+h7sb_ambulance,entity,Ambulance,Krankenwagen
+h7sb_serviceTruckMoPowerPlaceable,items,Service Truck,Dienstwagen
+h7sb_serviceTruckMoPower,entity,Service Truck,Dienstwagen
+h7sb_serviceTruckWorkingStiffPlaceable,items,Service Truck,Dienstwagen
+h7sb_serviceTruckWorkingStiff,entity,Service Truck,Dienstwagen
+serviceTrucksDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 2 seats and a extra large inventory.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 2 Sitzplätze und ein besonders großes Inventar."
+
+h7sb_schoolBusPlaceable,items,School Bus,Schulbus
+h7sb_schoolBus,entity,School Bus,Schulbus
+h7sb_shuttleBusPlaceable,items,Shuttle Bus,Shuttle Bus
+h7sb_shuttleBus,entity,Shuttle Bus,Shuttle Bus
+busDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 9 seats and a moderately large inventory. You can move around inside.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 9 Sitzplätze und ein moderat großes Inventar. Man kann sich im Inneren bewegen."
+
+h7sb_armyTruckPlaceable,items,Army Truck,Truppentransporter
+h7sb_armyTruck,entity,Army Truck,Truppentransporter
+armyTruckDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E button opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 6 seats and a small inventory. After exiting, you gain a short run speed increase (30sec load time).","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 6 Sitzplätze und ein kleines Inventar. Nachdem verlassen erhält man kurzzeitig erhöhtes Lauftempo (30 Sek Ladezeit)."
+armyTruckBuffPlayer,buff,Standby,Bereitschaft
+armyTruckBuffPlayerDesc,buff,"Increased run speed (2x).","Erhöhte Laufgeschwindigkeit (2x)."
+
+h7sb_helBikePlaceable,items,Hel Bike,Hel Bike
+h7sb_helBike,entity,Hel Bike,Hel Bike
+helBikeDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 1 seat and a small inventory. It's extra fast.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 1 Sitzplätze und ein kleines Inventar. Es ist besonders schnell."
+
+h7sb_scrapKartPlaceable,items,Kart,Kart
+h7sb_scrapKart,entity,Kart,Kart
+scrapKartDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis vehicle has 1 seat and a small inventory.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses Fahrzeug verfügt über 1 Sitzplätze und ein kleines Inventar."
+
+h7sb_quadPlaceable,items,Quad,Quad
+h7sb_quad,entity,Quad,Quad
+quadDesc,items,"Place (RMB) the vehicle to use it (E). A long press of the E key opens a radial menu with additional functions and the option to return it to inventory. \n\nThis all-terrain vehicle has 1 seat and a small inventory.","Platziere (RMB) das Fahrzeug um es zu benutzen (E). Durch langes drücken der E-Taste öffnet sich ein Radialmenü mit weiteren Funktionen und der Option es wieder ins Inventar zu räumen. \n\nDieses geländetaugliche Fahrzeug verfügt über 1 Sitzplätze und ein kleines Inventar."
+
