@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="H7SB HUD+" />
-		<Description value="Contains a centered HUD with additional options." />
+		<Description value="Contains a centered HUD with additional options."  />
 		<Author value="Eihwaz" />
 		<Version value="1.0" compat="A20"/>
 		<Website value="www.eihwaz.de" />
