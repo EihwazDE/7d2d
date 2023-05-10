@@ -2,7 +2,7 @@
 
 **VERSION 1.0** - www.eihwaz.de - **CC BY-NC-ND-SA**
 
---- [**Video Preview**](https://www.eihwaz.de) (*click me*) ---
+--- [**Video Preview**](https://www.youtube.com/watch?v=w6TzoZuLt00) (*click me*) ---
 
 --- Credits: Snufkin/Arramus(WeaponDesigne) ---
 
