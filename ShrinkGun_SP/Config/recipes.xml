@@ -1,0 +1,23 @@
+<!-- - - - - - - - - - - -
+#########################
+####### ShrinkGun #######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<append xpath="/recipes">
+<recipe name="funPympGun" count="1" craft_time="1" craft_exp_gain="0">
+	<ingredient name="casinoCoin" count="100000"/>
+</recipe>
+<recipe name="funPympParticlesBlue" count="1" craft_time="1" craft_exp_gain="0">
+	<ingredient name="casinoCoin" count="1000"/>
+</recipe>
+<recipe name="funPympParticlesRed" count="1" craft_time="1" craft_exp_gain="0">
+	<ingredient name="casinoCoin" count="1000"/>
+</recipe>
+</append>
+</eihwaz.de>

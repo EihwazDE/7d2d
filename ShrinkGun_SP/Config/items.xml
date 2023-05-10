@@ -1,0 +1,208 @@
+<!-- - - - - - - - - - - -
+#########################
+####### ShrinkGun #######
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<!-- Weapon -->
+<append xpath="/items">
+	<item name="funPympGun">
+		<property name="CustomIcon" value="gunMGT3M60"/>
+		<property name="CustomIconTint" value="231,210,124"/>
+		<property name="DescriptionKey" value="funPympGunDesc"/>			
+		<property name="DisplayType" value="rangedGun"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="ItemTypeIcon" value="star"/>
+		<property name="Tags" value="weapon,funPympGun,ranged,reloadPenalty,gun,smallTopAttachments,magazine,attachmentsIncluded,canHaveCosmetic"/>
+		<property name="HoldType" value="11"/>
+		<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="Material" value="MRifleParts"/>
+		<property name="NoScrapping" value="true"/>
+		<property name="RepairTools" value="resourceRepairKit"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="SoundJammed" value="weapon_jam"/>
+		<property name="CrosshairOnAim" value="true"/>
+		<property name="CrosshairUpAfterShot" value="true"/>
+		<property name="Sound_Sight_In" value="rifle_sight_in"/>
+		<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+		<property name="LightValue" value=".45"/>
+		<property name="LightSource" value="lightSource"/>
+		<property name="Attachments" value="meleeToolFlashlight02"/>
+		<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+		<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="EconomicValue" value="50000"/>
+		<property name="ShowQuality" value="false"/>
+		<property name="Stacknumber" value="1"/>
+		<property class="Action0">
+			<property name="Instantiate_on_load" value="false"/>
+			<property name="Auto_fire" value="true" />
+			<property name="Class" value="Catapult" />
+			<property name="Hitmask_override" value="Arrow"/>
+			<property name="Delay" value="0.250" />
+			<property name="Crosshair_min_distance" value="5" />
+			<property name="Crosshair_max_distance" value="30" />
+			<property name="Magazine_items" value="funPympParticlesBlue,funPympParticlesRed"/>
+			<property name="Throw_strength_default" value="8"/>
+			<property name="Throw_strength_max" value="50"/>
+			<property name="Max_strain_time" value="3"/>
+			<property name="Sound_start" value="funPympGun_fire"/>
+			<property name="Sound_draw" value="funPympGun_draw"/>
+			<property name="Sound_repeat" value=""/>
+			<property name="Sound_loop" value=""/>
+			<property name="Sound_end" value=""/>
+			<property name="Sound_cancel" value="funPympGun_end"/>
+			<property name="Sound_empty" value="dryfire"/>
+			<property name="Sound_reload" value="sniperrifle_reload"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Zoom"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0,-.010,-.05"/>
+		</property>
+		<effect_group name="main">
+			<passive_effect name="MaxRange" operation="base_set" value="150"/>
+			<passive_effect name="ProjectileVelocity" operation="perc_subtract" value="@$pympCharge"/>
+			<passive_effect name="DamageFalloffRange" operation="base_set" value="36"/>
+			<passive_effect name="RoundsPerMinute" operation="base_set" value="42"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+			<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1"/>
+			<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".2"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+			<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
+			<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.75"/> <!--0.8/0.9-->
+			<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.4"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/> <!--2-->
+			<passive_effect name="WeaponHandling" operation="base_set" value=".7"/> <!--0.95-->
+			<passive_effect name="ModSlots" operation="base_set" value="2,2" tier="1,6"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="125,125" tier="1,6"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		</effect_group>
+		<effect_group name="visual">
+			<!--base-->
+			<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+			<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Base" prefab="#Other/Items?Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab" parentTransform="Handle" localPos="0,0.0,-0.1" localRot="0,0,0"/>				
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Base2" prefab="#Other/Items?Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" parentTransform="Handle" localPos="0,.065,0.11" localRot="90,0,0"/>
+			<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Base3" prefab="#Other/Items?Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" parentTransform="Barrel" localPos="0,0.017,0.2128" localRot="-90,180,0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+			<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>	
+			<!--effect-->	
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Barrel" localPos="0,.03,0" localRot="90,0,0"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onSelfEquipStart" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onReloadStart" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onReloadStop" action="RemovePart" part="Sparks"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Base"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Base1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Base2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>	
+		</effect_group>
+		<effect_group name="action">
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="PlaySound" sound="funPympGun_idle"/>
+			<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" buff="buffPympCharge"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffPympCharge"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="StopSound" sound="funPympGun_idle"/>
+			<triggered_effect trigger="onSelfEquipStop" action="StopSound" sound="funPympGun_idle"/>
+			<triggered_effect trigger="onReloadStart" action="StopSound" sound="funPympGun_idle"/>
+			<triggered_effect trigger="onReloadStop" action="StopSound" sound="funPympGun_idle"/>
+			<triggered_effect trigger="onReloadStart" action="RemoveBuff" buff="buffPympCharge"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffPympCharge"/>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$pympCharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$pympCharge" operation="set" value="0"/>
+			<triggered_effect trigger="onReloadStart" action="ModifyCVar" cvar="$pympCharge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$pympChargeB" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$pympChargeB" operation="set" value="0"/>
+			<triggered_effect trigger="onReloadStart" action="ModifyCVar" cvar="$pympChargeB" operation="set" value="0"/>
+		</effect_group>	
+	</item>
+</append>
+<!-- Ammunition -->
+<append xpath="/items">		
+	<item name="funPympParticlesBlue">
+		<property name="CustomIcon" value="ammoRocketFrag"/>
+		<property name="CustomIconTint" value="006ac8"/>
+		<property name="DescriptionKey" value="funPympParticlesBlueDesc"/>			
+		<property name="Group" value="Ammo/Weapons,Eihwaz"/>
+		<property name="DisplayType" value="ammoBulletAP"/>
+		<property name="Tags" value="ammo,ranged,pympB"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="prefabs/electricshock"/>
+		<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="IsSticky" value="false"/>
+		<property name="Stacknumber" value="60"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="EconomicValue" value="500"/>
+		<property class="Action1">
+			<property name="Class" value="Projectile"/>
+			<property name="Explosion.ParticleIndex" value="0"/>
+			<property name="Gravity" value="-3"/>
+			<property name="FlyTime" value="0"/>
+			<property name="LifeTime" value="14"/>
+		</property>
+		<effect_group name="main" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="-1"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="-1"/>
+			<passive_effect name="ProjectileVelocity" operation="base_set" value="150"/>
+		</effect_group>
+		<effect_group name="shrink" tiered="false">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="subtract" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="player"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="GTE" value="-3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="subtract" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="GTE" value="-3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="subtract" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="animal"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="GTE" value="-3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="1.1" buff="buffPympCalc"/>
+		</effect_group>
+	</item>
+	<item name="funPympParticlesRed">
+		<property name="Extends" value="funPympParticlesBlue"/>
+		<property name="CustomIcon" value="ammoRocketFrag"/>
+		<property name="CustomIconTint" value="c80000"/>
+		<property name="DescriptionKey" value="funPympParticlesRedDesc"/>			
+		<property name="Tags" value="ammo,ranged,pympR"/>
+		<effect_group name="main" tiered="false">
+			<passive_effect name="EntityDamage" operation="base_set" value="-1"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="-1"/>
+			<passive_effect name="ProjectileVelocity" operation="base_set" value="150"/>
+		</effect_group>
+		<effect_group name="growth" tiered="false">
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="add" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="player"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="LT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="add" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="LTE" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="1.1" cvar=".pympCalc" operation="add" value="1">
+					<requirement name="EntityTagCompare" target="other" tags="animal"/>
+					<requirement name="CVarCompare" target="other" cvar=".pympCalc" operation="LTE" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="1.1" buff="buffPympCalc"/>
+		</effect_group>
+	</item>
+</append>
+<!-- If this code was helpful, please leave a sub on www.eihwaz.de -->
+</eihwaz.de>

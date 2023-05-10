@@ -1,0 +1,16 @@
+Key,Context,English,German
+
+funPympGun,items,Pymp Blaster,Pymp-Strahler
+funPympGunDesc,items,"The Pymp Blaster can resize animals and zombies. Cartridge type can be changed by long pressing the R key. \n\nThe [E7D27C]Legend[-] tells that this device was developed by a modder who, after many years of work, was still too small on [ff6961]Youtube[-] to participate in the prestream event. That's why he built this blaster to prove that even small things can become great! www.eihwaz.de","Der Pymp-Strahler kann die Größe von Tieren und Zombies verändern. Der Katuschentyp kann durch langes drücken der R-Taste geändert werden. \n\nDie [E7D27C]Legende[-] besagt, dass dieses Gerät von einem Modder entwickelt wurde, der nach vielen Jahren der Arbeit immer noch zu klein auf [ff6961]Youtube[-] war um am Prestream Event teilzunehmen. Deshalb baute er diesen Strahler um zu beweisen, dass auch kleine Dinge ganz groß werden können! www.eihwaz.de"
+
+funPympParticlesBlue,items,Blue Pymp Particles,Blaue Pymp Partikel
+funPympParticlesBlueDesc,items,"Blue Pymp particles shrink the target.","Blaue Pymp Partikel verkleinern das Ziel."
+
+funPympParticlesRed,items,Red Pymp Particles,Rote Pymp Partikel
+funPympParticlesRedDesc,items,"Red Pymp particles enlarge the target. \n\nPeople cannot be enlarged beyond their normal size.","Rote Pymp Partikel vergrößern das Ziel. \n\nPersonen können nicht über ihre normale Größe hinaus vergrößert werden."
+
+buffPympShrink,buff,Downsized,Verkleinert
+buffPympShrinkDesc,buff,"You've been made smaller. \n\nSince we're not in a Hollywood movie, after the 3rd stack in the quantum plane you'll disappear and die.","Du bist kleiner gemacht worden. \n\nDa wir nicht in einem Hollywood Film sind wirst du nach der 3ten Steigerung in der Quantumebene verschwinden und sterben."
+
+buffPympGrowth,buff,Enlarged,Vergrößert
+buffPympGrowthDesc,buff,"You've been made bigger. \n\nSince we're not in a Hollywood movie, your body will burst after the 3rd increase.","Du bist größer gemacht worden. \n\nDa wir nicht in einem Hollywood Film sind wird dein Körper zerplatzen nach der 3ten Steigerung."

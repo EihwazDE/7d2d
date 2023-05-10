@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Shrink Gun (SP)" />
+		<Description value="This Mod contains a shrink gun aka -Fun Pymp Blaster- with which you can shrink and enlarge zombies and animals."/>
+		<Author value="Eihwaz" />
+		<Version value="1.0" compat="A21"/>
+		<Website value="www.eihwaz.de" />
+	</ModInfo>
+</xml>
