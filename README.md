@@ -28,7 +28,7 @@ All H7SB mods are server side and only need to be installed by the host or serve
 
 **H7SB Modpack**
 
-- [x] **Shrink Gun (SP)** - Contains a gun with which you can shrink/enlarge zombies/animals. [**Preview**](https://www.eihwaz.de)
+- [x] **Shrink Gun (SP)** - Contains a gun with which you can shrink/enlarge zombies/animals. [**Preview**](https://www.youtube.com/watch?v=w6TzoZuLt00)
 
 --- --- --- --- --- --- --- --- ---
 
